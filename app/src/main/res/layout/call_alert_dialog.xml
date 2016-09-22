@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical">
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@color/gray_2" />-->
+
+    <!--<com.nwd.artisanalliving.SupportClass.AutoResizeTextView-->
+        <!--android:id="@+id/ARTV"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:background="@drawable/list_selector"-->
+        <!--android:ellipsize="none"-->
+        <!--android:gravity="center"-->
+        <!--android:maxLines="1"-->
+        <!--android:paddingBottom="5dp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:paddingRight="10dp"-->
+        <!--android:paddingTop="5dp"-->
+        <!--android:text="Auto Resized Text, max 1 line"-->
+        <!--android:textSize="100sp" /> &lt;!&ndash; maximum size &ndash;&gt;-->
+
+    <TextView
+        android:id="@+id/ARTV"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/list_selector"
+        android:ellipsize="none"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:textSize="22sp"
+        android:text="ABCypq"
+        />
+
+</LinearLayout>

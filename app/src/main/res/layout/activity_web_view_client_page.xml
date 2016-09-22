@@ -1,0 +1,19 @@
+<!--<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:id="@+id/swipe_container"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent">-->
+
+<!--<FrameLayout--><!--android:id="@+id/container"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent">-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar" />
+
+    <WebView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    </LinearLayout>
+        <!--</FrameLayout>-->
+
+        <!--</android.support.v4.widget.SwipeRefreshLayout>-->

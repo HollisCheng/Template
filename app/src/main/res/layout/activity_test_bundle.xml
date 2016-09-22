@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TestBundlePage.TestBundleActivity">
+    <include layout="@layout/toolbar" />
+    <RelativeLayout
+        android:id="@+id/RLMeNotice"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="vertical">
+
+        <cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager
+            android:id="@+id/MeAutoViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/MeNoticeList" />
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/indicatorMeAuto"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@null" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

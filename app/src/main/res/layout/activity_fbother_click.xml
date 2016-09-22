@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:background="@color/White">
+
+            <TextView
+                android:layout_margin="15dp"
+                android:text="Facebook"
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@+id/tvFBName"
+                android:layout_gravity="center|right"
+                android:paddingRight="20dp"
+                android:text=""
+                android:textColor="@color/Black" />
+        </TableRow>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@color/Black" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:background="@color/White">
+
+            <TextView
+                android:layout_margin="15dp"
+                android:text="@string/Linked"
+                android:textColor="@color/Black" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/SwitchFBIsLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:checked="false"
+                android:paddingRight="20dp" />
+        </TableRow>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@color/Black" />
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:text="Result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llWholeNotice"
+    android:layout_width="wrap_content"
+    android:layout_height="95dp"
+    android:background="@color/transparent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+      <template.cheng.hollis.template.TextView.SweetSansRegTextView
+            android:id="@+id/tvNoticeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:maxLines="1"
+            android:paddingRight="50dp"
+            android:singleLine="true"
+            android:text="asdsadasdasdasdasdasdasdsadasdadasdasdsa"
+            android:textColor="@color/White" />
+
+        <TextView
+            android:id="@+id/tvPropertyNoticeDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:lines="3"
+            android:text="Please check the latest offers we provide to you test test test test test test test test test test test test test test test test test test test test test tesssssssssssssssssssssst test test test test test test test test test test test "
+            android:textColor="@color/White" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/arrow" />
+    </LinearLayout>
+</LinearLayout>

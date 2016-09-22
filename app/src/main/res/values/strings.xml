@@ -1,0 +1,576 @@
+<resources>
+    <string name="app_name">HollisCheng</string>
+    <string name="appName">HollisCheng</string>
+    <string name="action_settings">Settings</string>
+    <string name="AdminPage">Admin Page</string>
+    <string name="SettingPage">Setting Page</string>
+    <string name="Language">Language</string>
+
+    <!--facebook-->
+    <string name="facebook_app_id" translatable="false">100537423729266</string>
+
+    <!--MainPage-->
+    <string name="Neighborhood">Neighborhood</string>
+    <string name="MarketPlace">Market Place</string>
+    <string name="CardWallet">Card Wallet</string>
+    <string name="Event">Event</string>
+    <string name="Notice">Notice</string>
+    <string name="PersonalNotice">Personal Notice</string>
+    <string name="Setting">Setting</string>
+    <string name="Admin">Admin</string>
+    <string name="PMessage">P Message</string>
+
+    <!--Question-->
+    <string name="postQ">Are you sure to post?</string>
+    <string name="saveQ">Are you sure to save?</string>
+    <string name="submitQ">Are you sure to submit?</string>
+    <string name="leaveQ">Are you sure to leave?</string>
+    <string name="logoutQ">Are you sure to logout?</string>
+    <string name="sendQ">Are you sure to send?</string>
+
+    <!--menu-->
+    <string name="post">Post</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="logout">Logout</string>
+    <string name="load">Loading</string>
+    <string name="edit">Edit</string>
+
+    <!--Common-->
+    <string name="Yesterday">Yesterday</string>
+    <string name="Today">Today</string>
+    <string name="Submit">Submit</string>
+    <string name="Send">Send</string>
+    <string name="Image">Image</string>
+    <string name="Uploading">Uploading&#8230;</string>
+    <string name="Loading">Loading&#8230;</string>
+    <string name="Sending">Sending&#8230;</string>
+    <string name="Message">Type your Message&#8230;</string>
+    <string name="Modify">Modify</string>
+    <string name="Add">Add</string>
+    <string name="Save">Save</string>
+
+    <!--not yet define-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Action</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh&#8230;</string>
+    <string name="pull_to_refresh_release_label">Release to refresh&#8230;</string>
+    <string name="pull_to_refresh_refreshing_label">Loading&#8230;</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh&#8230;</string>
+    <string name="listfooterview_normal">Load More</string>
+    <string name="listfooterview_ready">Release to load more</string>
+
+    <!--MA-->
+    <string name="Forget_password">Forget password?</string>
+    <string name="New_Member">New Member</string>
+    <string name="New_World_Club" translatable="false">New World CLUB</string>
+    <string name="Register">Register</string>
+    <string name="Login">Login</string>
+    <string name="Password">Password</string>
+    <string name="Username">Username</string>
+    <string name="ReTypePassword">Re Type Password</string>
+
+    <!--Profile-->
+    <string name="Optional">Optional</string>
+    <string name="Display_Name">Display Name</string>
+    <string name="Mobile">Mobile</string>
+    <string name="Birthday_M_D">Birthday(M/D)</string>
+    <string name="Age_Range">Age Range</string>
+    <string name="Email">Email</string>
+    <string name="Gender">Gender</string>
+
+    <!--NoticeActivity-->
+    <string name="Hyphen"> - </string>
+    <string name="TopicDate">Date :</string>
+    <string name="TopicTime">Time :</string>
+    <string name="Date">Date</string>
+    <string name="Time">Time</string>
+    <string name="Date_FromTo">Date</string>
+    <string name="Time_FromTo">Time</string>
+
+    <!--Create-->
+    <string name="Topic">Topic</string>
+    <string name="Content">Content</string>
+
+    <!--AdminPage-->
+    <string name="Category">Category</string>
+    <string name="Estate">Estate</string>
+
+    <!--AdminModifyCategory-->
+    <string name="Type">Type</string>
+    <string name="Name">Name</string>
+    <string name="Sequence">Sequence</string>
+
+    <!--eventInfo start-->
+    <string name="image">Thumbnail</string>
+    <!--Booking ScrollView Item-->
+    <string name="bookingitem_venue">Venue: </string>
+    <string name="bookingitem_fee">Fee:  $</string>
+    <string name="bookingitem_date">Date   :  </string>
+    <string name="bookingitem_time">Time   :  </string>
+    <string name="bookingitem_desc">Description: </string>
+
+    <!--Booking Admin-->
+    <string name="bookingadmin_title">Title*</string>
+    <string name="bookingadmin_to">To</string>
+    <string name="bookingadmin_venue">Venue*</string>
+    <string name="bookingadmin_date">Date*</string>
+    <string name="bookingadmin_time">Time*</string>
+    <string name="bookingadmin_Quota">Quota</string>
+    <string name="bookingadmin_QuotaPer1">Quota Per 1</string>
+    <string name="bookingadmin_Amount">Amount($) </string>
+    <string name="bookingadmin_Desc">Description*</string>
+    <string name="bookingadmin_Remark">Remark</string>
+
+    <!--Booking Detail-->
+    <string name="bookingdetail_apply">Member join </string>
+    <string name="bookingdetail_totalamount">Total Amout($)</string>
+
+    <!--event_detail-->
+    <string name="eventdetail_apply">Submit</string>
+    <!--Booking Admin-->
+    <string name="eventdetail_title">Title</string>
+    <string name="eventdetail_venue">Venue</string>
+    <string name="eventdetail_date">Date</string>
+    <string name="eventdetail_time">Time</string>
+    <string name="eventdetail_Desc">Description*</string>
+
+    <!--booked_detail-->
+    <string name="bookeddetail_cancel">Cancel</string>
+    <string name="bookeddetail_memberjoin">Number Join</string>
+    <!--eventInfo end-->
+
+    <string name="AdminPersonalNotice">Admin Personal Notice</string>
+    <string name="PersonalNoticeModify">Personal Notice Modify</string>
+    <string name="deleteQ">Are you sure to delete?</string>
+    <string name="NoticeModify">Notice Modify</string>
+    <string name="PrivateMessage">Private Message</string>
+    <string name="NoticeMsg">Notice Message</string>
+    <string name="Promotions">Promotions</string>
+    <string name="CreateNotice">Create Notice</string>
+    <string name="CreatePM">Create Private Message</string>
+    <string name="CreateFB">Create Feedback</string>
+    <string name="Feedback">Feedback</string>
+    <string name="Website">Website(Full Link:http://www.abc.com)</string>
+    <string name="TopicWebsite">Website :</string>
+    <string name="PM">Private Message</string>
+    <string name="title_activity_almain_page">ALMainPage</string>
+    <string name="agree">AGREE</string>
+    <string name="disagree">DISAGREE</string>
+    <string name="start">START</string>
+    <string name="emailAddress">Email Address (For Login)</string>
+    <string name="enterEPWStat">Please enter the password shown on email:</string>
+    <string name="newPWStat">New password:</string>
+    <string name="newPW">NEW PASSWORD</string>
+    <string name="reNewPW">RE-ENTER PASSWORD</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="selectId">SELECT YOUR IDENTITY</string>
+    <string name="selId">Select identity</string>
+    <string name="enterRA">Please enter your residential address</string>
+    <string name="addPro">Can add more than 1 NewWorld Development property</string>
+    <string name="block">BLOCK</string>
+    <string name="floor">FLOOR</string>
+    <string name="unit">UNIT</string>
+    <string name="resident">RESIDENT</string>
+    <string name="owner">OWNER</string>
+    <string name="acctInfo">ACCOUNT INFO</string>
+    <string name="NAME">NAME</string>
+    <string name="CreatePW">CREATE PASSWORD</string>
+    <string name="ReEnterPW">RE-ENTER PASSWORD</string>
+    <string name="MobOPT">MOBILE (OPTIONAL)</string>
+    <string name="YesPICS">Yes, I have read and confirmed to accept the PICS of Artisanal Living. (OPTIONAL)</string>
+    <string name="THX">THANK YOU</string>
+    <string name="PNo">PIN NUMBER</string>
+    <string name="PStat">Please enter the PIN no. you received from Email / SMS and set up your account password</string>
+    <string name="MNo">MEMBERSHIP NUMBER</string>
+    <string name="EnterAcctStat">Please enter your account information</string>
+    <string name="PW">PASSWORD</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="FORGOTPW">FORGOT YOUR PASSWORD?</string>
+    <string name="OR">OR</string>
+    <string name="PERSET">PERSONALIZATION SETTING</string>
+    <string name="OTHERS">OTHERS (PLEASE SPECIFY)</string>
+    <string name="CYFB">CHOOSE YOUR FAVORITE BRANDS</string>
+    <string name="UYPP">Upload Your Profile Picture</string>
+    <string name="CW">CONNECT WITH</string>
+    <string name="DISNAME">DISPLAY NAME</string>
+    <string name="YS">YOUR SAY</string>
+    <string name="APP_NAME">ARTISANAL LIVING</string>
+    <string name="SYAJN">START YOUR ARTISANAL JOURNEY NOW!</string>
+    <string name="JU">JOIN US</string>
+    <string name="RESETPW">RESET PASSWORD</string>
+    <string name="EMStat">Enter your e-mail address and we\'ll send you a pin to reset your password.</string>
+    <string name="EDITPRO">EDIT PROFILE</string>
+    <string name="SETTING">SETTING</string>
+    <string name="PushNotice">Push Notification</string>
+    <string name="PROFILE">PROFILE</string>
+    <string name="Yoursay">Your say</string>
+    <string name="ACCOUNT">ACCOUNT</string>
+    <string name="UpgradeStat">Upgrade to NWD resident/ owner</string>
+
+    <string name="Residential_Address">Residential Address</string>
+    <string name="NEXT">NEXT</string>
+    <string name="SIGNUP">SIGN UP</string>
+    <string name="LSM">Linked Facebook</string>
+    <string name="LOGOUT">LOGOUT</string>
+    <string name="ABOUT">About</string>
+    <string name="RewardInSlideReferral">My Rewards</string>
+    <string name="TC">T&amp;C</string>
+    <string name="PI">PROPERTY INFO</string>
+    <string name="share">Share</string>
+    <string name="MY_EVENTS">MY EVENTS</string>
+    <string name="R_EVENT">REGISTERED EVENTS</string>
+    <string name="ERO">NWD RESIDENT / OWNER</string>
+    <string name="RA">Residential Address</string>
+    <string name="BUILDING">BUILDING</string>
+    <string name="STREETNAME">STREET NAME</string>
+    <string name="AYAENWCM">Are you currently a New World CLUB member?</string>
+    <string name="YES">YES</string>
+    <string name="NO">NO</string>
+    <string name="MOBILE">MOBILE</string>
+    <string name="ReEnterPassword">RE-ENTER PASSWORD</string>
+    <string name="BirthSurprise">In your birthday month, you will receive a little surprise from us.</string>
+    <string name="CheckUnderstand">I understand I will be register as New World Club Member.</string>
+    <string name="MEMBERSHIP_ID">Membership No. / Name</string>
+    <string name="NWCM">NEW WORLD CLUB MEMBER</string>
+    <string name="URPW">YOUR PASSWORD</string>
+    <string name="REENTERPW">RE-ENTER PASSWORD</string>
+    <string name="NEWREG">NEW REGISTER</string>
+    <string name="FEEDB">Feedback</string>
+    <string name="CONTACTUS">Contact Us</string>
+    <string name="PRIVILEGES">PRIVILEGES</string>
+    <string name="EVENTS">EVENTS</string>
+    <string name="FACILITIES">FACILITIES</string>
+    <string name="FACILITYLIST">FACILITY LIST</string>
+    <string name="PropertyLabel">Property:</string>
+    <string name="VenueLabel">Venue:</string>
+    <string name="DateLabel">Date:</string>
+    <string name="TimeLabel">Time:</string>
+    <string name="PROPERTYNOTICE">PROPERTY NOTICE</string>
+    <string name="Recommendation">Recommends</string>
+    <string name="Bookmarked">Bookmarked</string>
+    <string name="My_Events">My Events</string>
+    <string name="Current_password">Current password</string>
+    <string name="LATEST">LATEST</string>
+    <string name="BOOKMARKED">BOOKMARKED</string>
+    <string name="NO_OFFERS_AVAILABLE">NO OFFERS AVAILABLE</string>
+    <string name="Bookmark">Bookmark</string>
+    <string name="Call">Call</string>
+    <string name="ALL">ALL</string>
+    <string name="PAST">PAST</string>
+    <string name="RESIDENTS_AREA">Resident Zone</string>
+    <!--<string name="RESIDENTS_AREA">RESIDENT\'S ZONE</string>-->
+    <string name="Location">Location</string>
+    <string name="Floor_Plan">Floor Plan</string>
+    <string name="Gallery">Gallery</string>
+    <string name="Environment">Environment</string>
+    <string name="Property_Notice">Property Notice</string>
+    <string name="Value_Added_Service">Value Added Service</string>
+    <string name="OwnerArea">Owner\'s Area</string>
+    <string name="Hot_Spots">Hotspots</string>
+    <string name="PrimaryProperty">Primary Property</string>
+    <string name="FloorPlanStat">Please Input the tower, floor and flat to display the floor plan.</string>
+    <string name="TRANSPORTATION_GUIDE">Transportation Guide</string>
+    <string name="BUS">BUS</string>
+    <string name="MINIBUS">MINIBUS</string>
+
+    <!-- Facilities Calendar -->
+    <string name="day_of_week" translatable="false">dayOfWeek</string>
+    <string name="day_of_month_text" translatable="false">dayOfMonthText</string>
+    <string name="day_of_month_container" translatable="false">dayOfMonthContainer</string>
+
+    <!-- Facilities -->
+    <string name="facilities_Book_Confirm">Book Now</string>
+    <string name="facilities_Confirmation_title">Facility you have selected</string>
+    <string name="facilities_Confirmation_property">Property:</string>
+    <string name="facilities_Confirmation_venue">Venue:</string>
+    <string name="facilities_Confirmation_time">Time:</string>
+    <string name="facilities_Confirmation_date">Date:</string>
+    <string name="facilities_Confirmation_reminder">A notification email about your registration status will be sent shortly. Stay tuned.</string>
+    <string name="facilities_Confirmation_share">Share to your guest</string>
+    <string name="facilities_Confirmation_calendar">Add to Calendar</string>
+    <string name="facilities_Book_Done">Done</string>
+
+    <string name="title_activity_booking_confirmation">BookingConfirmation</string>
+    <string name="title_activity_facilities_count_down">Booking Details</string>
+    <string name="title_activity_resident_gallery">ResidentGalleryActivity</string>
+
+    <!-- scrollview -->
+    <string name="border_top" translatable="false">Border Top</string>
+    <string name="border_bottom" translatable="false">Border Bottom</string>
+    <string name="image_url" translatable="false">Image Url</string>
+    <string name="title_activity_resident_owner_area">ResidentOwnerAreaActivity</string>
+
+    <string name="REGISTRATION">REGISTRATION</string>
+    <string name="pfitbf">Please fill in the below fields for verification</string>
+    <string name="pfitbffr">Please fill in the below fields for registration</string>
+    <string name="YMNOE">Mobile No. / Email Address (For Login)</string>
+    <string name="forgetPWStat">Please find security code from your given email address / SMS to Input below and get start</string>
+    <string name="NOTIFICATIONS">NOTIFICATIONS</string>
+    <string name="Useful_Contacts">Useful Contacts</string>
+    <string name="MNOEA">MOBILE NUMBER / EMAIL ADDRESS</string>
+    <string name="MY_BOOKING">MY BOOKING</string>
+    <string name="FacilityList">Facility List</string>
+    <string name="My_Booking">My Booking</string>
+    <string name="YMN">Mobile No. (For Login)</string>
+    <string name="celsius" translatable="false">\u2103</string>
+    <string name="SHOW_FLOOR_PLAN">SHOW FLOOR PLAN</string>
+    <string name="IAAWAS">I have read, understood and agreed to the Terms and Conditions of the Artisanal Living app &amp; New World CLUB.</string>
+    <string name="USER_MANUAL">USER\'S MANUALS</string>
+
+    <string name="RH">Resident Handbook</string>
+    <string name="DMC">DMC</string>
+    <string name="facilities_booking_details_title">Facility you have booked: </string>
+    <string name="facilities_booking_details_Reference">Reference No. : </string>
+    <string name="bookedDetailPrice">Price:&#032;</string>
+    <string name="bookedDetailPricePerHr">/Session</string>
+    <string name="bookedDetailCBA">Choose booking address</string>
+    <string name="bookedDetailHyphen" translatable="false">&#032;-&#032;</string>
+    <string name="bookedDetailDollar" translatable="false">$</string>
+    <string name="bookedDetailPriceP">Price:</string>
+    <string name="bookedDetailPS">Payment\nStatus</string>
+    <string name="bookedPS">Payment Status</string>
+    <string name="PrimaryPropertyMP">Primary Property</string>
+    <string name="OtherProperties">Other properties</string>
+    <string name="Add_More_Residential_Addresses">Add More Residential Addresses</string>
+    <string name="AutoGenProperty">P R O P E R T Y&#032;</string>
+    <string name="SetQ">Select as Primary Property</string>
+    <string name="BOOKING_PENDING">BOOKING PENDING</string>
+    <string name="BOOKING_FAILED">BOOKING FAILED</string>
+    <string name="TabMe">ME</string>
+    <string name="TNC">"TERMS &amp; CONDITIONS"</string>
+    <string name="LangBtnEng" translatable="false">ENG</string>
+    <string name="LangBtnTC" translatable="false">繁</string>
+    <string name="disclaimer">This is not the actual view from the development, and shall not constitute or be construed as constituting any offer, undertaking, representation or warranty whether expressed or implied. Prospective purchasers should make reference to the sales brochure for details of the development. The vendor also advises purchasers to conduct an on-site visit for a better understanding of the development site, its surrounding environment and the public facilities nearby.</string>
+    <string name="IHRUPDCS">I have read and understand the Personal Data Collection Statement.</string>
+    <string name="LAS">LINKED ACCOUNT SETTINGS</string>
+    <string name="FT">FAVOURITE TOPICS</string>
+    <string name="PS">PROFILE SETTINGS</string>
+    <string name="MP">MANAGE PROPERTIES</string>
+    <string name="SF">SEND FEEDBACK</string>
+    <string name="MB">MESSAGE BOX</string>
+    <string name="BD">BOOKING DETAILS</string>
+    <string name="CONFIRMATION">CONFIRMATION</string>
+    <string name="OK">OK</string>
+    <string name="UPPS">Update profile picture success</string>
+    <string name="Description">Description</string>
+    <string name="TandC"><![CDATA[Terms and Conditions >]]></string>
+    <string name="GON">GET PRIVILEGE NOW</string>
+    <string name="PO">Privileges</string>
+
+    <!--addedNewButNotYetSyncOtherLanguageFrom20160408-->
+    <string name="DL">days left</string>
+    <string name="EAE">Email already exists.</string>
+    <string name="MAE">Mobile already exists.</string>
+    <string name="EMAE">Email and Mobile already exists.</string>
+    <string name="PError">Your PIN no. is not correct, please verify and try again</string>
+    <string name="day">day</string>
+    <string name="days">days</string>
+    <string name="enjoy" translatable="false">Enjoy!</string>
+    <string name="skip">SKIP</string>
+    <string name="DOB">Date of Birth(For birthday delight)</string>
+    <string name="PSYP">Please setup your password</string>
+    <string name="personalizationTopic">To perfect your Artisanal Living journey, tell us more about your preferences.</string>
+    <string name="personalizationTopic2">(You can choose more than 1)</string>
+    <string name="personalizationProPic">Connect your account with Facebook, so you can use your Facebook account to login next time.</string>
+    <string name="title_activity_grid_view">GridView</string>
+    <string name="title_activity_main_page">Main Page</string>
+    <string name="title_activity_post">Post</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_profile_management">Profile Management</string>
+    <string name="title_activity_register">Register</string>
+    <string name="LMANWC"><![CDATA[Understand more about New World Club Member >]]></string>
+    <string name="FTopic">Favourite topics</string>
+    <string name="CE">Comments Enquiries</string>
+    <string name="NWPMCL">New World Property Management Company Limited</string>
+    <string name="FBPLUKYF">Please let us know your feedback.</string>
+    <string name="Remarks">Remarks</string>
+    <string name="confirmedStat">Please go to Clubhouse to settle the payment within 48 hours to complete booking process</string>
+    <string name="confirmedStat2">We are pleased to receive your booking of</string>
+    <string name="Reference_No">Reference No. : </string>
+    <string name="confirmedFailStat">We are sorry that your booking of&#032;</string>
+    <string name="confirmedFailStat2">is over your maximum booking</string>
+    <string name="Linked">Linked</string>
+    <string name="TowerBlock">Tower / Block</string>
+    <string name="Floor">Floor</string>
+    <string name="FlatRoom">Flat / Room</string>
+    <string name="CSC">Customer Service Center</string>
+    <string name="CSCTel" translatable="false">2615 9960</string>
+    <string name="Tel">Tel:&#032;</string>
+    <string name="ClubHouseName">Club House</string>
+    <string name="ClubHouseTel" translatable="false">2615 9960</string>
+    <string name="NWCTel">2138 3311</string>
+    <string name="NWCEmail">E-mail: enquiry@newworldclub.com.hk</string>
+    <string name="PropertyContactEmail">E-mail: theparkhill@nwpmcl.com.hk</string>
+    <string name="SettingName">Name</string>
+    <string name="SettingManageProperties">Manage properties</string>
+    <string name="New_Password">New Password</string>
+    <string name="Reenter_Password">Re-enter Password</string>
+    <string name="ADD_PROPERTIES">ADD PROPERTIES</string>
+    <string name="DETAILS">DETAILS</string>
+    <string name="CTPMT">CONTACT THE PROPERTY MANAGEMENT TEAM</string>
+    <string name="CNWC">CONTACT NEW WORLD CLUB</string>
+    <string name="CU">CONTACT US</string>
+    <string name="to_start">to start</string>
+    <string name="Total_title">Total:</string>
+    <string name="TCIFORO">This screen is for owner/resident only.</string>
+    <string name="PATPICS">Please accept the Personal Information Collection Statement</string>
+    <string name="Salutation">Salutation</string>
+    <string name="Booked">Booked</string>
+    <string name="PFIAF">Please fill in all fields</string>
+    <string name="PCYPWCCINAL">Please create your password which contains 8 – 16 characters including number (s) and letter (s)</string>
+    <string name="IEA">Invalid email address</string>
+    <string name="IMN">Invalid mobile number</string>
+    <string name="PECHKMEM">Please Enter Correct HK Mobile No. / Email</string>
+    <string name="PFALOP">Please fill at least one property</string>
+    <string name="YHBAFY">You haven\'t booked any facility yet</string>
+    <string name="FOMFTYMII">Find out more faculties that you may interest in</string>
+    <string name="Jan">Jan</string>
+    <string name="Feb">Feb</string>
+    <string name="Mar">Mar</string>
+    <string name="Apr">Apr</string>
+    <string name="May">May</string>
+    <string name="Jun">Jun</string>
+    <string name="Jul">Jul</string>
+    <string name="Aug">Aug</string>
+    <string name="Sep">Sep</string>
+    <string name="Oct">Oct</string>
+    <string name="Nov">Nov</string>
+    <string name="Dec">Dec</string>
+    <string name="PTYEMNOFYATRYP">Enter your mobile no. or email address and we\'ll send you a PIN no. to reset your password.</string>
+    <string name="MNEAALERT">Please fill in Mobile No. / Email Address</string>
+    <string name="YIWLTRNFNWD"> I have read and understand the Personal Information Collection Statement of the Artisanal Living App and New World CLUB.\nI agree to receive from New World Development Company Limited (“NWD”) and New World Loyalty Programme Limited (“NWLP”) news, updates and offers of NWD, NWLP and their Affiliates and Marketing Partners, details of which have been set out in the Personal Information Collection Statement mentioned above.</string>
+    <string name="YIWLTRNFAMPNWD">I agree to receive news, updates and offers from the Affiliates and Marketing Partners of NWD and NWLP, details of which have been set out in the Personal Information Collection Statement mentioned above.</string>
+    <string name="NAMEapohcop">Name (as printed on HKID card / passport)</string>
+    <string name="PYFT">Pick Your Favourite Topics\n(You can choose more than 1)</string>
+    <string name="TakePhoto">Take Photo</string>
+    <string name="ChooseGallery">Photo Library</string>
+    <string name="IEOP">Invalid email or password</string>
+    <string name="General_Information">General Information</string>
+    <string name="backToMe">BACK TO ME</string>
+    <string name="TFYF">Thanks for your feedback.</string>
+    <string name="WWRTYF">We will respond to your feedback as soon as possible.</string>
+    <string name="CPS">Create Property success</string>
+    <string name="CPF">Create Property fail</string>
+    <string name="UFTS">Update favorite topic success</string>
+    <string name="YFNLY">Your Facebook not linked yet</string>
+    <string name="Logging">Logging in</string>
+    <string name="CAIC">Cannot add into Calendar</string>
+    <string name="NPWRPWM">New Password and Re-enter Password are Mismatch</string>
+    <string name="PFTCPW">Please fill the current password</string>
+    <string name="PSTBF">Please select the Block and Floor</string>
+    <string name="PAPICS">Please agree to the Personal Information Collection Statement</string>
+    <string name="UNOPWCBE">UserName or Password cannot be empty</string>
+    <string name="PropertyName">Property Name</string>
+    <string name="NNC">No Network Connection</string>
+    <string name="Retry">Retry</string>
+    <string name="TIYEDM">The information you entered don\'t match. For assistance, please contact enquiry@newworldclub.com.hk.</string>
+    <string name="UPS">Update password success</string>
+    <string name="UPF">Update password fail</string>
+    <string name="DFLS">Delete Facebook linked success</string>
+    <string name="DFLF">Delete Facebook linked fail</string>
+    <string name="FLS">Facebook linked success</string>
+    <string name="FLF">Facebook linked fail</string>
+    <string name="TAIPBTVOTP">This advertisement is published by the vendor or with the consent by the vendor of THE PAVILIA HILL and THE PARKHILL.</string>
+    <string name="CEPTA">Connection error, please try again</string>
+    <string name="UPPSS">Update primary property success</string>
+    <string name="YHNVATBF">You have no valid address to book facility</string>
+    <string name="TransportFare">Fare</string>
+    <string name="FROM">FROM</string>
+    <string name="TO">TO</string>
+    <string name="YNWCMEIOTW">Your New World CLUB membership e-card is on the way. Stay tuned!</string>
+    <string name="YHBAPY">You haven\'t bookmarked any privileges yet</string>
+    <string name="ForgetPassword">Forget password</string>
+    <string name="PSTOCN">Please select the office contact number:</string>
+    <string name="RegYesSucFalse">Member not existing in New World Club.</string>
+    <string name="PUTCTAD">Please use this code to authorise discount</string>
+    <string name="OVF">Offer valid from</string>
+    <string name="To">to</string>
+    <string name="Voth" translatable="false">Villa on the hill</string>
+    <string name="TPHCHTel">2652 3030</string>
+    <string name="TPHCSTel">2652 3000</string>
+    <string name="TPHEmail">E-mail: thepaviliahill@nwpmcl.com.hk</string>
+    <string name="GPN">REDEEM NOW</string>
+    <string name="PSTSTMFRAEPISFROO">Please show this screen to merchant for redemption and each privilege is eligible for redeem once only.</string>
+    <string name="ORN">Offer reference no.: </string>
+    <string name="REDEEM">REDEEM</string>
+    <string name="FABW2D">For any booking within 2 days, resident should make reservation and payment in person at the Clubhouse service counter.</string>
+    <string name="Pending">Pending</string>
+    <string name="UnavailableTS">Your selected time slot of&#032;</string>
+    <string name="UnavailableTS2">&#032;was booked by others.</string>
+    <string name="OverMaxBook">Over you maximum booking: maximum&#032;</string>
+    <string name="OverMaxBook2">&#032;for&#032;</string>
+    <string name="OverMaxBook3">&#032;per day per residential unit</string>
+    <string name="FailSameTime">Each unit my only reserve or use one single Clubhouse facility at each time slot (except walk-in booking).</string>
+    <string name="OverDuePay">Due to overdue payment, your booked time slot of </string>
+    <string name="OverDuePay2"> is released.</string>
+    <string name="PNG">PERMISSION NOT GRANTED</string>
+    <string name="YHDTP">You have denied the permission. Please go to app settings and allow permission.</string>
+    <string name="GTS">GO TO SETTINGS</string>
+    <string name="BACK">BACK</string>
+    <string name="backToF">BACK TO FACILITY</string>
+    <string name="OverDueMsg">We are sorry that your booking of&#032;</string>
+    <string name="OverDueMsg2">&#032;is cancelled due to non-payment.</string>
+    <string name="IPIN">Invalid PIN</string>
+    <string name="RS">Redeem Success</string>
+    <string name="VMT">VIEW MY TICKET</string>
+    <string name="Confirmed">Confirmed</string>
+    <string name="SeatL">Seat left</string>
+    <string name="ER">EVENT REGISTRATION</string>
+    <string name="ERN">Event reference no: </string>
+    <string name="EventName">Event Name</string>
+    <string name="EventDate">Event Date</string>
+    <string name="EventTime">Event Time</string>
+    <string name="EventAddress">Event Address</string>
+    <string name="GuestNumber">Guest Number</string>
+    <string name="GuestName">Guest Name</string>
+    <string name="WYIG">Will you invite guest?</string>
+    <string name="AddressLabel">Address:</string>
+    <string name="ContactLabel">Contact:</string>
+    <string name="GuestsLabel">Guests:</string>
+    <string name="StatusLabel">Status:</string>
+    <string name="COOE">CHECK OUT OTHER EVENTS</string>
+    <string name="REWARDS">REWARDS</string>
+    <string name="SYIC">SHARE YOUR INVITE CODE</string>
+    <string name="IF">INVITE FRIENDS</string>
+    <string name="AC">ADD CODE</string>
+    <string name="CTC">Copied to clipboard</string>
+    <string name="RFO">Referral Code (OPTIONAL)</string>
+    <string name="SV">Share via</string>
+    <string name="UPSY">Profile updated successfully</string>
+    <string name="CODE">CODE</string>
+    <string name="TTHBRBOPCAT">This time slot has been reserved by others. Please choose another time slot.</string>
+    <string name="RF">Reward</string>
+    <string name="RewardSEND">REFER FRIENDS</string>
+    <string name="RewardGET">GET REWARDS</string>
+    <string name="MY_REWARDS">MY REWARDS</string>
+    <string name="My_Rewards">My Rewards</string>
+    <string name="STCTYFTGART">Send this code to your friend to get above rewards together!</string>
+    <string name="COPY">COPY</string>
+    <string name="TCBTGYR">Type code below to get your reward</string>
+    <string name="PFilter">Privileges Filter</string>
+    <string name="CONFIRMED">CONFIRMED</string>
+    <string name="PENDING">PENDING</string>
+    <string name="SBCTRWFAYFCAR">Send below code to reward with friends, after your friend completed app registration.</string>
+    <string name="RN">REFER NOW</string>
+    <string name="GET">GET</string>
+    <string name="BY">By&#032;</string>
+    <string name="EXPIRES">Expires&#032;</string>
+    <string name="PASTED">PASTED</string>
+    <string name="IC">Invalid Code</string>
+    <string name="Referral_code">Referral code:</string>
+    <string name="GMR">GET MORE REWARDS?</string>
+    <string name="IYF">INVITE YOURS FRIENDS</string>
+    <string name="PROPERTIES">PROPERTIES</string>
+    <string name="UPDATES">UPDATES</string>
+    <string name="II">Invalid Input</string>
+    <string name="Nearby">Nearby</string>
+    <string name="Period">Period</string>
+    <string name="Search">Search</string>
+    <string name="Reset">Reset</string>
+    <string name="NWDPI">New World Development property information</string>
+    <string name="All_privileges">All Privileges</string>
+    <string name="animation">Animation</string>
+
+</resources>

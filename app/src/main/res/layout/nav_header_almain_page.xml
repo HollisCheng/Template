@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?><!--android:layout_height="@dimen/nav_header_height"--><!--android:background="@drawable/side_nav_bar"--><!--android:gravity="bottom"-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical">
+
+    <template.cheng.hollis.template.ImageView.CircleImageView
+        android:id="@+id/SlideCIV"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/profile_default" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/SlideTVDisplayName"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:text="Test"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textStyle="bold" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llSlideResidentZone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_selector"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/icon_residentzone" />
+
+            <template.cheng.hollis.template.TextView.SweetSansRegTextView
+                android:id="@+id/ssrtvSlideRZ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/animation"
+                android:textColor="@color/Black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llSlideReferral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_selector"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/icon_feedback" />
+
+            <template.cheng.hollis.template.TextView.SweetSansRegTextView
+                android:id="@+id/ssrtvSlideRF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="ViewPager"
+                android:textColor="@color/Black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/llSlidePromotion"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/list_selector"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="20dp"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:src="@drawable/nav_promo" />-->
+
+            <!--<com.nwd.artisanalliving.SupportClass.SweetSansRegTextView-->
+                <!--android:id="@+id/ssrtvSlideProm"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="@string/Promotions"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="14sp"-->
+                <!--android:textStyle="bold" />-->
+        <!--</LinearLayout>-->
+
+        <LinearLayout
+            android:id="@+id/llSlideFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_selector"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/icon_feedback" />
+
+            <template.cheng.hollis.template.TextView.SweetSansRegTextView
+                android:id="@+id/ssrtvSlideFB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/Language"
+                android:textColor="@color/Black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <!--&lt;!&ndash;<View&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="1dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="right"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginLeft="15dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@drawable/bg_gradient_sub_blue" />&ndash;&gt;-->
+
+
+        <LinearLayout
+            android:id="@+id/llSlideSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_selector"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/icon_residentzone" />
+
+       <template.cheng.hollis.template.TextView.SweetSansRegTextView
+                android:id="@+id/ssrtvSlideSet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/CardWallet"
+                android:textColor="@color/Black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!--&lt;!&ndash;<View&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="1dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="right"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginLeft="15dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@drawable/bg_gradient_sub_blue" />&ndash;&gt;-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/llSlideAbout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/list_selector"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="20dp"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:src="@drawable/icon_about" />-->
+
+            <!--<com.nwd.artisanalliving.SupportClass.SweetSansRegTextView-->
+                <!--android:id="@+id/ssrtvSlideAbout"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="@string/ABOUT"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="14sp"-->
+                <!--android:textStyle="bold" />-->
+        <!--</LinearLayout>-->
+
+        <!--&lt;!&ndash;<View&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="1dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="right"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginLeft="15dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@drawable/bg_gradient_sub_blue" />&ndash;&gt;-->
+
+        <LinearLayout
+            android:id="@+id/llSlideTnC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_selector"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/icon_active_bookmark" />
+
+           <template.cheng.hollis.template.TextView.SweetSansRegTextView
+                android:id="@+id/ssrtvSlideTnC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/facilities_Confirmation_calendar"
+                android:textColor="@color/Black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!--&lt;!&ndash;<View&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="1dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="right"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginLeft="15dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@drawable/bg_gradient_sub_blue" />&ndash;&gt;-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/llSlideContactUs"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/list_selector"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="20dp"-->
+                <!--android:layout_height="20dp"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:src="@drawable/icon_contactus" />-->
+
+            <!--<com.nwd.artisanalliving.SupportClass.SweetSansRegTextView-->
+                <!--android:id="@+id/ssrtvSlideCU"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_marginBottom="10dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:text="@string/CONTACTUS"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="14sp"-->
+                <!--android:textStyle="bold" />-->
+        <!--</LinearLayout>-->
+
+
+        <!--&lt;!&ndash;<View&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="1dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="right"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginLeft="15dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@drawable/bg_gradient_sub_blue" />&ndash;&gt;-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@color/white"-->
+        <!--android:orientation="vertical">-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+
+            <!--&lt;!&ndash;<android.support.v7.widget.SwitchCompat&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/SwitchCompatNotifications"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="40dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:paddingLeft="10dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:paddingRight="10dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="@string/NOTIFICATIONS"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textColor="@color/Gray"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textSize="14sp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textStyle="bold"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:visibility="visible"&ndash;&gt;-->
+            <!--&lt;!&ndash;app:theme="@style/ColorSwitchCompatStyle" />&ndash;&gt;-->
+
+        <!--</LinearLayout>-->
+
+        <!--&lt;!&ndash;<View&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="155dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="1dip"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_gravity="right"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginBottom="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@drawable/bg_gradient_sub_blue" />&ndash;&gt;-->
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnLangENG"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/list_selector"
+                android:text="@string/LangBtnEng"
+                android:textColor="@color/Gray" />
+            <!--android:layout_width="40dp"-->
+            <Button
+                android:id="@+id/btnLangTC"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/list_selector"
+                android:text="@string/LangBtnTC"
+                android:textColor="@color/Gray" />
+            <!--android:layout_width="40dp"-->
+
+            <!--<Button-->
+            <!--android:id="@+id/btnLangSC"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/list_selector"-->
+            <!--android:text="简"-->
+            <!--android:textColor="@color/Gray"-->
+            <!--android:textStyle="bold" />-->
+
+
+        </LinearLayout>
+
+        <!--<com.nwd.artisanalliving.SupportClass.SweetSansRegButton-->
+            <!--android:id="@+id/btnSlideLogout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:background="@drawable/them_bg_btn_little_rounded"-->
+            <!--android:text="@string/LOGOUT"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:textSize="12sp" />-->
+
+        <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginTop="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:paddingLeft="5dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:paddingRight="5dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:src="@drawable/logo_pmcl" />&ndash;&gt;-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/ivTamLogo"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:src="@drawable/logo_artisanal" />-->
+
+    <!--</LinearLayout>-->
+
+
+</LinearLayout>

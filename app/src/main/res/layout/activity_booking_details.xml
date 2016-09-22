@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <FrameLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <template.cheng.hollis.template.Calendar.FacilityCalendarView
+                    android:id="@+id/calendar_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/White"
+                    app:calendarBackgroundColor="@color/WhiteSmoke"
+                    app:calendarEndOfWeekColor="@color/red"
+                    app:calendarTitleTextColor="@color/Black"
+                    app:currentDayOfMonthColor="@color/Black"
+                    app:dayOfMonthTextColor="@color/Black"
+                    app:dayOfWeekTextColor="@color/Black"
+                    app:disabledDayBackgroundColor="@color/WhiteSmoke"
+                    app:disabledDayTextColor="@color/iron"
+                    app:selectedDayBackgroundColor="@color/base"
+                    app:titleLayoutBackgroundColor="@color/WhiteSmoke"
+                    app:weekLayoutBackgroundColor="@color/WhiteSmoke" />
+
+            </FrameLayout>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <!--<include layout="@layout/content_scrolling" />-->
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</LinearLayout>
