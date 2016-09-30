@@ -135,4 +135,5 @@
             android:layout_weight="1"
             android:text="Tenant" />
     </info.hoang8f.android.segmented.SegmentedGroup>
+    
 </LinearLayout>

@@ -572,5 +572,6 @@
     <string name="NWDPI">New World Development property information</string>
     <string name="All_privileges">All Privileges</string>
     <string name="animation">Animation</string>
+    <string name="YoutubeAPI">YoutubeAPI</string>
 
 </resources>

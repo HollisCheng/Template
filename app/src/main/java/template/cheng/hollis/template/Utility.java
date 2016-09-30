@@ -53,7 +53,7 @@ public class Utility {
     public static RequestQueue mQueue;
     public static String AppLang = "";
     public static int currIndex ;
-
+    public static final String YOUTUBE_API_KEY = "AIzaSyCfNk5sbGNk4qcvPL0XpRA6p4KI8C416pc";
 //    public static final String PREFS_NAME = "NWD";
 //    public static void delOwnProperties(Context context) {
 //        SharedPreferences settings = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);

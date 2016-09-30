@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<FrameLayout-->
+        <!--android:id="@+id/youtube_fragment_view_pager_placeholder"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+
+    <!--<fragment-->
+        <!--android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"-->
+        <!--android:id="@+id/youtube_fragment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"/>-->
+
+    <com.google.android.youtube.player.YouTubeThumbnailView
+        android:id="@+id/youtubethumbnailview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp"/>
+
+</RelativeLayout>
+

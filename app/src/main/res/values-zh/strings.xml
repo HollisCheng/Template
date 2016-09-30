@@ -554,5 +554,6 @@
     <string name="NWDPI">新世界住宅物業資料</string>
     <string name="All_privileges">全部禮遇</string>
     <string name="animation">動畫</string>
+    <string name="YoutubeAPI">Youtube接口</string>
 
 </resources>

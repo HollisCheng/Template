@@ -249,6 +249,33 @@
                 android:textStyle="bold" />
         </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/llYoutubeAPI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_selector"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/icon_active_bookmark" />
+
+            <template.cheng.hollis.template.TextView.SweetSansRegTextView
+                android:id="@+id/ssrtvYoutubeAPI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/YoutubeAPI"
+                android:textColor="@color/Black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
         <!--&lt;!&ndash;<View&ndash;&gt;-->
         <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
         <!--&lt;!&ndash;android:layout_height="1dp"&ndash;&gt;-->

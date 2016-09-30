@@ -6,7 +6,9 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
+import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -30,12 +32,14 @@ import com.facebook.FacebookSdk;
 import java.util.ArrayList;
 import java.util.Locale;
 
+import me.relex.circleindicator.CircleIndicator;
 import template.cheng.hollis.template.Button.SweetSansRegButton;
 import template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.CardVPActivity;
 import template.cheng.hollis.template.SQLiteDB.Language;
 import template.cheng.hollis.template.SQLiteDB.LanguageDAO;
 import template.cheng.hollis.template.TestBundlePage.TestBundleActivity;
 import template.cheng.hollis.template.TextView.SweetSansRegTextView;
+import template.cheng.hollis.template.YoutubeAPI.YouFragmentAdapter;
 
 public class MainActivity extends AppCompatActivity {
     private TextView etCount;
@@ -45,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
     private Button LangENG, LangTC, btnFbTestPage, btnFbOtherClickPage;
     private String language;
     private SweetSansRegTextView ssrtvSlideRZ, ssrtvSlideFB;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -260,6 +265,19 @@ public class MainActivity extends AppCompatActivity {
 
         //endregion
 
+        //region YoutubeAPIActivity
+        LinearLayout llYoutubeAPI = (LinearLayout) slideMenu.findViewById(R.id.llYoutubeAPI);
+        llYoutubeAPI.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, YoutubeAPIActivity.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_right_in, R.anim.slide_left_out);
+            }
+        });
+
+        //endregion
+
         //region Language
 
         LangENG = (Button) slideMenu.findViewById(R.id.btnLangENG);
@@ -355,7 +373,10 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
     }
+
+
 
     @Override
     public void onBackPressed() {
