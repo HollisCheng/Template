@@ -6,9 +6,7 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
-import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
-import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -32,14 +30,12 @@ import com.facebook.FacebookSdk;
 import java.util.ArrayList;
 import java.util.Locale;
 
-import me.relex.circleindicator.CircleIndicator;
 import template.cheng.hollis.template.Button.SweetSansRegButton;
 import template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.CardVPActivity;
 import template.cheng.hollis.template.SQLiteDB.Language;
 import template.cheng.hollis.template.SQLiteDB.LanguageDAO;
 import template.cheng.hollis.template.TestBundlePage.TestBundleActivity;
 import template.cheng.hollis.template.TextView.SweetSansRegTextView;
-import template.cheng.hollis.template.YoutubeAPI.YouFragmentAdapter;
 
 public class MainActivity extends AppCompatActivity {
     private TextView etCount;
@@ -376,8 +372,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
-
     @Override
     public void onBackPressed() {
         if (drawer.isDrawerOpen(GravityCompat.START)) {
@@ -388,26 +382,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    //        @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.main, menu);
-//        return true;
-//
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        // Handle action bar item clicks here. The action bar will
-//        // automatically handle clicks on the Home/Up button, so long
-//        // as you specify a parent activity in AndroidManifest.xml.
-//        int id = item.getItemId();
-//
-//        //noinspection SimplifiableIfStatement
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
-//
-//        return super.onOptionsItemSelected(item);
-//    }
     private void confirmLeaveDialog() {
         AlertDialog.Builder alertDlg = new AlertDialog.Builder(this);
         alertDlg.setMessage("Leave?");
