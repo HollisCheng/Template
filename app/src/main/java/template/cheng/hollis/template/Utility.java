@@ -590,7 +590,7 @@ public class Utility {
         String mimeType = "";
         try {
             String extension = url.substring(url.lastIndexOf("."));
-            String mimeTypeMap = MimeTypeMap.getFileExtensionFromUrl(extension);
+            String mimeTypeMap = MimeTypeMap.getFileExtensionFromUrl(extension.toLowerCase());
             mimeType = MimeTypeMap.getSingleton().getMimeTypeFromExtension(mimeTypeMap);
         } catch (Exception ex) {
             ////Log.w("Utility", "Error in getMimeType: " + ex.getMessage());
