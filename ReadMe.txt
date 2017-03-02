@@ -16,4 +16,5 @@ keytool -exportcert -alias HollisKey -keystore "C:\Users\hollischeng\DocumentsTe
 
 S2WlVi/mTorO3M4HsqLbrDwaSf0=
 
-HollisKey holliskey android studio newworld
+HollisKey holliskey holliskey 
+android studio newworld

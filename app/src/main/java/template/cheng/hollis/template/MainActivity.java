@@ -36,6 +36,7 @@ import template.cheng.hollis.template.SQLiteDB.Language;
 import template.cheng.hollis.template.SQLiteDB.LanguageDAO;
 import template.cheng.hollis.template.TestBundlePage.TestBundleActivity;
 import template.cheng.hollis.template.TextView.SweetSansRegTextView;
+import template.cheng.hollis.template.WebConnect.WebViewClientPage;
 
 public class MainActivity extends AppCompatActivity {
     private TextView etCount;
@@ -272,7 +273,24 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //region LLWebView
+        LinearLayout LLWebView = (LinearLayout) slideMenu.findViewById(R.id.LLWebView);
+        LLWebView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, WebViewClientPage.class);
+                intent.putExtra("LINK", "http://???");
+                intent.putExtra("Title", "SSO");
+                //test AES256 add below
+                intent.putExtra("K11SSO", true);
+                intent.putExtra("IsShowWebButton", true);
+                startActivity(intent);
+                overridePendingTransition(R.anim.slide_right_in, R.anim.slide_left_out);
+            }
+        });
+
         //endregion
+
 
         //region Language
 

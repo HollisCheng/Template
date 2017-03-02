@@ -19,6 +19,7 @@ import android.support.v7.app.AlertDialog;
 import android.text.format.DateUtils;
 import android.util.Base64;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.Display;
 import android.view.WindowManager;
 import android.webkit.MimeTypeMap;
@@ -708,6 +709,19 @@ public class Utility {
         myAppSettings.addCategory(Intent.CATEGORY_DEFAULT);
         myAppSettings.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         mActivity.startActivity(myAppSettings);
+    }
+
+    public static String checkExtension(String string) {
+        String filenameArray[] = string.split("\\.");
+        String extension = filenameArray[filenameArray.length - 1];
+
+        return extension;
+    }
+
+    public static void PrintLog(String ClassName, String Content) {
+        int pos = ClassName.lastIndexOf('.') + 1;
+        String onlyClass = ClassName.substring(pos);
+        Log.w(onlyClass, Content);
     }
 }
 

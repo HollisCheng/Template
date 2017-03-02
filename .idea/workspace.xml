@@ -6,22 +6,39 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="AES" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Firebase" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cb4fedf-91e4-413b-817a-f8377d9f885a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/facebook_android_sdk_4_18_0.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/facebook_android_sdk_4_17_0.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_25_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/aescrypt_0_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/httpcore_4_4_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_25_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/transition_25_1_0.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_0_0.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_1_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_1_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/design_24_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_25_1_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/facebook_android_sdk_4_18_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/facebook_android_sdk_4_20_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_24_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_1_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_25_1_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_1_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_1_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_1_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_1_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_25_1_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_1_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadMe.txt" afterPath="$PROJECT_DIR$/ReadMe.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/Utility.java" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/Utility.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/WebConnect/WebViewClientPage.java" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/WebConnect/WebViewClientPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_web_view_client_page.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_web_view_client_page.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_almain_page.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_almain_page.xml" />
     </list>
     <ignored path="HollisChengGitHubTemplate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,40 +74,70 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="202" column="11" selection-start-line="202" selection-start-column="11" selection-end-line="202" selection-end-column="11" />
+            <state relative-caret-position="475">
+              <caret line="283" column="39" selection-start-line="283" selection-start-column="39" selection-end-line="283" selection-end-column="39" />
               <folding>
-                <element signature="e#2054#2098#0" expanded="false" />
-                <element signature="e#2266#2351#0" expanded="false" />
-                <element signature="e#2499#2524#0" expanded="false" />
-                <element signature="e#4296#4385#0" expanded="false" />
-                <element signature="e#4676#4743#0" expanded="false" />
-                <element signature="e#5248#5314#0" expanded="false" />
-                <element signature="e#8542#8568#0" expanded="false" />
-                <element signature="e#9077#9103#0" expanded="false" />
-                <element signature="e#9610#9629#0" expanded="false" />
-                <element signature="e#10191#10216#0" expanded="false" />
-                <element signature="e#10654#10741#0" expanded="false" />
-                <element signature="e#11074#11101#0" expanded="false" />
-                <element signature="e#11602#11619#0" expanded="false" />
-                <element signature="e#11832#11858#0" expanded="false" />
-                <element signature="e#14839#14909#0" expanded="false" />
-                <element signature="e#15021#15094#0" expanded="false" />
-                <element signature="e#15200#15215#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2122#2166#0" expanded="false" />
+                <element signature="e#2334#2419#0" expanded="false" />
+                <element signature="e#2567#2592#0" expanded="false" />
+                <element signature="e#4364#4453#0" expanded="false" />
+                <element signature="e#4744#4811#0" expanded="false" />
+                <element signature="e#5316#5382#0" expanded="false" />
+                <element signature="e#8064#8090#0" expanded="false" />
+                <element signature="e#8610#8636#0" expanded="false" />
+                <element signature="e#9145#9171#0" expanded="false" />
+                <element signature="e#9678#9697#0" expanded="false" />
+                <element signature="e#10259#10284#0" expanded="false" />
+                <element signature="e#10722#10809#0" expanded="false" />
+                <element signature="e#12410#12427#0" expanded="false" />
+                <element signature="e#12640#12666#0" expanded="false" />
+                <element signature="e#15647#15717#0" expanded="false" />
+                <element signature="e#15829#15902#0" expanded="false" />
+                <element signature="e#16008#16023#0" expanded="false" />
                 <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#confirmLeaveDialog#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#15895#16075#0" expanded="true" />
-                <element signature="e#16074#16075#0" expanded="true" />
-                <element signature="e#16120#16304#0" expanded="true" />
-                <element signature="e#16303#16304#0" expanded="true" />
-                <element signature="method#SWLang#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#16897#16991#0" expanded="false" />
-                <element signature="e#17460#17554#0" expanded="false" />
-                <element signature="e#17668#17713#0" expanded="false" />
+                <element signature="e#17705#17799#0" expanded="false" />
+                <element signature="e#18268#18362#0" expanded="false" />
+                <element signature="e#18476#18521#0" expanded="false" />
                 <element signature="method#InsertDB#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#18347#18398#0" expanded="false" />
-                <element signature="e#19261#19329#0" expanded="false" />
+                <element signature="e#19155#19206#0" expanded="false" />
+                <element signature="e#20069#20137#0" expanded="false" />
                 <element signature="method#updateText#0;class#MainActivity#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav_header_almain_page.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_almain_page.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="289" column="34" selection-start-line="289" selection-start-column="34" selection-end-line="289" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebViewClientPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/WebConnect/WebViewClientPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="48" column="76" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1954#1981#0" expanded="false" />
+                <element signature="e#3356#3436#0" expanded="false" />
+                <element signature="e#5003#5458#0" expanded="true" />
+                <element signature="e#5457#5458#0" expanded="true" />
+                <element signature="e#5889#5896#0" expanded="false" />
+                <element signature="method#onBackPressed#0;class#WebViewClientPage#0" expanded="false" />
+                <element signature="method#onOptionsItemSelected#0;class#WebViewClientPage#0" expanded="false" />
+                <element signature="method#buttonSetting#0;class#WebViewClientPage#0" expanded="false" />
+                <marker date="1488422633234" expanded="false" signature="1548:1580" ph="&quot;Loading…&quot;" />
               </folding>
             </state>
           </provider>
@@ -99,9 +146,64 @@
       <file leaf-file-name="Utility.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/Utility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="588" column="27" selection-start-line="588" selection-start-column="27" selection-end-line="588" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="796">
+              <caret line="724" column="5" selection-start-line="724" selection-start-column="5" selection-end-line="724" selection-end-column="5" />
+              <folding>
+                <element signature="e#1837#1889#0" expanded="false" />
+                <element signature="method#pwCharCheck#0;class#Utility#0" expanded="false" />
+                <element signature="method#isOnline#0;class#Utility#0" expanded="false" />
+                <element signature="method#GetMobilePageMargin#0;class#Utility#0" expanded="false" />
+                <element signature="method#GetImageSizeAPIRequest#0;class#Utility#0" expanded="false" />
+                <element signature="e#4812#4856#0" expanded="false" />
+                <element signature="method#dayLeft#0;class#Utility#0" expanded="false" />
+                <element signature="e#5235#5265#0" expanded="false" />
+                <element signature="e#6284#6330#0" expanded="false" />
+                <element signature="e#6498#6573#0" expanded="false" />
+                <element signature="e#7011#7059#0" expanded="false" />
+                <element signature="e#7606#7622#0" expanded="false" />
+                <element signature="method#DateStringCutTime#0;class#Utility#0" expanded="false" />
+                <element signature="method#isEmpty#0;class#Utility#0" expanded="false" />
+                <element signature="method#getYouTubeID#0;class#Utility#0" expanded="false" />
+                <element signature="method#APILang#0;class#Utility#0" expanded="false" />
+                <element signature="method#BooleanIsTrueOrFalse#0;class#Utility#0" expanded="false" />
+                <element signature="method#isEmailValid#0;class#Utility#0" expanded="false" />
+                <element signature="method#isHKMobileValid#0;class#Utility#0" expanded="false" />
+                <element signature="method#DateStringChange#0;class#Utility#0" expanded="false" />
+                <element signature="method#displayWithOutHrMinSec#0;class#Utility#0" expanded="false" />
+                <element signature="method#TransferDateTimeToLong#0;class#Utility#0" expanded="false" />
+                <element signature="e#10237#10250#0" expanded="false" />
+                <element signature="method#NoticeDialogOK#0;class#Utility#0" expanded="false" />
+                <element signature="class#12029:12212" expanded="false" />
+                <element signature="method#onClick#0;class#12029:12212" expanded="false" />
+                <element signature="method#showLoadingDialog#0;class#Utility#0" expanded="false" />
+                <element signature="method#showLoadingDialog#1;class#Utility#0" expanded="false" />
+                <element signature="class#12781:13367" expanded="false" />
+                <element signature="method#onCreate#0;class#12781:13367" expanded="false" />
+                <element signature="method#dismissLoadingDialog#0;class#Utility#0" expanded="false" />
+                <element signature="method#convertBitmapToBase64#0;class#Utility#0" expanded="false" />
+                <element signature="e#16059#16082#0" expanded="false" />
+                <element signature="method#VolleyPOST#0;class#Utility#0" expanded="false" />
+                <element signature="class#16338:17431" expanded="false" />
+                <element signature="method#getHeaders#0;class#16338:17431" expanded="false" />
+                <element signature="method#VolleyGET#0;class#Utility#0" expanded="false" />
+                <element signature="method#SetVolleyTimeoutAndNoCache#0;class#Utility#0" expanded="false" />
+                <element signature="method#readBitmap#0;class#Utility#0" expanded="false" />
+                <element signature="method#getFileExtension#0;class#Utility#0" expanded="false" />
+                <element signature="method#computeSampleSize#0;class#Utility#0" expanded="false" />
+                <element signature="method#computeInitialSampleSize#0;class#Utility#0" expanded="false" />
+                <element signature="method#getMimeType#0;class#Utility#0" expanded="false" />
+                <element signature="method#GetScreenSize#0;class#Utility#0" expanded="false" />
+                <element signature="method#rotateBitmap#0;class#Utility#0" expanded="false" />
+                <element signature="e#22381#22453#0" expanded="false" />
+                <element signature="method#readPictureDegree#0;class#Utility#0" expanded="false" />
+                <element signature="method#getSmallBitmap#0;class#Utility#0" expanded="false" />
+                <element signature="method#calculateInSampleSize#0;class#Utility#0" expanded="false" />
+                <element signature="e#24523#24586#0" expanded="false" />
+                <element signature="e#24774#24835#0" expanded="false" />
+                <element signature="method#promptSettings#0;class#Utility#0" expanded="false" />
+                <element signature="method#goToSettings#0;class#Utility#0" expanded="false" />
+                <element signature="method#checkExtension#0;class#Utility#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,24 +211,19 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="361">
+              <caret line="19" column="94" selection-start-line="19" selection-start-column="94" selection-end-line="19" selection-end-column="94" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\hollischeng\Documents\HollisChengGitHubTemplate\HollisKey.jks" />
+    <option name="KEY_ALIAS" value="HollisKey" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -189,11 +286,6 @@
                 <option name="name" value="prepareDebugDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.android:facebook-android-sdk:4.18.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComFacebookAndroidFacebookAndroidSdk4180Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processReleaseJavaRes" />
               </ExternalTaskPojo>
@@ -205,11 +297,6 @@
                 <option name="description" value="Runs lint on the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="lintDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-media-compat:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -240,14 +327,14 @@
                 <option name="name" value="compileDebugSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:design:24.1.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportDesign2411Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Initializes a new Gradle build. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-android-sdk:4.20.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookAndroidFacebookAndroidSdk4200Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -267,11 +354,6 @@
                 <option name="description" value="Displays all dependencies declared in root project 'HollisChengGitHubTemplate'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -325,11 +407,6 @@
                 <option name="name" value="mergeDebugShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-fragment:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportFragment2500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformNative_libsWithMergeJniLibsForDebugAndroidTest" />
               </ExternalTaskPojo>
@@ -345,6 +422,16 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2510Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportV42510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all Debug builds." />
@@ -419,11 +506,6 @@
                 <option name="name" value="checkReleaseManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugAndroidTestSources" />
               </ExternalTaskPojo>
@@ -447,6 +529,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeDebugAndroidTestAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-fragment:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -516,11 +603,6 @@
                 <option name="name" value="mergeDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:recyclerview-v7:24.1.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportRecyclerviewV72411Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:cardview-v7:25.0.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComAndroidSupportCardviewV72500Library" />
@@ -557,11 +639,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformNative_libsWithMergeJniLibsForDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -601,6 +678,16 @@
                 <option name="name" value="mergeReleaseShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:appcompat-v7:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72510Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-ui:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2510Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the Android dependencies of the project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="androidDependencies" />
@@ -612,11 +699,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDebugUnitTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-utils:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -649,11 +731,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileReleaseJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-compat:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCompat2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -777,6 +854,11 @@
                 <option name="name" value="generateDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:design:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportDesign2510Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays all buildscript dependencies declared in root project 'HollisChengGitHubTemplate'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
@@ -784,11 +866,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="checkDebugManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-ui:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUi2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.github.clans:fab:1.6.4" />
@@ -810,12 +887,22 @@
                 <option name="name" value="sourceSets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72510Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeReleaseAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -828,6 +915,26 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareDebugUnitTestDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:transition:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportTransition2510Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.scottyab:aescrypt:0.0.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComScottyabAescrypt001Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2510Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-compat:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportCompat2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -865,6 +972,11 @@
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-media-compat:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2510Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="preDebugBuild" />
               </ExternalTaskPojo>
@@ -897,11 +1009,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="packageDebugAndroidTest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComAndroidSupportSupportV42500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -946,11 +1053,6 @@
                 <option name="name" value="prepareDebugDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.android:facebook-android-sdk:4.18.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComFacebookAndroidFacebookAndroidSdk4180Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="processReleaseJavaRes" />
               </ExternalTaskPojo>
@@ -962,11 +1064,6 @@
                 <option name="description" value="Runs lint on the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="lintDebug" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-media-compat:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -997,9 +1094,9 @@
                 <option name="name" value="compileDebugSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:design:24.1.1" />
+                <option name="description" value="Prepare com.facebook.android:facebook-android-sdk:4.20.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportDesign2411Library" />
+                <option name="name" value="prepareComFacebookAndroidFacebookAndroidSdk4200Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1019,11 +1116,6 @@
                 <option name="description" value="Displays all dependencies declared in project ':app'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:appcompat-v7:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportAppcompatV72500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1077,11 +1169,6 @@
                 <option name="name" value="mergeDebugShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-fragment:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportFragment2500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="transformNative_libsWithMergeJniLibsForDebugAndroidTest" />
               </ExternalTaskPojo>
@@ -1097,6 +1184,16 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileReleaseRenderscript" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2510Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-v4:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportV42510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles all Debug builds." />
@@ -1171,11 +1268,6 @@
                 <option name="name" value="checkReleaseManifest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileDebugAndroidTestSources" />
               </ExternalTaskPojo>
@@ -1199,6 +1291,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="mergeDebugAndroidTestAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-fragment:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportFragment2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1268,11 +1365,6 @@
                 <option name="name" value="mergeDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:recyclerview-v7:24.1.1" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportRecyclerviewV72411Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:cardview-v7:25.0.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareComAndroidSupportCardviewV72500Library" />
@@ -1311,11 +1403,6 @@
                 <option name="name" value="transformNative_libsWithMergeJniLibsForDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:animated-vector-drawable:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportAnimatedVectorDrawable2500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="packageRelease" />
               </ExternalTaskPojo>
@@ -1348,6 +1435,16 @@
                 <option name="name" value="mergeReleaseShaders" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:appcompat-v7:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportAppcompatV72510Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-ui:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUi2510Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the Android dependencies of the project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="androidDependencies" />
@@ -1359,11 +1456,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileDebugUnitTestSources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-utils:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1396,11 +1488,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileReleaseJavaWithJavac" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-compat:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportCompat2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1524,6 +1611,11 @@
                 <option name="name" value="generateDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:design:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportDesign2510Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays all buildscript dependencies declared in project ':app'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="buildEnvironment" />
@@ -1531,11 +1623,6 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="checkDebugManifest" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-core-ui:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportCoreUi2500Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.github.clans:fab:1.6.4" />
@@ -1557,12 +1644,22 @@
                 <option name="name" value="sourceSets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:recyclerview-v7:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportRecyclerviewV72510Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="mergeReleaseAssets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-core-utils:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportCoreUtils2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1575,6 +1672,26 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="prepareDebugUnitTestDependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:transition:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportTransition2510Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.scottyab:aescrypt:0.0.1" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComScottyabAescrypt001Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-vector-drawable:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportVectorDrawable2510Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-compat:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportCompat2510Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1613,6 +1730,11 @@
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support:support-media-compat:25.1.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportSupportMediaCompat2510Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="preDebugBuild" />
               </ExternalTaskPojo>
@@ -1647,11 +1769,6 @@
                 <option name="name" value="packageDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.android.support:support-v4:25.0.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComAndroidSupportSupportV42500Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="generateReleaseResValues" />
               </ExternalTaskPojo>
@@ -1667,7 +1784,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Users\hollischeng\Documents\HollisChengGitHubTemplate" value="4428392993202" />
+        <entry key="C:\Users\hollischeng\Documents\HollisChengGitHubTemplate" value="4438092418089" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2025,22 +2142,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YouFragmentAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPI/YouFragmentAdapter.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPI/VideoYoutubeFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPI/YoutubeApplication.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPI/ThumbnailLoadedListener.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_almain_page.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-zh/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-tw/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_youtube_api.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPIActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_almain_page.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_web_view_client_page.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/Utility.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/WebConnect/WebViewClientPage.java" />
       </list>
     </option>
   </component>
@@ -2075,8 +2194,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
       <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
@@ -2085,31 +2205,25 @@
               <option name="myItemId" value="HollisChengGitHubTemplate" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HollisChengGitHubTemplate" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/HollisKey.jks" />
     <property name="device.picker.selection" value="4df12b1c167d8f35" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="string&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/res/values-zh/strings.xml" />
+    <property name="SearchEverywhereHistoryKey" value="gcm&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_51/jre/lib/ext/jfxrt.jar!/com/sun/pisces/GradientColorMap.class&#10;string&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/res/values-zh/strings.xml" />
+    <property name="ExportApk.ApkPath" value="C:\Users\hollischeng\Documents\HollisChengGitHubTemplate\app" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.BuildType" value="debug" />
+    <property name="android.project.structure.last.selected" value="app" />
+    <property name="android.project.structure.proportion" value="0.15" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -2431,33 +2545,41 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="1672" y="-23" width="1296" height="1040" extended-state="7" />
+    <frame x="1672" y="-23" width="1296" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5296108" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.54535145" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32373273" sideWeight="0.50733495" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3197279" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32312927" sideWeight="0.49266502" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879817" sideWeight="0.49755502" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.47038916" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.45464852" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2467,6 +2589,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2485,41 +2608,54 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/AnimationActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="2" selection-start-line="53" selection-start-column="6" selection-end-line="58" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2054#2098#0" expanded="false" />
-            <element signature="e#2266#2351#0" expanded="false" />
-            <element signature="e#2499#2524#0" expanded="false" />
-            <element signature="e#4296#4385#0" expanded="false" />
-            <element signature="e#4676#4743#0" expanded="false" />
-            <element signature="e#5248#5314#0" expanded="false" />
-            <element signature="e#8542#8568#0" expanded="false" />
-            <element signature="e#9077#9103#0" expanded="false" />
-            <element signature="e#9610#9629#0" expanded="false" />
-            <element signature="e#10191#10216#0" expanded="false" />
-            <element signature="e#10654#10741#0" expanded="false" />
-            <element signature="e#11074#11101#0" expanded="false" />
-            <element signature="e#11602#11619#0" expanded="false" />
-            <element signature="e#11832#11858#0" expanded="false" />
-            <element signature="e#14839#14909#0" expanded="false" />
-            <element signature="e#15021#15094#0" expanded="false" />
-            <element signature="e#15200#15215#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2122#2166#0" expanded="false" />
+            <element signature="e#2334#2419#0" expanded="false" />
+            <element signature="e#2567#2592#0" expanded="false" />
+            <element signature="e#4364#4453#0" expanded="false" />
+            <element signature="e#4744#4811#0" expanded="false" />
+            <element signature="e#5316#5382#0" expanded="false" />
+            <element signature="e#8064#8090#0" expanded="false" />
+            <element signature="e#8610#8636#0" expanded="false" />
+            <element signature="e#9145#9171#0" expanded="false" />
+            <element signature="e#9678#9697#0" expanded="false" />
+            <element signature="e#10259#10284#0" expanded="false" />
+            <element signature="e#10722#10809#0" expanded="false" />
+            <element signature="e#12410#12427#0" expanded="false" />
+            <element signature="e#12640#12666#0" expanded="false" />
+            <element signature="e#15647#15717#0" expanded="false" />
+            <element signature="e#15829#15902#0" expanded="false" />
+            <element signature="e#16008#16023#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
             <element signature="method#confirmLeaveDialog#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#15895#16075#0" expanded="true" />
-            <element signature="e#16074#16075#0" expanded="true" />
-            <element signature="e#16120#16304#0" expanded="true" />
-            <element signature="e#16303#16304#0" expanded="true" />
-            <element signature="method#SWLang#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#16897#16991#0" expanded="false" />
-            <element signature="e#17460#17554#0" expanded="false" />
-            <element signature="e#17668#17713#0" expanded="false" />
+            <element signature="e#17705#17799#0" expanded="false" />
+            <element signature="e#18268#18362#0" expanded="false" />
+            <element signature="e#18476#18521#0" expanded="false" />
             <element signature="method#InsertDB#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#18347#18398#0" expanded="false" />
-            <element signature="e#19261#19329#0" expanded="false" />
+            <element signature="e#19155#19206#0" expanded="false" />
+            <element signature="e#20069#20137#0" expanded="false" />
             <element signature="method#updateText#0;class#MainActivity#0" expanded="false" />
           </folding>
         </state>
@@ -2529,21 +2665,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-          <folding>
-            <element signature="e#2207#2234#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1102">
           <caret line="58" column="2" selection-start-line="53" selection-start-column="6" selection-end-line="58" selection-end-column="2" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java">
@@ -2551,36 +2683,32 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2054#2098#0" expanded="false" />
-            <element signature="e#2266#2351#0" expanded="false" />
-            <element signature="e#2499#2524#0" expanded="false" />
-            <element signature="e#4296#4385#0" expanded="false" />
-            <element signature="e#4676#4743#0" expanded="false" />
-            <element signature="e#5248#5314#0" expanded="false" />
-            <element signature="e#8542#8568#0" expanded="false" />
-            <element signature="e#9077#9103#0" expanded="false" />
-            <element signature="e#9610#9629#0" expanded="false" />
-            <element signature="e#10191#10216#0" expanded="false" />
-            <element signature="e#10654#10741#0" expanded="false" />
-            <element signature="e#11074#11101#0" expanded="false" />
-            <element signature="e#11602#11619#0" expanded="false" />
-            <element signature="e#11832#11858#0" expanded="false" />
-            <element signature="e#14839#14909#0" expanded="false" />
-            <element signature="e#15021#15094#0" expanded="false" />
-            <element signature="e#15200#15215#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2122#2166#0" expanded="false" />
+            <element signature="e#2334#2419#0" expanded="false" />
+            <element signature="e#2567#2592#0" expanded="false" />
+            <element signature="e#4364#4453#0" expanded="false" />
+            <element signature="e#4744#4811#0" expanded="false" />
+            <element signature="e#5316#5382#0" expanded="false" />
+            <element signature="e#8064#8090#0" expanded="false" />
+            <element signature="e#8610#8636#0" expanded="false" />
+            <element signature="e#9145#9171#0" expanded="false" />
+            <element signature="e#9678#9697#0" expanded="false" />
+            <element signature="e#10259#10284#0" expanded="false" />
+            <element signature="e#10722#10809#0" expanded="false" />
+            <element signature="e#12410#12427#0" expanded="false" />
+            <element signature="e#12640#12666#0" expanded="false" />
+            <element signature="e#15647#15717#0" expanded="false" />
+            <element signature="e#15829#15902#0" expanded="false" />
+            <element signature="e#16008#16023#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
             <element signature="method#confirmLeaveDialog#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#15895#16075#0" expanded="true" />
-            <element signature="e#16074#16075#0" expanded="true" />
-            <element signature="e#16120#16304#0" expanded="true" />
-            <element signature="e#16303#16304#0" expanded="true" />
-            <element signature="method#SWLang#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#16897#16991#0" expanded="false" />
-            <element signature="e#17460#17554#0" expanded="false" />
-            <element signature="e#17668#17713#0" expanded="false" />
+            <element signature="e#17705#17799#0" expanded="false" />
+            <element signature="e#18268#18362#0" expanded="false" />
+            <element signature="e#18476#18521#0" expanded="false" />
             <element signature="method#InsertDB#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#18347#18398#0" expanded="false" />
-            <element signature="e#19261#19329#0" expanded="false" />
+            <element signature="e#19155#19206#0" expanded="false" />
+            <element signature="e#20069#20137#0" expanded="false" />
             <element signature="method#updateText#0;class#MainActivity#0" expanded="false" />
           </folding>
         </state>
@@ -2590,82 +2718,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-          <folding>
-            <element signature="e#2207#2234#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="58" column="2" selection-start-line="53" selection-start-column="6" selection-end-line="58" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2054#2098#0" expanded="false" />
-            <element signature="e#2266#2351#0" expanded="false" />
-            <element signature="e#2499#2524#0" expanded="false" />
-            <element signature="e#4296#4385#0" expanded="false" />
-            <element signature="e#4676#4743#0" expanded="false" />
-            <element signature="e#5248#5314#0" expanded="false" />
-            <element signature="e#8542#8568#0" expanded="false" />
-            <element signature="e#9077#9103#0" expanded="false" />
-            <element signature="e#9610#9629#0" expanded="false" />
-            <element signature="e#10191#10216#0" expanded="false" />
-            <element signature="e#10654#10741#0" expanded="false" />
-            <element signature="e#11074#11101#0" expanded="false" />
-            <element signature="e#11602#11619#0" expanded="false" />
-            <element signature="e#11832#11858#0" expanded="false" />
-            <element signature="e#14839#14909#0" expanded="false" />
-            <element signature="e#15021#15094#0" expanded="false" />
-            <element signature="e#15200#15215#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#confirmLeaveDialog#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#15895#16075#0" expanded="true" />
-            <element signature="e#16074#16075#0" expanded="true" />
-            <element signature="e#16120#16304#0" expanded="true" />
-            <element signature="e#16303#16304#0" expanded="true" />
-            <element signature="method#SWLang#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#16897#16991#0" expanded="false" />
-            <element signature="e#17460#17554#0" expanded="false" />
-            <element signature="e#17668#17713#0" expanded="false" />
-            <element signature="method#InsertDB#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#18347#18398#0" expanded="false" />
-            <element signature="e#19261#19329#0" expanded="false" />
-            <element signature="method#updateText#0;class#MainActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/AnimationActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-          <folding>
-            <element signature="e#2207#2234#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1102">
           <caret line="58" column="2" selection-start-line="53" selection-start-column="6" selection-end-line="58" selection-end-column="2" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java">
@@ -2673,36 +2736,32 @@
         <state relative-caret-position="2242">
           <caret line="198" column="66" selection-start-line="198" selection-start-column="66" selection-end-line="198" selection-end-column="66" />
           <folding>
-            <element signature="e#2054#2098#0" expanded="false" />
-            <element signature="e#2266#2351#0" expanded="false" />
-            <element signature="e#2499#2524#0" expanded="false" />
-            <element signature="e#4296#4385#0" expanded="false" />
-            <element signature="e#4676#4743#0" expanded="false" />
-            <element signature="e#5248#5314#0" expanded="false" />
-            <element signature="e#8542#8568#0" expanded="false" />
-            <element signature="e#9077#9103#0" expanded="false" />
-            <element signature="e#9610#9629#0" expanded="false" />
-            <element signature="e#10191#10216#0" expanded="false" />
-            <element signature="e#10654#10741#0" expanded="false" />
-            <element signature="e#11074#11101#0" expanded="false" />
-            <element signature="e#11602#11619#0" expanded="false" />
-            <element signature="e#11832#11858#0" expanded="false" />
-            <element signature="e#14839#14909#0" expanded="false" />
-            <element signature="e#15021#15094#0" expanded="false" />
-            <element signature="e#15200#15215#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2122#2166#0" expanded="false" />
+            <element signature="e#2334#2419#0" expanded="false" />
+            <element signature="e#2567#2592#0" expanded="false" />
+            <element signature="e#4364#4453#0" expanded="false" />
+            <element signature="e#4744#4811#0" expanded="false" />
+            <element signature="e#5316#5382#0" expanded="false" />
+            <element signature="e#8064#8090#0" expanded="false" />
+            <element signature="e#8610#8636#0" expanded="false" />
+            <element signature="e#9145#9171#0" expanded="false" />
+            <element signature="e#9678#9697#0" expanded="false" />
+            <element signature="e#10259#10284#0" expanded="false" />
+            <element signature="e#10722#10809#0" expanded="false" />
+            <element signature="e#12410#12427#0" expanded="false" />
+            <element signature="e#12640#12666#0" expanded="false" />
+            <element signature="e#15647#15717#0" expanded="false" />
+            <element signature="e#15829#15902#0" expanded="false" />
+            <element signature="e#16008#16023#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
             <element signature="method#confirmLeaveDialog#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#15895#16075#0" expanded="true" />
-            <element signature="e#16074#16075#0" expanded="true" />
-            <element signature="e#16120#16304#0" expanded="true" />
-            <element signature="e#16303#16304#0" expanded="true" />
-            <element signature="method#SWLang#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#16897#16991#0" expanded="false" />
-            <element signature="e#17460#17554#0" expanded="false" />
-            <element signature="e#17668#17713#0" expanded="false" />
+            <element signature="e#17705#17799#0" expanded="false" />
+            <element signature="e#18268#18362#0" expanded="false" />
+            <element signature="e#18476#18521#0" expanded="false" />
             <element signature="method#InsertDB#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#18347#18398#0" expanded="false" />
-            <element signature="e#19261#19329#0" expanded="false" />
+            <element signature="e#19155#19206#0" expanded="false" />
+            <element signature="e#20069#20137#0" expanded="false" />
             <element signature="method#updateText#0;class#MainActivity#0" expanded="false" />
           </folding>
         </state>
@@ -2712,58 +2771,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2207#2234#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2054#2098#0" expanded="false" />
-            <element signature="e#2266#2351#0" expanded="false" />
-            <element signature="e#2499#2524#0" expanded="false" />
-            <element signature="e#4296#4385#0" expanded="false" />
-            <element signature="e#4676#4743#0" expanded="false" />
-            <element signature="e#5248#5314#0" expanded="false" />
-            <element signature="e#8542#8568#0" expanded="false" />
-            <element signature="e#9077#9103#0" expanded="false" />
-            <element signature="e#9610#9629#0" expanded="false" />
-            <element signature="e#10191#10216#0" expanded="false" />
-            <element signature="e#10654#10741#0" expanded="false" />
-            <element signature="e#11074#11101#0" expanded="false" />
-            <element signature="e#11602#11619#0" expanded="false" />
-            <element signature="e#11832#11858#0" expanded="false" />
-            <element signature="e#14839#14909#0" expanded="false" />
-            <element signature="e#15021#15094#0" expanded="false" />
-            <element signature="e#15200#15215#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2122#2166#0" expanded="false" />
+            <element signature="e#2334#2419#0" expanded="false" />
+            <element signature="e#2567#2592#0" expanded="false" />
+            <element signature="e#4364#4453#0" expanded="false" />
+            <element signature="e#4744#4811#0" expanded="false" />
+            <element signature="e#5316#5382#0" expanded="false" />
+            <element signature="e#8064#8090#0" expanded="false" />
+            <element signature="e#8610#8636#0" expanded="false" />
+            <element signature="e#9145#9171#0" expanded="false" />
+            <element signature="e#9678#9697#0" expanded="false" />
+            <element signature="e#10259#10284#0" expanded="false" />
+            <element signature="e#10722#10809#0" expanded="false" />
+            <element signature="e#12410#12427#0" expanded="false" />
+            <element signature="e#12640#12666#0" expanded="false" />
+            <element signature="e#15647#15717#0" expanded="false" />
+            <element signature="e#15829#15902#0" expanded="false" />
+            <element signature="e#16008#16023#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
             <element signature="method#confirmLeaveDialog#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#15895#16075#0" expanded="true" />
-            <element signature="e#16074#16075#0" expanded="true" />
-            <element signature="e#16120#16304#0" expanded="true" />
-            <element signature="e#16303#16304#0" expanded="true" />
-            <element signature="method#SWLang#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#16897#16991#0" expanded="false" />
-            <element signature="e#17460#17554#0" expanded="false" />
-            <element signature="e#17668#17713#0" expanded="false" />
+            <element signature="e#17705#17799#0" expanded="false" />
+            <element signature="e#18268#18362#0" expanded="false" />
+            <element signature="e#18476#18521#0" expanded="false" />
             <element signature="method#InsertDB#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#18347#18398#0" expanded="false" />
-            <element signature="e#19261#19329#0" expanded="false" />
+            <element signature="e#19155#19206#0" expanded="false" />
+            <element signature="e#20069#20137#0" expanded="false" />
             <element signature="method#updateText#0;class#MainActivity#0" expanded="false" />
           </folding>
         </state>
@@ -2774,36 +2825,32 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2054#2098#0" expanded="false" />
-            <element signature="e#2266#2351#0" expanded="false" />
-            <element signature="e#2499#2524#0" expanded="false" />
-            <element signature="e#4296#4385#0" expanded="false" />
-            <element signature="e#4676#4743#0" expanded="false" />
-            <element signature="e#5248#5314#0" expanded="false" />
-            <element signature="e#8542#8568#0" expanded="false" />
-            <element signature="e#9077#9103#0" expanded="false" />
-            <element signature="e#9610#9629#0" expanded="false" />
-            <element signature="e#10191#10216#0" expanded="false" />
-            <element signature="e#10654#10741#0" expanded="false" />
-            <element signature="e#11074#11101#0" expanded="false" />
-            <element signature="e#11602#11619#0" expanded="false" />
-            <element signature="e#11832#11858#0" expanded="false" />
-            <element signature="e#14839#14909#0" expanded="false" />
-            <element signature="e#15021#15094#0" expanded="false" />
-            <element signature="e#15200#15215#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2122#2166#0" expanded="false" />
+            <element signature="e#2334#2419#0" expanded="false" />
+            <element signature="e#2567#2592#0" expanded="false" />
+            <element signature="e#4364#4453#0" expanded="false" />
+            <element signature="e#4744#4811#0" expanded="false" />
+            <element signature="e#5316#5382#0" expanded="false" />
+            <element signature="e#8064#8090#0" expanded="false" />
+            <element signature="e#8610#8636#0" expanded="false" />
+            <element signature="e#9145#9171#0" expanded="false" />
+            <element signature="e#9678#9697#0" expanded="false" />
+            <element signature="e#10259#10284#0" expanded="false" />
+            <element signature="e#10722#10809#0" expanded="false" />
+            <element signature="e#12410#12427#0" expanded="false" />
+            <element signature="e#12640#12666#0" expanded="false" />
+            <element signature="e#15647#15717#0" expanded="false" />
+            <element signature="e#15829#15902#0" expanded="false" />
+            <element signature="e#16008#16023#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
             <element signature="method#confirmLeaveDialog#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#15895#16075#0" expanded="true" />
-            <element signature="e#16074#16075#0" expanded="true" />
-            <element signature="e#16120#16304#0" expanded="true" />
-            <element signature="e#16303#16304#0" expanded="true" />
-            <element signature="method#SWLang#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#16897#16991#0" expanded="false" />
-            <element signature="e#17460#17554#0" expanded="false" />
-            <element signature="e#17668#17713#0" expanded="false" />
+            <element signature="e#17705#17799#0" expanded="false" />
+            <element signature="e#18268#18362#0" expanded="false" />
+            <element signature="e#18476#18521#0" expanded="false" />
             <element signature="method#InsertDB#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#18347#18398#0" expanded="false" />
-            <element signature="e#19261#19329#0" expanded="false" />
+            <element signature="e#19155#19206#0" expanded="false" />
+            <element signature="e#20069#20137#0" expanded="false" />
             <element signature="method#updateText#0;class#MainActivity#0" expanded="false" />
           </folding>
         </state>
@@ -2814,36 +2861,32 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2054#2098#0" expanded="false" />
-            <element signature="e#2266#2351#0" expanded="false" />
-            <element signature="e#2499#2524#0" expanded="false" />
-            <element signature="e#4296#4385#0" expanded="false" />
-            <element signature="e#4676#4743#0" expanded="false" />
-            <element signature="e#5248#5314#0" expanded="false" />
-            <element signature="e#8542#8568#0" expanded="false" />
-            <element signature="e#9077#9103#0" expanded="false" />
-            <element signature="e#9610#9629#0" expanded="false" />
-            <element signature="e#10191#10216#0" expanded="false" />
-            <element signature="e#10654#10741#0" expanded="false" />
-            <element signature="e#11074#11101#0" expanded="false" />
-            <element signature="e#11602#11619#0" expanded="false" />
-            <element signature="e#11832#11858#0" expanded="false" />
-            <element signature="e#14839#14909#0" expanded="false" />
-            <element signature="e#15021#15094#0" expanded="false" />
-            <element signature="e#15200#15215#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2122#2166#0" expanded="false" />
+            <element signature="e#2334#2419#0" expanded="false" />
+            <element signature="e#2567#2592#0" expanded="false" />
+            <element signature="e#4364#4453#0" expanded="false" />
+            <element signature="e#4744#4811#0" expanded="false" />
+            <element signature="e#5316#5382#0" expanded="false" />
+            <element signature="e#8064#8090#0" expanded="false" />
+            <element signature="e#8610#8636#0" expanded="false" />
+            <element signature="e#9145#9171#0" expanded="false" />
+            <element signature="e#9678#9697#0" expanded="false" />
+            <element signature="e#10259#10284#0" expanded="false" />
+            <element signature="e#10722#10809#0" expanded="false" />
+            <element signature="e#12410#12427#0" expanded="false" />
+            <element signature="e#12640#12666#0" expanded="false" />
+            <element signature="e#15647#15717#0" expanded="false" />
+            <element signature="e#15829#15902#0" expanded="false" />
+            <element signature="e#16008#16023#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
             <element signature="method#confirmLeaveDialog#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#15895#16075#0" expanded="true" />
-            <element signature="e#16074#16075#0" expanded="true" />
-            <element signature="e#16120#16304#0" expanded="true" />
-            <element signature="e#16303#16304#0" expanded="true" />
-            <element signature="method#SWLang#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#16897#16991#0" expanded="false" />
-            <element signature="e#17460#17554#0" expanded="false" />
-            <element signature="e#17668#17713#0" expanded="false" />
+            <element signature="e#17705#17799#0" expanded="false" />
+            <element signature="e#18268#18362#0" expanded="false" />
+            <element signature="e#18476#18521#0" expanded="false" />
             <element signature="method#InsertDB#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#18347#18398#0" expanded="false" />
-            <element signature="e#19261#19329#0" expanded="false" />
+            <element signature="e#19155#19206#0" expanded="false" />
+            <element signature="e#20069#20137#0" expanded="false" />
             <element signature="method#updateText#0;class#MainActivity#0" expanded="false" />
           </folding>
         </state>
@@ -2857,13 +2900,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_youtube_player.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPI/ThumbnailLoadedListener.java">
@@ -2894,63 +2937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="86" column="32" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="137" column="4" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_almain_page.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="252" column="41" selection-start-line="252" selection-start-column="29" selection-end-line="252" selection-end-column="41" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1306">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-          <folding>
-            <element signature="e#2430#2448#0" expanded="false" />
-            <element signature="e#2673#2698#0" expanded="false" />
-            <element signature="e#3046#3071#0" expanded="false" />
-            <element signature="e#3299#3316#0" expanded="false" />
-            <element signature="e#3568#3586#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="631">
@@ -2973,23 +2959,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_calendar.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="40" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_youtube_api.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_youtube_api.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CalendarActivity.java">
@@ -3006,88 +2992,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="202" column="11" selection-start-line="202" selection-start-column="11" selection-end-line="202" selection-end-column="11" />
-          <folding>
-            <element signature="e#2054#2098#0" expanded="false" />
-            <element signature="e#2266#2351#0" expanded="false" />
-            <element signature="e#2499#2524#0" expanded="false" />
-            <element signature="e#4296#4385#0" expanded="false" />
-            <element signature="e#4676#4743#0" expanded="false" />
-            <element signature="e#5248#5314#0" expanded="false" />
-            <element signature="e#8542#8568#0" expanded="false" />
-            <element signature="e#9077#9103#0" expanded="false" />
-            <element signature="e#9610#9629#0" expanded="false" />
-            <element signature="e#10191#10216#0" expanded="false" />
-            <element signature="e#10654#10741#0" expanded="false" />
-            <element signature="e#11074#11101#0" expanded="false" />
-            <element signature="e#11602#11619#0" expanded="false" />
-            <element signature="e#11832#11858#0" expanded="false" />
-            <element signature="e#14839#14909#0" expanded="false" />
-            <element signature="e#15021#15094#0" expanded="false" />
-            <element signature="e#15200#15215#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
-            <element signature="method#confirmLeaveDialog#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#15895#16075#0" expanded="true" />
-            <element signature="e#16074#16075#0" expanded="true" />
-            <element signature="e#16120#16304#0" expanded="true" />
-            <element signature="e#16303#16304#0" expanded="true" />
-            <element signature="method#SWLang#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#16897#16991#0" expanded="false" />
-            <element signature="e#17460#17554#0" expanded="false" />
-            <element signature="e#17668#17713#0" expanded="false" />
-            <element signature="method#InsertDB#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#18347#18398#0" expanded="false" />
-            <element signature="e#19261#19329#0" expanded="false" />
-            <element signature="method#updateText#0;class#MainActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/LanguageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="462" column="40" selection-start-line="462" selection-start-column="40" selection-end-line="462" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/AnimationActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-          <folding>
-            <element signature="e#2207#2234#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/Utility.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="588" column="27" selection-start-line="588" selection-start-column="27" selection-end-line="588" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3095,7 +3020,267 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="108" column="46" selection-start-line="108" selection-start-column="46" selection-end-line="108" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_web_view_client_page.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="838">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CoordinatorLayout_Card_Tab_Filter/CoordinatorActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="219" column="19" selection-start-line="219" selection-start-column="19" selection-end-line="221" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-24/javax/crypto/Cipher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="799" column="31" selection-start-line="799" selection-start-column="31" selection-end-line="799" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/jre/lib/ext/jfxrt.jar!/com/sun/pisces/GradientColorMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-24/java/nio/charset/StandardCharsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-24/java/nio/charset/Charset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="667" column="69" selection-start-line="667" selection-start-column="69" selection-end-line="667" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-24/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="904" column="38" selection-start-line="904" selection-start-column="38" selection-end-line="904" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-24/javax/crypto/spec/SecretKeySpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="86" column="47" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scottyab/aescrypt/0.0.1/2f504dc749c5adc64c118d0ccef57c184dfa171f/aescrypt-0.0.1-sources.jar!/com/scottyab/aescrypt/AESCrypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="182" column="7" selection-start-line="182" selection-start-column="7" selection-end-line="182" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-android-sdk/4.18.0/b5352ca7ba39264d7cbabcc968c68debee4421f2/facebook-android-sdk-4.18.0-sources.jar!/com/facebook/FacebookContentProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="61" column="63" selection-start-line="61" selection-start-column="63" selection-end-line="61" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="94" selection-start-line="19" selection-start-column="94" selection-end-line="19" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/Utility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="796">
+          <caret line="724" column="5" selection-start-line="724" selection-start-column="5" selection-end-line="724" selection-end-column="5" />
+          <folding>
+            <element signature="e#1837#1889#0" expanded="false" />
+            <element signature="method#pwCharCheck#0;class#Utility#0" expanded="false" />
+            <element signature="method#isOnline#0;class#Utility#0" expanded="false" />
+            <element signature="method#GetMobilePageMargin#0;class#Utility#0" expanded="false" />
+            <element signature="method#GetImageSizeAPIRequest#0;class#Utility#0" expanded="false" />
+            <element signature="e#4812#4856#0" expanded="false" />
+            <element signature="method#dayLeft#0;class#Utility#0" expanded="false" />
+            <element signature="e#5235#5265#0" expanded="false" />
+            <element signature="e#6284#6330#0" expanded="false" />
+            <element signature="e#6498#6573#0" expanded="false" />
+            <element signature="e#7011#7059#0" expanded="false" />
+            <element signature="e#7606#7622#0" expanded="false" />
+            <element signature="method#DateStringCutTime#0;class#Utility#0" expanded="false" />
+            <element signature="method#isEmpty#0;class#Utility#0" expanded="false" />
+            <element signature="method#getYouTubeID#0;class#Utility#0" expanded="false" />
+            <element signature="method#APILang#0;class#Utility#0" expanded="false" />
+            <element signature="method#BooleanIsTrueOrFalse#0;class#Utility#0" expanded="false" />
+            <element signature="method#isEmailValid#0;class#Utility#0" expanded="false" />
+            <element signature="method#isHKMobileValid#0;class#Utility#0" expanded="false" />
+            <element signature="method#DateStringChange#0;class#Utility#0" expanded="false" />
+            <element signature="method#displayWithOutHrMinSec#0;class#Utility#0" expanded="false" />
+            <element signature="method#TransferDateTimeToLong#0;class#Utility#0" expanded="false" />
+            <element signature="e#10237#10250#0" expanded="false" />
+            <element signature="method#NoticeDialogOK#0;class#Utility#0" expanded="false" />
+            <element signature="class#12029:12212" expanded="false" />
+            <element signature="method#onClick#0;class#12029:12212" expanded="false" />
+            <element signature="method#showLoadingDialog#0;class#Utility#0" expanded="false" />
+            <element signature="method#showLoadingDialog#1;class#Utility#0" expanded="false" />
+            <element signature="class#12781:13367" expanded="false" />
+            <element signature="method#onCreate#0;class#12781:13367" expanded="false" />
+            <element signature="method#dismissLoadingDialog#0;class#Utility#0" expanded="false" />
+            <element signature="method#convertBitmapToBase64#0;class#Utility#0" expanded="false" />
+            <element signature="e#16059#16082#0" expanded="false" />
+            <element signature="method#VolleyPOST#0;class#Utility#0" expanded="false" />
+            <element signature="class#16338:17431" expanded="false" />
+            <element signature="method#getHeaders#0;class#16338:17431" expanded="false" />
+            <element signature="method#VolleyGET#0;class#Utility#0" expanded="false" />
+            <element signature="method#SetVolleyTimeoutAndNoCache#0;class#Utility#0" expanded="false" />
+            <element signature="method#readBitmap#0;class#Utility#0" expanded="false" />
+            <element signature="method#getFileExtension#0;class#Utility#0" expanded="false" />
+            <element signature="method#computeSampleSize#0;class#Utility#0" expanded="false" />
+            <element signature="method#computeInitialSampleSize#0;class#Utility#0" expanded="false" />
+            <element signature="method#getMimeType#0;class#Utility#0" expanded="false" />
+            <element signature="method#GetScreenSize#0;class#Utility#0" expanded="false" />
+            <element signature="method#rotateBitmap#0;class#Utility#0" expanded="false" />
+            <element signature="e#22381#22453#0" expanded="false" />
+            <element signature="method#readPictureDegree#0;class#Utility#0" expanded="false" />
+            <element signature="method#getSmallBitmap#0;class#Utility#0" expanded="false" />
+            <element signature="method#calculateInSampleSize#0;class#Utility#0" expanded="false" />
+            <element signature="e#24523#24586#0" expanded="false" />
+            <element signature="e#24774#24835#0" expanded="false" />
+            <element signature="method#promptSettings#0;class#Utility#0" expanded="false" />
+            <element signature="method#goToSettings#0;class#Utility#0" expanded="false" />
+            <element signature="method#checkExtension#0;class#Utility#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_almain_page.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="289" column="34" selection-start-line="289" selection-start-column="34" selection-end-line="289" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="283" column="39" selection-start-line="283" selection-start-column="39" selection-end-line="283" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2122#2166#0" expanded="false" />
+            <element signature="e#2334#2419#0" expanded="false" />
+            <element signature="e#2567#2592#0" expanded="false" />
+            <element signature="e#4364#4453#0" expanded="false" />
+            <element signature="e#4744#4811#0" expanded="false" />
+            <element signature="e#5316#5382#0" expanded="false" />
+            <element signature="e#8064#8090#0" expanded="false" />
+            <element signature="e#8610#8636#0" expanded="false" />
+            <element signature="e#9145#9171#0" expanded="false" />
+            <element signature="e#9678#9697#0" expanded="false" />
+            <element signature="e#10259#10284#0" expanded="false" />
+            <element signature="e#10722#10809#0" expanded="false" />
+            <element signature="e#12410#12427#0" expanded="false" />
+            <element signature="e#12640#12666#0" expanded="false" />
+            <element signature="e#15647#15717#0" expanded="false" />
+            <element signature="e#15829#15902#0" expanded="false" />
+            <element signature="e#16008#16023#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#confirmLeaveDialog#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#17705#17799#0" expanded="false" />
+            <element signature="e#18268#18362#0" expanded="false" />
+            <element signature="e#18476#18521#0" expanded="false" />
+            <element signature="method#InsertDB#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#19155#19206#0" expanded="false" />
+            <element signature="e#20069#20137#0" expanded="false" />
+            <element signature="method#updateText#0;class#MainActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/WebConnect/WebViewClientPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="48" column="76" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1954#1981#0" expanded="false" />
+            <element signature="e#3356#3436#0" expanded="false" />
+            <element signature="e#5003#5458#0" expanded="true" />
+            <element signature="e#5457#5458#0" expanded="true" />
+            <element signature="e#5889#5896#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#WebViewClientPage#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#WebViewClientPage#0" expanded="false" />
+            <element signature="method#buttonSetting#0;class#WebViewClientPage#0" expanded="false" />
+            <marker date="1488422633234" expanded="false" signature="1548:1580" ph="&quot;Loading…&quot;" />
+          </folding>
         </state>
       </provider>
     </entry>
