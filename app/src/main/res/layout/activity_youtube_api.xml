@@ -4,8 +4,8 @@
     android:id="@+id/activity_youtube_api"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="template.cheng.hollis.template.YoutubeAPIActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="template.cheng.hollis.template.YoutubeAPIActivity">
 
     <include layout="@layout/toolbar" />
 

@@ -1,10 +1,12 @@
 package template.cheng.hollis.template;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.IBinder;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -13,15 +15,22 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.DisplayMetrics;
 import android.view.Gravity;
+import android.view.MotionEvent;
 import android.view.View;
+import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RadioGroup;
+import android.widget.ScrollView;
+import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.andexert.expandablelayout.library.ExpandableLayout;
 import com.android.volley.toolbox.Volley;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.MemoryCategory;
@@ -32,11 +41,18 @@ import java.util.Locale;
 
 import template.cheng.hollis.template.Button.SweetSansRegButton;
 import template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.CardVPActivity;
+import template.cheng.hollis.template.ObjectInfo.KeyWordsInfo;
 import template.cheng.hollis.template.SQLiteDB.Language;
 import template.cheng.hollis.template.SQLiteDB.LanguageDAO;
 import template.cheng.hollis.template.TestBundlePage.TestBundleActivity;
 import template.cheng.hollis.template.TextView.SweetSansRegTextView;
 import template.cheng.hollis.template.WebConnect.WebViewClientPage;
+import template.cheng.hollis.template.YoutubeAPI.MyInterface;
+import template.cheng.hollis.template.YoutubeAPI.PropertiesNamePageActivity;
+import template.cheng.hollis.template.YoutubeAPI.PropertiesNamePageCallBack;
+
+import static template.cheng.hollis.template.Utility.KeyWordsInfoAL;
+
 
 public class MainActivity extends AppCompatActivity {
     private TextView etCount;
@@ -47,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
     private String language;
     private SweetSansRegTextView ssrtvSlideRZ, ssrtvSlideFB;
 
+    private ArrayList<String> keyWords;
+    public static PropertiesNamePageCallBack propertiesNamePageCallBack;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -157,13 +175,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ArrayList<String> keyWords = new ArrayList<>();
+        ArrayList<String> keyWordsA = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
-            keyWords.add("ABC" + i);
+            keyWordsA.add("ABC" + i);
         }
-        keyWords.add("HollisCheng");
+        keyWordsA.add("HollisCheng");
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, keyWords);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, keyWordsA);
         etProperty_Name.setAdapter(adapter);
         etProperty_Name.clearFocus();
         etProperty_Name.setOnFocusChangeListener(new View.OnFocusChangeListener() {
@@ -272,6 +290,7 @@ public class MainActivity extends AppCompatActivity {
                 overridePendingTransition(R.anim.slide_right_in, R.anim.slide_left_out);
             }
         });
+        //endregion
 
         //region LLWebView
         LinearLayout LLWebView = (LinearLayout) slideMenu.findViewById(R.id.LLWebView);
@@ -290,7 +309,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //endregion
-
 
         //region Language
 
@@ -388,6 +406,106 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //region ExpandableLayout / filter search page and call back function / scrollView not focus editTextView
+
+        final ScrollView SV_preventFocusET = (ScrollView) findViewById(R.id.SV_preventFocusET);
+        final EditText tvAboveName = (EditText) findViewById(R.id.tvAboveName);
+        //scrollView not focus editTextView
+        final InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+        SV_preventFocusET.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                IBinder windowToken = null;
+                if (tvAboveName.hasFocus()) {
+                    tvAboveName.clearFocus();
+                    windowToken = tvAboveName.getWindowToken();
+                }
+
+                if (windowToken != null) {
+                    imm.hideSoftInputFromWindow(windowToken, 0);
+                }
+                SV_preventFocusET.requestFocusFromTouch();
+
+                return false;
+            }
+        });
+
+        final AutoCompleteTextView No_etProperty_NameNotSame = (AutoCompleteTextView) findViewById(R.id.No_etProperty_NameNotSame);
+        final ExpandableLayout YesEL = (ExpandableLayout) findViewById(R.id.YesEL);
+        final ImageView YesELOpenOffIcon = (ImageView) findViewById(R.id.YesELOpenOffIcon);
+        YesEL.getHeaderRelativeLayout().setOnClickListener(new OnSingleClickListener() {
+            @Override
+            public void onSingleClick(View v) {
+                Utility.PrintLog(getClass().getName(), "isOpened=" + YesEL.isOpened());
+                if (YesEL.isOpened()) {
+//                    YesELOpenOffIcon.setImageDrawable(getResources().getDrawable(R.drawable.icon_deduct));
+                    YesELOpenOffIcon.animate().rotation(0).start();
+                    YesEL.hide();
+//                    ViewPushFullScreen.setVisibility(VISIBLE);
+                } else {
+//                    YesELOpenOffIcon.setImageDrawable(getResources().getDrawable(R.drawable.app_icon));
+                    YesELOpenOffIcon.animate().rotation(180).start();
+                    YesEL.show();
+//                    ViewPushFullScreen.setVisibility(GONE);
+                }
+            }
+        });
+
+        keyWords = new ArrayList<>();
+        ArrayList<KeyWordsInfo> WordsInfoAL = new ArrayList<>();
+        for (int i = 1; i < 5; i++) {
+            ArrayList<String> WordsAL = new ArrayList<>();
+            WordsAL.add("abc" + i);
+            WordsInfoAL.add(new KeyWordsInfo("abc" + i, i, "abc" + i, "abc" + i, "abc" + i, WordsAL));
+        }
+        KeyWordsInfoAL = WordsInfoAL;
+
+        Spinner No_SpinnerUnitNotSame = (Spinner) findViewById(R.id.No_SpinnerUnitNotSame);
+        ArrayAdapter<String> adapterSpinnerBlock = new ArrayAdapter<>(MainActivity.this,
+                android.R.layout.simple_spinner_item,keyWordsA);
+        adapterSpinnerBlock.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        No_SpinnerUnitNotSame.setAdapter(adapterSpinnerBlock);
+
+        for (int k = 0; k < KeyWordsInfoAL.size(); k++) {
+//            keyWords.add(Utility.KeyWordsInfoAL.get(k).getNameEng().toUpperCase());
+//            keyWords.add(Utility.KeyWordsInfoAL.get(k).getNameSChi());
+//            keyWords.add(Utility.KeyWordsInfoAL.get(k).getNameTChi());
+            if (KeyWordsInfoAL.get(k).getNameEng().toUpperCase().equals(KeyWordsInfoAL.get(k).getNameTChi().toUpperCase())) {
+                //if ENG SAME WITH TCHI
+                keyWords.add(KeyWordsInfoAL.get(k).getNameEng().toUpperCase());
+            } else {
+                keyWords.add(KeyWordsInfoAL.get(k).getNameEng().toUpperCase());
+//            keyWords.add(Utility.KeyWordsInfoAL.get(k).getNameSChi());
+                keyWords.add(KeyWordsInfoAL.get(k).getNameTChi());
+            }
+        }
+        ArrayAdapter<String> NoAsSame_adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, keyWords);
+        No_etProperty_NameNotSame.setAdapter(NoAsSame_adapter);
+
+        No_etProperty_NameNotSame.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Utility.IsRegisterPropertyName = true;
+                propertiesNamePageCallBack = new PropertiesNamePageCallBack(MainActivity.this, new MyInterface() {
+                    @Override
+                    public void myMethod(boolean result) {
+                        if (result) {
+                            Utility.PrintLog(getClass().getName(), "PropertiesNamePageCallBack=true");
+                            No_etProperty_NameNotSame.setText(propertiesNamePageCallBack.getSelectText());
+                            getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
+                            propertiesNamePageCallBack = null;
+                        } else {
+                            Utility.PrintLog(getClass().getName(), "PropertiesNamePageCallBack=fail");
+                        }
+                    }
+                });
+
+                Intent intent = new Intent(MainActivity.this, PropertiesNamePageActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //endregion
     }
 
     @Override

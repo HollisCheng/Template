@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="androidhintspinner-1.0.0">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/me.srodrigo/androidhintspinner/1.0.0/res" />
-      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/me.srodrigo/androidhintspinner/1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/c1155095391ef0b2b6f8cf8085bacaffb6cd3119/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/c1155095391ef0b2b6f8cf8085bacaffb6cd3119/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

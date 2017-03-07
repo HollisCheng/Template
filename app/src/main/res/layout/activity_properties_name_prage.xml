@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/TBToolbarPNP"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/White"
+        app:contentInsetEnd="0dp"
+        app:contentInsetStart="0dp"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+        <!--style="@style/ToolBarWithNavigationBack"-->
+        <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<ImageView-->
+        <!--android:layout_width="20dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:layout_marginLeft="15dp"-->
+        <!--android:background="@drawable/nav_bar_back"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+        <!--<TextView-->
+        <!--android:id="@+id/toolbar_title"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:text="Toolbar Title" />-->
+
+        <template.cheng.hollis.template.TextView.SweetSansBoldTextView
+            android:id="@+id/toolbar_titlePNP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/PropertyName"
+            android:textColor="@color/Black"
+            android:textSize="18dp" />
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_centerHorizontal="true" -->
+
+        <!--</RelativeLayout>-->
+
+        <TextView
+            android:id="@+id/btnCancelPNP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@color/White"
+            android:padding="10dp"
+            android:text="@string/bookeddetail_cancel"
+            android:textColor="@color/Black" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/RLETBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TBToolbarPNP"
+        android:background="@color/grey"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <EditText
+            android:id="@+id/ET_search_box"
+            style="@style/App_EditTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="8"
+            android:hint="@string/PropertyName"
+            android:lines="1"
+            android:singleLine="true"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/SSRB_PNP_Done"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="2"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/facilities_Book_Done"
+            android:textColor="@color/White"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/RV_item_list"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/RLETBTN"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

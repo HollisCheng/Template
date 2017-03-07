@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.0"
+    buildToolsVersion "25.0.1"
 //    useLibrary 'org.apache.http.legacy'
     defaultConfig {
         applicationId "template.cheng.hollis.template"
@@ -54,6 +54,6 @@ dependencies {
     compile 'info.hoang8f:android-segmented:1.0.6'
     compile 'com.scottyab:aescrypt:0.0.1'
     compile 'org.apache.httpcomponents:httpcore:4.4.4'
-//    compile 'org.apache.httpcomponents:httpclient:4.5'
+    compile 'com.github.traex.expandablelayout:library:1.2.2'
     compile files('libs/YouTubeAndroidPlayerApi.jar')
 }

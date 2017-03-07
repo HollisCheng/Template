@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+    android:orientation="vertical"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/YESllRegAddMoreP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/llTickPropAgree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <!--<android.support.v7.widget.AppCompatRadioButton-->
+        <!--android:id="@+id/rbAgree"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:theme="@style/FirstTimeRadioButton"/>-->
+        <ImageView
+            android:id="@+id/IVTickPropTick"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_close" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="aaa"
+            android:textColor="@color/Black"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/YESllRegAddMorePButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+       android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_close" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="12sp"
+            android:text="@string/Add_More_Residential_Addresses"
+            android:textColor="@color/SelectedColor" />
+
+
+        <!--android:id="@+id/etYesAcctInfoRFCode"-->
+
+        <!--<EditText-->
+        <!--android:id="@+id/etNoAcctInfoRFCode"-->
+        <!--style="@style/App_EditTextStyle"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:hint="@string/RFO"-->
+        <!--android:inputType="textEmailAddress"-->
+        <!--android:lines="1"-->
+        <!--android:singleLine="true" />-->
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Yes_TvNWDPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textSize="11sp"
+        android:text="@string/NWDPI"
+        android:textColor="@color/SelectedColor" />
+
+</LinearLayout>

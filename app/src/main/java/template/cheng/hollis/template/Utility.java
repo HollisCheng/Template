@@ -22,6 +22,7 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Display;
 import android.view.WindowManager;
+import android.view.inputmethod.InputMethodManager;
 import android.webkit.MimeTypeMap;
 import android.widget.EditText;
 import android.widget.ProgressBar;
@@ -42,6 +43,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
@@ -49,12 +51,19 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import template.cheng.hollis.template.ObjectInfo.KeyWordsInfo;
+
 public class Utility {
     public static Tracker mTracker;
     public static RequestQueue mQueue;
     public static String AppLang = "";
     public static int currIndex ;
     public static final String YOUTUBE_API_KEY = "AIzaSyCfNk5sbGNk4qcvPL0XpRA6p4KI8C416pc";
+
+    public static ArrayList<KeyWordsInfo> KeyWordsInfoAL = new ArrayList<>();
+    //for propertiesNamePageActivity identify which page using
+    public static boolean IsRegisterPropertyName = false;
+    public static boolean IsAddPPropertyName = false;
 //    public static final String PREFS_NAME = "NWD";
 //    public static void delOwnProperties(Context context) {
 //        SharedPreferences settings = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
@@ -106,6 +115,11 @@ public class Utility {
         ConnectivityManager cm = (ConnectivityManager) con.getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
         return netInfo != null && netInfo.isConnectedOrConnecting();
+    }
+
+    public static void hideSoftKeyboard(Activity activity) {
+        InputMethodManager inputMethodManager = (InputMethodManager) activity.getSystemService(Activity.INPUT_METHOD_SERVICE);
+        inputMethodManager.hideSoftInputFromWindow(activity.getCurrentFocus().getWindowToken(), 0);
     }
 
     public static int GetMobilePageMargin(Context context) {
@@ -722,6 +736,21 @@ public class Utility {
         int pos = ClassName.lastIndexOf('.') + 1;
         String onlyClass = ClassName.substring(pos);
         Log.w(onlyClass, Content);
+    }
+
+    //check the string have chinese or not
+    public static boolean isCJK(String str) {
+        int length = str.length();
+        for (int i = 0; i < length; i++) {
+            char ch = str.charAt(i);
+            Character.UnicodeBlock block = Character.UnicodeBlock.of(ch);
+            if (Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS.equals(block) ||
+                    Character.UnicodeBlock.CJK_COMPATIBILITY_IDEOGRAPHS.equals(block) ||
+                    Character.UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS_EXTENSION_A.equals(block)) {
+                return true;
+            }
+        }
+        return false;
     }
 }
 
