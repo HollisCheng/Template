@@ -11,30 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cb4fedf-91e4-413b-817a-f8377d9f885a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/RecyclerViewManager_0_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ultra_ptr_1_0_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/HappensLatestPAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/ObjectInfo/ShoppingItemInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/ShoppingAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/indicator_no_animator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/enablecolortextview.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/offer_topleft_bg_btn_little_rounded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/add_card_view_.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/card_view_items.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/happens_privileges_items.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/happens_shopping_items.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/spinnerenablecolortextitem.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CampaignBroadcastReceiver.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CoordinatorLayout_Card_Tab_Filter/CoordinatorActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CoordinatorLayout_Card_Tab_Filter/CoordinatorActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CoordinatorLayout_Card_Tab_Filter/OffersInfo.java" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CoordinatorLayout_Card_Tab_Filter/OffersInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/TestFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/TestFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPIActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPIActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_youtube_api.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_youtube_api.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_test.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_test.xml" />
     </list>
     <ignored path="HollisChengGitHubTemplate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,8 +51,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="95" column="70" selection-start-line="95" selection-start-column="70" selection-end-line="95" selection-end-column="70" />
+            <state relative-caret-position="129">
+              <caret line="82" column="35" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -1942,7 +1921,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPIActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_youtube_api.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/enablecolortextview.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
@@ -1960,6 +1938,8 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_test.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/TestFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/HappensLatestPAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CampaignBroadcastReceiver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -2016,6 +1996,38 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HollisChengGitHubTemplate" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HollisChengGitHubTemplate" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -2040,9 +2052,9 @@
       <recent name="template.cheng.hollis.template" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="template.cheng.hollis.template" />
       <recent name="template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter" />
       <recent name="template.cheng.hollis.template.ObjectInfo" />
-      <recent name="template.cheng.hollis.template" />
       <recent name="template.cheng.hollis.template.TextView" />
       <recent name="template.cheng.hollis.template.YoutubeAPI" />
     </key>
@@ -2432,25 +2444,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/WebConnect/WebViewClientPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="48" column="76" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1954#1981#0" expanded="false" />
-            <element signature="e#3356#3436#0" expanded="false" />
-            <element signature="e#5003#5458#0" expanded="false" />
-            <element signature="e#5457#5458#0" expanded="false" />
-            <element signature="e#5889#5896#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#WebViewClientPage#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#WebViewClientPage#0" expanded="false" />
-            <element signature="method#buttonSetting#0;class#WebViewClientPage#0" expanded="false" />
-            <marker date="1488422633234" expanded="false" signature="1548:1580" ph="&quot;Loading…&quot;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -3023,13 +3016,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CampaignBroadcastReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="95" column="70" selection-start-line="95" selection-start-column="70" selection-end-line="95" selection-end-column="70" />
+        <state relative-caret-position="129">
+          <caret line="82" column="35" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="35" />
           <folding />
         </state>
       </provider>
