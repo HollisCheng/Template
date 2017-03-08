@@ -462,7 +462,7 @@ public class MainActivity extends AppCompatActivity {
 
         Spinner No_SpinnerUnitNotSame = (Spinner) findViewById(R.id.No_SpinnerUnitNotSame);
         ArrayAdapter<String> adapterSpinnerBlock = new ArrayAdapter<>(MainActivity.this,
-                android.R.layout.simple_spinner_item,keyWordsA);
+                android.R.layout.simple_spinner_item, keyWordsA);
         adapterSpinnerBlock.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         No_SpinnerUnitNotSame.setAdapter(adapterSpinnerBlock);
 
@@ -506,6 +506,12 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //endregion
+
+        //TODO make the spinner enable=false also display black color text
+        //default is android.R.layout.simple_spinner_item now using R.layout.spinnerenablecolortextitem
+//        ArrayAdapter<String> adapterSpinnerBlock = new ArrayAdapter<>(AddPropertyActivity.this, R.layout.spinnerenablecolortextitem, Utility.BlockNameOutput(AddPropertyActivity.this, EstateID[0]));
+//        adapterSpinnerBlock.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+//        SpinnerBlock.setAdapter(adapterSpinnerBlock);
     }
 
     @Override

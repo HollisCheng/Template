@@ -81,10 +81,12 @@ public class CoordinatorActivity extends AppCompatActivity
         ArrayList<ShopList> SLAL = new ArrayList<>();
         SLAL.add(new ShopList("APM   2舖", "中環分行", "26963918", 56, 22.2691996, 114.2449821));
         SLAL.add(new ShopList("APM   3舖", "APM", "31481082", 57, 22.3157254, 114.1352665));
-        offersInfo = new OffersInfo(1, 11, 11, 11, false, ILAL, SLAL, "HollisCheng", "http", "http", "http", "03/05/2016", "30/08/2016", "1", "周大福",
-                "A", "P", "http://www.google.com", false, "Description", "http://www.fb.com", "酒店", true, "4539", "Hotels", "Redeemed", -10, "");
+        offersInfo = new OffersInfo(1, "category", "categoryGA", "Desc", "distance", "endDate", new ArrayList<IconList>(), false, false, false, false,
+                false, 1, "Merchant_Name", "Merchant_PhotoPath", "Merchant_Status", "Name", "OfferPIN", "OfferRefNo", "OfferStatus",
+                "PhotoPath", "PhotoPathIn", "PostDate", 1, "ReferralCode", 1, 1, new ArrayList<ShopList>(), "StartDate", "Status",
+                "TCLink", 1, "WebSite", 1 + 0.1, 1 + 0.1, "NameGA", 1, "", "");
 
-        MapShopListAL = offersInfo.getShopListAL();
+        MapShopListAL = offersInfo.getShopList();
         PrivilegeID = offersInfo.getPrivilegeID();
 
         isReady = true;
@@ -130,7 +132,7 @@ public class CoordinatorActivity extends AppCompatActivity
 
         if (TVOfferSide != null) {
             try {
-                TVOfferSide.setText(offersInfo.getIconListAL().get(0).getName());
+                TVOfferSide.setText(offersInfo.getIconList().get(0).getName());
             } catch (Exception e) {
                 TVOfferSide.setText("");
             }
@@ -177,7 +179,7 @@ public class CoordinatorActivity extends AppCompatActivity
         }
 //        tvOfferPartner.setText(offersInfo.getMerchant_Name());
         if (tvOfferDesc != null) {
-            tvOfferDesc.setText(offersInfo.getDesc());
+            tvOfferDesc.setText(offersInfo.getDescription());
         }
         if (tvOfferDateFrom != null) {
             tvOfferDateFrom.setText(offersInfo.getStartDate());
@@ -278,7 +280,7 @@ public class CoordinatorActivity extends AppCompatActivity
                             Utility.mTracker.send(new HitBuilders.EventBuilder()
                                     .setCategory("Privileges")
                                     .setAction("UnBookmark")
-                                    .setLabel(offersInfo.getEngTitle() + "")
+                                    .setLabel(offersInfo.getNameGA() + "")
                                     .setValue(100)
                                     .build());
                             IVBookmarked.setVisibility(View.INVISIBLE);

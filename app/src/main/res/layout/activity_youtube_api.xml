@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_youtube_api"
     android:layout_width="match_parent"
@@ -29,7 +30,10 @@
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:layout_weight="1"
-            android:background="@color/Black" />
+            android:background="@color/Black"
+            app:ci_animator="@anim/indicator_no_animator"
+            app:ci_drawable="@drawable/icon_active_bookmark"
+            app:ci_drawable_unselected="@drawable/icon_inactive_bookmark" />
 
     </LinearLayout>
 

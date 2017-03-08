@@ -55,5 +55,6 @@ dependencies {
     compile 'com.scottyab:aescrypt:0.0.1'
     compile 'org.apache.httpcomponents:httpcore:4.4.4'
     compile 'com.github.traex.expandablelayout:library:1.2.2'
+    compile 'com.github.Syehunter:RecyclerViewManager:0.1.7'
     compile files('libs/YouTubeAndroidPlayerApi.jar')
 }

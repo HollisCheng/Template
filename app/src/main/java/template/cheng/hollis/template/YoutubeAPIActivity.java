@@ -19,6 +19,7 @@ import template.cheng.hollis.template.YoutubeAPI.YouFragmentAdapter;
 public class YoutubeAPIActivity extends AppCompatActivity {
 
     private String VideoPath = "https://www.youtube.com/watch?v=8-6Z4gGP1As";
+    private String VideoPath2 = "https://www.youtube.com/watch?v=vAZGZ5s44g0";
     private ArrayList<String> VideoAL = new ArrayList<>();
 
 
@@ -46,6 +47,7 @@ public class YoutubeAPIActivity extends AppCompatActivity {
         //endregion
 
         VideoAL.add(VideoPath);
+        VideoAL.add(VideoPath2);
         LinearLayout ownerArea_framelayout = (LinearLayout) findViewById(R.id.ownerArea_framelayout);
         ownerArea_framelayout.setVisibility(View.VISIBLE);
         initViewPager();

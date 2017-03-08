@@ -6,23 +6,14 @@
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <!--<com.nwd.artisanalliving.SupportClass.CustomListView.WaterDropListView-->
-    <!--android:id="@+id/lvFacilityList"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:clickable="true"-->
-    <!--android:divider="@color/topicListBGLine"-->
-    <!--android:listSelector="@android:color/transparent" />-->
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TEST"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/rv_Facility_List"
+    <space.sye.z.library.RefreshRecyclerView
+        android:id="@+id/RRV_HSV"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        android:layout_height="160dp"/>
+
+    <space.sye.z.library.RefreshRecyclerView
+        android:id="@+id/RRV_SV_Shopping"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </LinearLayout>

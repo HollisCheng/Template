@@ -6,64 +6,35 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cb4fedf-91e4-413b-817a-f8377d9f885a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/library_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/DefaultScrollTopSpinner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/ObjectInfo/KeyWordsInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/OnSingleClickListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/TextView/SweetSansBoldTextView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPI/MyInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPI/PropertiesNamePageActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPI/PropertiesNamePageCallBack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/draw_selected_circle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/them_bg_btn_pnpa_grey_rounded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_properties_name_prage.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_list_properties_name.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_content.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/view_header.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/MultiImageSelector_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/MultiImageSelector_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/aescrypt_0_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/aescrypt_0_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_segmented_1_0_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_segmented_1_0_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/androidhintspinner_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/androidhintspinner_1_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_25_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_25_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/cardview_v7_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/cardview_v7_25_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/circleindicator_1_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/circleindicator_1_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/customtabs_25_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/customtabs_25_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/design_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/design_25_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/fab_1_6_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/fab_1_6_4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/facebook_android_sdk_4_20_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/facebook_android_sdk_4_20_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/pinentryview_1_0_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/pinentryview_1_0_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_8_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_8_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_8_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_basement_8_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_maps_8_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_maps_8_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_25_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/selectableroundedimageview_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/selectableroundedimageview_1_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_25_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_25_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_25_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_25_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_25_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_25_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/transition_25_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/transition_25_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/volley_1_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/volley_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/RecyclerViewManager_0_1_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/ultra_ptr_1_0_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/HappensLatestPAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/ObjectInfo/ShoppingItemInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/ShoppingAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/indicator_no_animator.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/enablecolortextview.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/offer_topleft_bg_btn_little_rounded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/add_card_view_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/card_view_items.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/happens_privileges_items.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/happens_shopping_items.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/spinnerenablecolortextitem.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CoordinatorLayout_Card_Tab_Filter/CoordinatorActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CoordinatorLayout_Card_Tab_Filter/CoordinatorActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CoordinatorLayout_Card_Tab_Filter/OffersInfo.java" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CoordinatorLayout_Card_Tab_Filter/OffersInfo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/Utility.java" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/Utility.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/TestFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/TestFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPIActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPIActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_youtube_api.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_youtube_api.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_test.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_test.xml" />
     </list>
     <ignored path="HollisChengGitHubTemplate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,98 +66,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="454" column="37" selection-start-line="454" selection-start-column="37" selection-end-line="454" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2924#2968#0" expanded="false" />
-                <element signature="e#3136#3221#0" expanded="false" />
-                <element signature="e#3369#3394#0" expanded="false" />
-                <element signature="e#5166#5255#0" expanded="false" />
-                <element signature="e#5546#5613#0" expanded="false" />
-                <element signature="e#6118#6184#0" expanded="false" />
-                <element signature="e#8870#8896#0" expanded="false" />
-                <element signature="e#9416#9442#0" expanded="false" />
-                <element signature="e#9951#9977#0" expanded="false" />
-                <element signature="e#10484#10503#0" expanded="false" />
-                <element signature="e#11065#11090#0" expanded="false" />
-                <element signature="e#11528#11615#0" expanded="false" />
-                <element signature="e#13235#13252#0" expanded="false" />
-                <element signature="e#13465#13491#0" expanded="false" />
-                <element signature="e#16472#16542#0" expanded="false" />
-                <element signature="e#16654#16727#0" expanded="false" />
-                <element signature="e#16833#16848#0" expanded="false" />
-                <element signature="e#17517#18090#0" expanded="true" />
-                <element signature="e#18089#18090#0" expanded="true" />
-                <element signature="e#18461#19303#0" expanded="true" />
-                <element signature="e#19302#19303#0" expanded="true" />
-                <element signature="e#21146#22290#0" expanded="true" />
-                <element signature="e#21389#22127#0" expanded="true" />
-                <element signature="e#22126#22127#0" expanded="true" />
-                <element signature="e#22289#22290#0" expanded="true" />
-                <element signature="method#confirmLeaveDialog#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#23815#23909#0" expanded="false" />
-                <element signature="e#24378#24472#0" expanded="false" />
-                <element signature="e#24586#24631#0" expanded="false" />
-                <element signature="method#InsertDB#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#25265#25316#0" expanded="false" />
-                <element signature="e#26179#26247#0" expanded="false" />
-                <element signature="method#updateText#0;class#MainActivity#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider editor-type-id="android-manifest">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="95" column="44" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
+            <state relative-caret-position="342">
+              <caret line="95" column="70" selection-start-line="95" selection-start-column="70" selection-end-line="95" selection-end-column="70" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="942" column="90" selection-start-line="942" selection-start-column="69" selection-end-line="942" selection-end-column="90" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PropertiesNamePageActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPI/PropertiesNamePageActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -442,6 +330,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformResourcesWithMergeJavaResForReleaseUnitTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.github.Syehunter:RecyclerViewManager:0.1.7" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComGithubSyehunterRecyclerViewManager017Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -752,6 +645,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="jarReleaseClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare in.srain.cube:ultra-ptr:1.0.11" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareInSrainCubeUltraPtr1011Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1241,6 +1139,11 @@
                 <option name="name" value="transformResourcesWithMergeJavaResForReleaseUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.github.Syehunter:RecyclerViewManager:0.1.7" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComGithubSyehunterRecyclerViewManager017Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="transformClassesWithDexForDebug" />
               </ExternalTaskPojo>
@@ -1546,6 +1449,11 @@
                 <option name="name" value="jarReleaseClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare in.srain.cube:ultra-ptr:1.0.11" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareInSrainCubeUltraPtr1011Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="transformResourcesWithMergeJavaResForDebugAndroidTest" />
               </ExternalTaskPojo>
@@ -1837,7 +1745,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Users\hollischeng\Documents\HollisChengGitHubTemplate" value="4447329908683" />
+        <entry key="C:\Users\hollischeng\Documents\HollisChengGitHubTemplate" value="4447349275273" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2029,14 +1937,29 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/them_bg_btn_pnpa_grey_rounded.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_list_properties_name.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/DefaultScrollTopSpinner.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/Utility.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_youtube_api.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPI/PropertiesNamePageActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPIActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPIActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_youtube_api.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/enablecolortextview.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/ObjectInfo/ShoppingItemInfo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/ShoppingAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/card_view_items.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/ObjectInfo/ShopListInfo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CoordinatorLayout_Card_Tab_Filter/IconListInfo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/happens_privileges_items.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/happens_shopping_items.xml" />
+        <option value="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/happens_privileges_items.xml" />
+        <option value="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/happens_shopping_items.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CoordinatorLayout_Card_Tab_Filter/CoordinatorActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CoordinatorLayout_Card_Tab_Filter/OffersInfo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_test.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/TestFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/HappensLatestPAdapter.java" />
       </list>
     </option>
   </component>
@@ -2083,6 +2006,16 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HollisChengGitHubTemplate" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -2107,14 +2040,17 @@
       <recent name="template.cheng.hollis.template" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter" />
+      <recent name="template.cheng.hollis.template.ObjectInfo" />
       <recent name="template.cheng.hollis.template" />
       <recent name="template.cheng.hollis.template.TextView" />
-      <recent name="template.cheng.hollis.template.ObjectInfo" />
       <recent name="template.cheng.hollis.template.YoutubeAPI" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\hollischeng\Documents\HollisChengGitHubTemplate\app\src\main\res\drawable-mdpi" />
       <recent name="C:\Users\hollischeng\Documents\HollisChengGitHubTemplate\app\src\main\res\layout" />
+      <recent name="C:\Users\hollischeng\Documents\HollisChengGitHubTemplate\app\src\main\res\drawable-xxxhdpi" />
+      <recent name="C:\Users\hollischeng\Documents\HollisChengGitHubTemplate\app\src\main\res\anim" />
+      <recent name="C:\Users\hollischeng\Documents\HollisChengGitHubTemplate\app\src\main\res\drawable-mdpi" />
       <recent name="C:\Users\hollischeng\Documents\HollisChengGitHubTemplate\app\libs" />
     </key>
   </component>
@@ -2443,7 +2379,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1672" y="-23" width="1296" height="1040" extended-state="7" />
+    <frame x="1672" y="-23" width="1296" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2452,7 +2388,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32373273" sideWeight="0.50733495" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31895572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31895572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879817" sideWeight="0.49755502" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2496,155 +2432,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPI/YouFragmentAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-zh/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="556" column="37" selection-start-line="556" selection-start-column="37" selection-end-line="556" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values-tw/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="551" column="39" selection-start-line="551" selection-start-column="39" selection-end-line="551" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_calendar.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CalendarActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="208" column="5" selection-start-line="186" selection-start-column="2" selection-end-line="208" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/LanguageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="462" column="40" selection-start-line="462" selection-start-column="40" selection-end-line="462" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/AnimationActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_web_view_client_page.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="838">
-          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CoordinatorLayout_Card_Tab_Filter/CoordinatorActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="219" column="19" selection-start-line="219" selection-start-column="19" selection-end-line="221" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-24/javax/crypto/Cipher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="799" column="31" selection-start-line="799" selection-start-column="31" selection-end-line="799" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_51/jre/lib/ext/jfxrt.jar!/com/sun/pisces/GradientColorMap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-24/java/nio/charset/StandardCharsets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-24/java/nio/charset/Charset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="667" column="69" selection-start-line="667" selection-start-column="69" selection-end-line="667" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-24/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="904" column="38" selection-start-line="904" selection-start-column="38" selection-end-line="904" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-24/javax/crypto/spec/SecretKeySpec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="86" column="47" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.scottyab/aescrypt/0.0.1/2f504dc749c5adc64c118d0ccef57c184dfa171f/aescrypt-0.0.1-sources.jar!/com/scottyab/aescrypt/AESCrypt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="182" column="7" selection-start-line="182" selection-start-column="7" selection-end-line="182" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-android-sdk/4.18.0/b5352ca7ba39264d7cbabcc968c68debee4421f2/facebook-android-sdk-4.18.0-sources.jar!/com/facebook/FacebookContentProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/WebConnect/WebViewClientPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -2676,6 +2463,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2784,17 +2572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_youtube_api.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_almain_page.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -2829,27 +2606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPIActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#940#967#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#YoutubeAPIActivity#0" expanded="false" />
-            <element signature="e#2838#2931#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#YoutubeAPIActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -2889,19 +2645,8 @@
         <state relative-caret-position="494">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="95" column="44" selection-start-line="95" selection-start-column="44" selection-end-line="95" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2981,12 +2726,225 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/anim/indicator_no_animator.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_youtube_api.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPIActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1019#1046#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#YoutubeAPIActivity#0" expanded="false" />
+            <element signature="e#2950#3043#0" expanded="false" />
+            <element signature="method#onOptionsItemSelected#0;class#YoutubeAPIActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/enablecolortextview.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="69" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/spinnerenablecolortextitem.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/ObjectInfo/ShoppingItemInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/offer_topleft_bg_btn_little_rounded.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/card_view_items.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-258">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/add_card_view_.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="454" column="37" selection-start-line="454" selection-start-column="37" selection-end-line="454" selection-end-column="37" />
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/happens_shopping_items.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="140" column="54" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/happens_privileges_items.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="151" column="46" selection-start-line="151" selection-start-column="46" selection-end-line="151" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/happens_shopping_items.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="136" column="47" selection-start-line="136" selection-start-column="47" selection-end-line="136" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CoordinatorLayout_Card_Tab_Filter/CoordinatorActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/happens_privileges_items.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="151" column="35" selection-start-line="151" selection-start-column="35" selection-end-line="151" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CoordinatorLayout_Card_Tab_Filter/IconListInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/ObjectInfo/ShopListInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/ViewPagerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="120" column="34" selection-start-line="120" selection-start-column="34" selection-end-line="120" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CoordinatorLayout_Card_Tab_Filter/OffersInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+          <folding>
+            <element signature="method#OffersInfo#0;class#OffersInfo#0" expanded="false" />
+            <element signature="method#toString#0;class#OffersInfo#0" expanded="false" />
+            <element signature="method#getIconList#0;class#OffersInfo#0" expanded="false" />
+            <element signature="method#setIconList#0;class#OffersInfo#0" expanded="false" />
+            <element signature="method#setMerchant_PhotoPath#0;class#OffersInfo#0" expanded="false" />
+            <element signature="method#getShopList#0;class#OffersInfo#0" expanded="false" />
+            <element signature="method#setShopList#0;class#OffersInfo#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/TestFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2166#2336#0" expanded="true" />
+            <element signature="e#2335#2336#0" expanded="true" />
+            <element signature="e#2876#3044#0" expanded="true" />
+            <element signature="e#3043#3044#0" expanded="true" />
+            <element signature="e#3943#4352#0" expanded="true" />
+            <element signature="e#4351#4352#0" expanded="true" />
+            <element signature="e#6446#6848#0" expanded="true" />
+            <element signature="e#6847#6848#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/ShoppingAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="104" column="43" selection-start-line="104" selection-start-column="43" selection-end-line="104" selection-end-column="43" />
+          <folding>
+            <element signature="method#ShoppingAdapter#0;class#ShoppingAdapter#0" expanded="false" />
+            <element signature="method#onCreateViewHolder#0;class#ShoppingAdapter#0" expanded="false" />
+            <element signature="e#1628#1733#0" expanded="false" />
+            <element signature="e#2554#2639#0" expanded="false" />
+            <element signature="e#4170#10424#0" expanded="true" />
+            <element signature="e#4263#4358#0" expanded="false" />
+            <element signature="e#10423#10424#0" expanded="true" />
+            <element signature="class#ViewHolder0#0" expanded="false" />
+            <element signature="method#ViewHolder0#0;class#ViewHolder0#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="229" column="71" selection-start-line="229" selection-start-column="71" selection-end-line="229" selection-end-column="71" />
+          <folding>
             <element signature="e#2924#2968#0" expanded="false" />
             <element signature="e#3136#3221#0" expanded="false" />
             <element signature="e#3369#3394#0" expanded="false" />
@@ -2994,33 +2952,85 @@
             <element signature="e#5546#5613#0" expanded="false" />
             <element signature="e#6118#6184#0" expanded="false" />
             <element signature="e#8870#8896#0" expanded="false" />
-            <element signature="e#9416#9442#0" expanded="false" />
             <element signature="e#9951#9977#0" expanded="false" />
             <element signature="e#10484#10503#0" expanded="false" />
             <element signature="e#11065#11090#0" expanded="false" />
             <element signature="e#11528#11615#0" expanded="false" />
+            <element signature="e#11948#11975#0" expanded="false" />
+            <element signature="e#12475#12493#0" expanded="false" />
             <element signature="e#13235#13252#0" expanded="false" />
             <element signature="e#13465#13491#0" expanded="false" />
             <element signature="e#16472#16542#0" expanded="false" />
             <element signature="e#16654#16727#0" expanded="false" />
             <element signature="e#16833#16848#0" expanded="false" />
-            <element signature="e#17517#18090#0" expanded="true" />
-            <element signature="e#18089#18090#0" expanded="true" />
-            <element signature="e#18461#19303#0" expanded="true" />
-            <element signature="e#19302#19303#0" expanded="true" />
-            <element signature="e#21146#22290#0" expanded="true" />
-            <element signature="e#21389#22127#0" expanded="true" />
-            <element signature="e#22126#22127#0" expanded="true" />
-            <element signature="e#22289#22290#0" expanded="true" />
+            <element signature="e#17037#17142#0" expanded="false" />
+            <element signature="e#20164#20249#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
             <element signature="method#confirmLeaveDialog#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#23815#23909#0" expanded="false" />
-            <element signature="e#24378#24472#0" expanded="false" />
-            <element signature="e#24586#24631#0" expanded="false" />
+            <element signature="method#SWLang#0;class#MainActivity#0" expanded="false" />
+            <element signature="e#24354#24448#0" expanded="false" />
+            <element signature="e#24917#25011#0" expanded="false" />
+            <element signature="e#25125#25170#0" expanded="false" />
             <element signature="method#InsertDB#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#25265#25316#0" expanded="false" />
-            <element signature="e#26179#26247#0" expanded="false" />
+            <element signature="e#25804#25855#0" expanded="false" />
+            <element signature="e#26718#26786#0" expanded="false" />
             <element signature="method#updateText#0;class#MainActivity#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/HappensLatestPAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
+          <folding>
+            <element signature="method#HappensLatestPAdapter#0;class#HappensLatestPAdapter#0" expanded="false" />
+            <element signature="e#1244#1295#0" expanded="false" />
+            <element signature="method#getItemViewType#0;class#HappensLatestPAdapter#0" expanded="false" />
+            <element signature="method#onCreateViewHolder#0;class#HappensLatestPAdapter#0" expanded="false" />
+            <element signature="e#2092#2113#0" expanded="false" />
+            <element signature="e#3072#3086#0" expanded="false" />
+            <element signature="e#3318#3380#0" expanded="false" />
+            <element signature="e#3886#3988#0" expanded="false" />
+            <element signature="e#4901#4975#0" expanded="false" />
+            <element signature="e#6315#6393#0" expanded="false" />
+            <element signature="e#12967#13008#0" expanded="false" />
+            <element signature="e#14186#14243#0" expanded="false" />
+            <element signature="class#ViewHolder1#0;class#HappensLatestPAdapter#0" expanded="false" />
+            <element signature="method#ViewHolder1#0;class#ViewHolder1#0;class#HappensLatestPAdapter#0" expanded="false" />
+            <element signature="class#ViewHolder9#0;class#HappensLatestPAdapter#0" expanded="false" />
+            <element signature="method#ViewHolder9#0;class#ViewHolder9#0;class#HappensLatestPAdapter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_test.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="95" column="70" selection-start-line="95" selection-start-column="70" selection-end-line="95" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
