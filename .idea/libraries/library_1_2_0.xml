@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-1.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/132e01ec5de0680280b461f26e8afef054cb96b6/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/132e01ec5de0680280b461f26e8afef054cb96b6/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/se.simbio.encryption/library/1.2.0/67fdd3472e760850ed7cc3e41dea68a63de66821/library-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

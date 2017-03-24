@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager;
 import me.relex.circleindicator.CircleIndicator;
 import template.cheng.hollis.template.R;
+import template.cheng.hollis.template.Utility;
 
 public class TestBundleActivity extends AppCompatActivity {
 
@@ -44,6 +45,8 @@ public class TestBundleActivity extends AppCompatActivity {
             ab.setDisplayShowTitleEnabled(false); // disable the default title element here (for centered title)
         }
         //endregion
+
+        Utility.SetTaskBarBackground(this, R.color.green);
 
         AutoScrollViewPager MeAutoViewPager = (AutoScrollViewPager) findViewById(R.id.MeAutoViewPager);
         CircleIndicator indicator = (CircleIndicator) findViewById(R.id.indicatorMeAuto);

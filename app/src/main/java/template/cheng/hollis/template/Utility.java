@@ -1,5 +1,6 @@
 package template.cheng.hollis.template;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -12,6 +13,7 @@ import android.media.ExifInterface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings;
@@ -57,7 +59,7 @@ public class Utility {
     public static Tracker mTracker;
     public static RequestQueue mQueue;
     public static String AppLang = "";
-    public static int currIndex ;
+    public static int currIndex;
     public static final String YOUTUBE_API_KEY = "AIzaSyCfNk5sbGNk4qcvPL0XpRA6p4KI8C416pc";
 
     public static ArrayList<KeyWordsInfo> KeyWordsInfoAL = new ArrayList<>();
@@ -752,5 +754,16 @@ public class Utility {
         }
         return false;
     }
+
+    @TargetApi(21)
+    public static void SetTaskBarBackground(Activity context, int color) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            context.getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            context.getWindow().setStatusBarColor(context.getResources().getColor(color));
+            context.getWindow().setNavigationBarColor(context.getResources().getColor(color));
+        }
+    }
+
+
 }
 

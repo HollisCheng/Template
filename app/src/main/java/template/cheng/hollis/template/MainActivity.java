@@ -14,6 +14,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.MotionEvent;
 import android.view.View;
@@ -39,6 +40,10 @@ import com.facebook.FacebookSdk;
 import java.util.ArrayList;
 import java.util.Locale;
 
+import javax.crypto.Cipher;
+import javax.crypto.spec.SecretKeySpec;
+
+import se.simbio.encryption.Encryption;
 import template.cheng.hollis.template.Button.SweetSansRegButton;
 import template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.CardVPActivity;
 import template.cheng.hollis.template.ObjectInfo.KeyWordsInfo;
@@ -512,6 +517,9 @@ public class MainActivity extends AppCompatActivity {
 //        ArrayAdapter<String> adapterSpinnerBlock = new ArrayAdapter<>(AddPropertyActivity.this, R.layout.spinnerenablecolortextitem, Utility.BlockNameOutput(AddPropertyActivity.this, EstateID[0]));
 //        adapterSpinnerBlock.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 //        SpinnerBlock.setAdapter(adapterSpinnerBlock);
+
+        //test encrypt/decrypt
+        EncryptOrDecrypt();
     }
 
     @Override
@@ -620,5 +628,41 @@ public class MainActivity extends AppCompatActivity {
 //change the text inside this mainActivity Page
         ssrtvSlideRZ.setText(R.string.RESIDENTS_AREA);
         ssrtvSlideFB.setText(R.string.FEEDB);
+    }
+
+    private void EncryptOrDecrypt() {
+        String key = "Artisanal";
+        String key2 = "Living";
+        StringBuilder sb4Key = new StringBuilder();
+        for (int i = 0; i < key2.length(); i++) {
+            sb4Key.append(key2.charAt(i));
+            sb4Key.append(key.charAt(i));
+            sb4Key.append(key.charAt(i));
+        }
+        String combinedKey = sb4Key.toString();
+        String salt = "ArtisanalLiving";
+        String salt2 = "Living";
+        StringBuilder sb4Salt = new StringBuilder();
+        for (int i = 0; i < salt2.length(); i++) {
+            sb4Salt.append(salt.charAt(i));
+            sb4Salt.append(salt2.charAt(i));
+        }
+        String combinedSalt = sb4Salt.toString();
+        Log.w("A", "combinedKey:" + combinedKey);
+        Log.w("A", "combinedSalt:" + combinedSalt);
+        Log.w("A", "+++++++++++++++++++++++++++++++++++++");
+        String text = "password";
+        byte[] decryptedData = null;
+        try {
+            Encryption encryption = Encryption.getDefault(combinedKey, combinedSalt, new byte[16]);
+            String encrypted = encryption.encryptOrNull("https://appsdev.nwd.com.hk/NWDService_uat/Service.svc/");
+            Log.w("A", "encrypted:" + encrypted);
+            String decrypted = encryption.decryptOrNull("zMZ0lXjiV2TWB0hv4UION+lv52DcH3xW52bel7UzwSZ0D8Z/KVnvWxhE0trQo+XhHH2ZJ16OkVlMvjKY9VD4JA==");
+            String text2 = null;
+            Log.w("A", "decryptedData:" + decrypted);
+            //https://apps.nwd.com.hk/NWDService/Service.svc/
+        } catch (Exception e) {
+            Utility.PrintLog(getClass().getName(), "Exception e=" + e.toString());
+        }
     }
 }
