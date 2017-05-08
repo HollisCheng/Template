@@ -1,5 +1,9 @@
 Hollis Template
 
+OnSingleClickListener -prevent double click quickly
+-Android Manifest
+google campaign 8/3/2017
+
 -MainActivity
 TextView
 TextView with specified Font
@@ -9,8 +13,16 @@ Button with specified Font
 Login FB with FB login button
 Login FB with other component
 With Navigator and ToolBar
+ExpandableLayout 7/3/2017
+add filter search page and callback function 7/3/2017
+prevent edittext focus after resume callback 7/3/2017
+DeepLink 7/3/2017
+make spinner enable=false without grey text 7/3/2017
+Encrypt function for hide string inside the application 24/3/2017
 --Nav
 Language switch with immediately
+-TestBundleActivity
+set top noticeBar and bottom navigationBar color 24/3/2017
 
 -AnimationActivity
 Image Swap by time
@@ -33,6 +45,21 @@ Card scroll view pager
 --CardWalletOffersFragment
 TabLayout with specified Font
 Popup dialog with selected item
+HORIZONTAL recycler view and can scroll up down smooth 8/3/2017
+recyclerView Grid view 8/3/2017
+RV overScrollMode=never, make the srcoll max effect gone 3/4/2017
+SweetSansRegTabLayout set LowerCase 8/5/2017
 
 -CalendarActivity
 2016/08/05-11 date, TimeRender Date Time Venue
+
+-YoutubeAPI
+add youtube api test
+CircleIndicator with custom icon or no animator 7/3/2017
+
+-WebView
+webView setting and AES256 encrypt/decry
+add setting for loading image (ForAPI21UP) 8/5/2017
+
+---TODO ADD ITEMS LIST---
+

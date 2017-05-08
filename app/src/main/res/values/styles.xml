@@ -36,6 +36,13 @@
         <!--<item name="android:textStyle">bold</item>-->
     </style>
 
+    <style name="MyCustomTabLowerCaseText" parent="TextAppearance.AppCompat.Button">
+        <!--<item name="android:textSize">15sp</item>-->
+        <item name="android:textColor">@color/Black</item>
+        <!--<item name="android:textStyle">bold</item>-->
+        <item name="android:textAllCaps">false</item>
+    </style>
+
     <style name="popupDialogStyle" parent="@android:style/Theme.Dialog">
         <item name="android:backgroundDimEnabled">true</item>
         <item name="android:backgroundDimAmount">0.8</item>

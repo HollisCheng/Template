@@ -6,9 +6,15 @@
     android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <space.sye.z.library.RefreshRecyclerView
+    <!--<space.sye.z.library.RefreshRecyclerView-->
+        <!--android:id="@+id/RRV_HSV"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="160dp"/>-->
+
+    <android.support.v7.widget.RecyclerView
         android:id="@+id/RRV_HSV"
         android:layout_width="match_parent"
+        android:overScrollMode="never"
         android:layout_height="160dp"/>
 
     <space.sye.z.library.RefreshRecyclerView

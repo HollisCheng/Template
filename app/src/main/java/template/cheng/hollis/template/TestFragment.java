@@ -5,6 +5,7 @@ import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -23,7 +24,8 @@ import template.cheng.hollis.template.ObjectInfo.ShoppingItemInfo;
 
 public class TestFragment extends Fragment {
 
-    private RefreshRecyclerView RRV_HSV_privileges;
+//    private RefreshRecyclerView RRV_HSV_privileges;
+    private RecyclerView RRV_HSV_privileges;
     private RefreshRecyclerView RRV_SV_Shopping;
     private LinearLayoutManager llm;
     private GridLayoutManager SGL;
@@ -43,7 +45,7 @@ public class TestFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_test, container, false);
 
         //TODO demo horizontal RecyclerView and vertical RecyclerView scroll smooth way
-        RRV_HSV_privileges = (RefreshRecyclerView) view.findViewById(R.id.RRV_HSV);
+        RRV_HSV_privileges = (RecyclerView) view.findViewById(R.id.RRV_HSV);
         RRV_SV_Shopping = (RefreshRecyclerView) view.findViewById(R.id.RRV_SV_Shopping);
 
         handler = new Handler();
@@ -75,9 +77,9 @@ public class TestFragment extends Fragment {
                 return true;
             }
         };
-//        RRV_HSV_privileges.setLayoutManager(llm);
-
+        RRV_HSV_privileges.setLayoutManager(llm);
         adapter = new HappensLatestPAdapter(getContext(), mData, getActivity());
+        RRV_HSV_privileges.setAdapter(adapter);
         RRV_HSV_privileges.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -85,38 +87,38 @@ public class TestFragment extends Fragment {
             }
         });
 
-        RecyclerViewManager.with(adapter, llm)
-//                .setMode(RecyclerMode.BOTH)
-//                .setOnBothRefreshListener(new OnBothRefreshListener() {
-//                    @Override
-//                    public void onPullDown() {
-//                        refreshRecyclerView.onRefreshCompleted();
-//                        adapter.notifyDataSetChanged();
-//                    }
-//
+//        RecyclerViewManager.with(adapter, llm)
+////                .setMode(RecyclerMode.BOTH)
+////                .setOnBothRefreshListener(new OnBothRefreshListener() {
+////                    @Override
+////                    public void onPullDown() {
+////                        refreshRecyclerView.onRefreshCompleted();
+////                        adapter.notifyDataSetChanged();
+////                    }
+////
+////                    @Override
+////                    public void onLoadMore() {
+////                        handler.postDelayed(new Runnable() {
+////                            @Override
+////                            public void run() {
+////                                GetPrivilegeList(from, to);
+////                            }
+////                        }, 1000);
+////                    }
+////                })
+//                .setMode(RecyclerMode.BOTTOM)
+//                .setOnLoadMoreListener(new OnLoadMoreListener() {
 //                    @Override
 //                    public void onLoadMore() {
 //                        handler.postDelayed(new Runnable() {
 //                            @Override
 //                            public void run() {
-//                                GetPrivilegeList(from, to);
+//                                GetHappenPrivilegeList();
 //                            }
-//                        }, 1000);
+//                        }, 0);
 //                    }
 //                })
-                .setMode(RecyclerMode.BOTTOM)
-                .setOnLoadMoreListener(new OnLoadMoreListener() {
-                    @Override
-                    public void onLoadMore() {
-                        handler.postDelayed(new Runnable() {
-                            @Override
-                            public void run() {
-                                GetHappenPrivilegeList();
-                            }
-                        }, 0);
-                    }
-                })
-                .into(RRV_HSV_privileges, getContext());
+//                .into(RRV_HSV_privileges, getContext());
 
 //        mRecyclerView.setAdapter(adapter);
 //        mRecyclerView.setOnScrollListener(new EndlessRecyclerOnScrollListener(llm) {

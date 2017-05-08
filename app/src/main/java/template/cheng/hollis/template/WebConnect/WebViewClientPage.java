@@ -1,5 +1,7 @@
 package template.cheng.hollis.template.WebConnect;
 
+import android.graphics.PorterDuff;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +11,7 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebChromeClient;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageView;
@@ -100,7 +103,7 @@ public class WebViewClientPage extends AppCompatActivity
 //        ActionBar actionBar = getSupportActionBar();
 //        actionBar.setDisplayHomeAsUpEnabled(true);
 
-        webViewPB.getProgressDrawable().setColorFilter(getResources().getColor(R.color.SelectedColor), android.graphics.PorterDuff.Mode.SRC_IN);
+        webViewPB.getProgressDrawable().setColorFilter(getResources().getColor(R.color.SelectedColor), PorterDuff.Mode.SRC_IN);
 
         webViewPB.setMax(100);
 
@@ -153,6 +156,10 @@ public class WebViewClientPage extends AppCompatActivity
         webview.getSettings().setLoadWithOverviewMode(true);
 //自适应屏幕
 //        webview.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            webview.getSettings().setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
+        }
 
         webview.clearCache(true);
 
@@ -236,10 +243,10 @@ public class WebViewClientPage extends AppCompatActivity
                 webViewPB.setVisibility(View.VISIBLE);
 
                 if (Utility.checkExtension(url).toLowerCase().equals("pdf")) {
-                Utility.PrintLog(getClass().getName(), "last extension=pdf");
+                    Utility.PrintLog(getClass().getName(), "last extension=pdf");
                     webview.loadUrl("https://drive.google.com/viewerng/viewer?embedded=true&url=" + url);
                 } else {
-                Utility.PrintLog(getClass().getName(), "last extension!=pdf");
+                    Utility.PrintLog(getClass().getName(), "last extension!=pdf");
                     webview.loadUrl(url);
                 }
             }

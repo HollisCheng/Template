@@ -8,6 +8,7 @@ import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.support.design.widget.NavigationView;
+import android.support.v4.content.IntentCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AlertDialog;
@@ -32,13 +33,22 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.andexert.expandablelayout.library.ExpandableLayout;
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.MemoryCategory;
 import com.facebook.FacebookSdk;
 
+import org.json.JSONObject;
+
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Locale;
+import java.util.Map;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
@@ -520,6 +530,9 @@ public class MainActivity extends AppCompatActivity {
 
         //test encrypt/decrypt
         EncryptOrDecrypt();
+
+        //test POST
+//        TestPOST();
     }
 
     @Override
@@ -562,6 +575,7 @@ public class MainActivity extends AppCompatActivity {
                 LangENG.setBackground(getResources().getDrawable(R.drawable.lang_button_bg_round));
                 LangENG.setTextColor(getResources().getColor(R.color.White));
                 LangTC.setBackground(getResources().getDrawable(R.drawable.selector_round));
+//                LangTC.setBackgroundDrawable(getResources().getDrawable(R.drawable.selector_round));
                 LangTC.setTextColor(getResources().getColor(R.color.Gray));
 //                LangSC.setBackground(getResources().getDrawable(R.drawable.selector_round));
 //                LangSC.setTextColor(getResources().getColor(R.color.Gray));
@@ -657,12 +671,64 @@ public class MainActivity extends AppCompatActivity {
             Encryption encryption = Encryption.getDefault(combinedKey, combinedSalt, new byte[16]);
             String encrypted = encryption.encryptOrNull("https://appsdev.nwd.com.hk/NWDService_uat/Service.svc/");
             Log.w("A", "encrypted:" + encrypted);
-            String decrypted = encryption.decryptOrNull("zMZ0lXjiV2TWB0hv4UION+lv52DcH3xW52bel7UzwSZ0D8Z/KVnvWxhE0trQo+XhHH2ZJ16OkVlMvjKY9VD4JA==");
+            String decrypted = encryption.decryptOrNull("ClSyvC4Ss6zWmhYNIa36ya7E5XSPQH2Odoje7NiSQQgc6UI5BASHVQCcBJ0S5aDv");
             String text2 = null;
             Log.w("A", "decryptedData:" + decrypted);
             //https://apps.nwd.com.hk/NWDService/Service.svc/
         } catch (Exception e) {
             Utility.PrintLog(getClass().getName(), "Exception e=" + e.toString());
         }
+    }
+
+    private void TestPOST(){
+            try {
+                JSONObject jsonObj = new JSONObject();
+                jsonObj.put("CurrentUser", "nwd-edp-nt\\eliwong");
+                jsonObj.put("Token", "1acXt70Fry92YgWcSxmt0HrGLrh2Wqn7ZE1UgEofQKU=");
+                jsonObj.put("WorkflowType", "");
+                jsonObj.put("Keyword", "");
+                jsonObj.put("DateFrom", "");
+                jsonObj.put("DateTo", "");
+                jsonObj.put("SortBy", "");
+                jsonObj.put("IndexFrom", 1);
+                jsonObj.put("IndexTo", 10);
+
+                JSONObject member = new JSONObject();
+                member.put("fields", jsonObj);
+
+                Utility.PrintLog(getClass().getName(), "HTTP REQ JSON=" + "https://eapproval.nwd.com.hk/NWD_Eapproval/Services/MobileServices.svc/GetWorkList" + ",JSON=" + member.toString());
+                JsonObjectRequest jsonRequest = new JsonObjectRequest(Request.Method.POST, "https://eapproval.nwd.com.hk/NWD_Eapproval/Services/MobileServices.svc/GetWorkList", member, new Response.Listener<JSONObject>() {
+                    @Override
+                    public void onResponse(JSONObject response) {
+                        try {
+                            Utility.PrintLog(getClass().getName(), "UpdateStaffResignEmail:onResponse=" + response.toString());
+                            JSONObject Output = response.getJSONObject("Output");
+
+                        } catch (Exception e) {
+                            Utility.dismissLoadingDialog();
+                            Utility.PrintLog(getClass().getName(), "UpdateStaffResignEmail:Volley decode JSON:" + e.toString());
+                        }
+                    }
+                }, new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Utility.PrintLog(getClass().getName(), "onErrorResponse:" + error.toString());
+                        Utility.dismissLoadingDialog();
+                    }
+                }) {
+                    @Override
+                    public Map<String, String> getHeaders() throws AuthFailureError {
+                        Map<String, String> params = new HashMap<>();
+                        params.put("Content-Type", "application/json; charset=utf-8");
+                        params.put("Accept-Type", "application/json; charset=utf-8");
+                        return params;
+                    }
+                };
+                Utility.mQueue.add(Utility.SetVolleyTimeoutAndNoCache(jsonRequest));
+            } catch (Exception e) {
+                Utility.dismissLoadingDialog();
+                Utility.PrintLog(getClass().getName(), "catch:" + e.toString());
+            }
+
     }
 }
