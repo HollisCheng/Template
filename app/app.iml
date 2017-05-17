@@ -103,7 +103,7 @@
     <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="design-25.1.0" level="project" />
-    <orderEntry type="library" exported="" name="facebook-android-sdk-4.22.0" level="project" />
+    <orderEntry type="library" exported="" name="facebook-android-sdk-4.22.1" level="project" />
     <orderEntry type="library" exported="" name="aescrypt-0.0.1" level="project" />
     <orderEntry type="library" exported="" name="RecyclerViewManager-0.1.7" level="project" />
     <orderEntry type="library" exported="" name="picasso-2.4.0" level="project" />

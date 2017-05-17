@@ -200,7 +200,8 @@ public class WebViewClientPage extends AppCompatActivity
                 String encryptedMsg = "";
                 String Test = "";
 //                String ivString = "abcdefghijklmnop";
-                String ivString = "5625482646533243";
+//                String ivString = "5625482646533243";
+                String ivString = "BTYQXTNTVVAFEKDQ";
 
 //                byte[] iv = new byte[16];
 //                SecureRandom random = new SecureRandom();
@@ -220,6 +221,8 @@ public class WebViewClientPage extends AppCompatActivity
                     encryptedMsg = Base64.encodeToString(AESCrypt.encrypt(secretKeySpec, iv, message.getBytes()), Base64.NO_WRAP);
 
                     Log.e("AES256", "encryptedMsg=" + encryptedMsg);
+
+                    encryptedMsg= "WN3IiUh66AuBZRBq6HWPc0b/KO8jz5yd39/hpGbcnbq3aQiWHJI9Kit1OOAtID1BPQ/vAqjUpmA7Hd2hvnLYA1MYFgvZDDSeFKdSsE5pLZw=";
 
                     byte[] decodedCipherText = Base64.decode(encryptedMsg, Base64.NO_WRAP);
 
