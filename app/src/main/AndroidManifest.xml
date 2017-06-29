@@ -108,11 +108,17 @@
             </intent-filter>
 
             <intent-filter android:autoVerify="true">
-            <action android:name="android.intent.action.VIEW" />
-            <category android:name="android.intent.category.DEFAULT" />
-            <category android:name="android.intent.category.BROWSABLE" />
-            <data android:scheme="http" android:host="www.hollischeng.com" />
-            <data android:scheme="https" android:host="www.hollischeng.com" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.hollischeng.com"
+                    android:scheme="http" />
+                <data
+                    android:host="www.hollischeng.com"
+                    android:scheme="https" />
             </intent-filter>
 
         </activity>
@@ -136,6 +142,9 @@
         <activity
             android:name=".YoutubeAPI.PropertiesNamePageActivity"
             android:screenOrientation="portrait" />
+
+        <activity android:name=".Panorama.BitmapPlayerActivity" />
+        <activity android:name=".Panorama.VideoPlayerActivity" />
     </application>
 
 </manifest>

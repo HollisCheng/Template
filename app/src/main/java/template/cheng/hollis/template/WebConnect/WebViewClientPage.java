@@ -146,7 +146,7 @@ public class WebViewClientPage extends AppCompatActivity
 
         webview.getSettings().setJavaScriptEnabled(true);
         webview.getSettings().setDomStorageEnabled(true);
-        // 设置可以支持缩放
+        // 设置可以支持缩放t
         webview.getSettings().setSupportZoom(true);
 // 设置出现缩放工具
         webview.getSettings().setBuiltInZoomControls(true);
@@ -169,25 +169,6 @@ public class WebViewClientPage extends AppCompatActivity
                 webViewPB.setVisibility(View.VISIBLE);
 
                 //region AES256 decry/encrypt
-                String data = "";
-//                try {
-//                    List<NameValuePair> nameValuePairs = new ArrayList<>();
-//                    nameValuePairs.add(new BasicNameValuePair("email", "12345"));
-//                    nameValuePairs.add(new BasicNameValuePair("phone", "12345"));
-//                    nameValuePairs.add(new BasicNameValuePair("age_group", "23456"));
-//                    nameValuePairs.add(new BasicNameValuePair("firstname", "23456"));
-//                    nameValuePairs.add(new BasicNameValuePair("lastname", "23456"));
-//                    nameValuePairs.add(new BasicNameValuePair("title", "23456"));
-//
-//                    HttpClient httpclient = new DefaultHttpClient();
-//                    HttpPost httppost = new HttpPost("URL_STRING");
-//                    httppost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
-//
-//                    HttpResponse response = httpclient.execute(httppost);
-//                    data = new BasicResponseHandler().handleResponse(response);
-//                } catch (Exception e) {
-//                    //handle error
-//                }
 
                 String POSTData = "email=" + "&phone=" + "&age_group=" +
                         "&firstname=" + "&lastname=" + "&title=";
@@ -202,7 +183,6 @@ public class WebViewClientPage extends AppCompatActivity
 //                String ivString = "abcdefghijklmnop";
 //                String ivString = "5625482646533243";
                 String ivString = "BTYQXTNTVVAFEKDQ";
-
 //                byte[] iv = new byte[16];
 //                SecureRandom random = new SecureRandom();
 //                random.nextBytes(iv);
@@ -215,14 +195,14 @@ public class WebViewClientPage extends AppCompatActivity
 //                    digest.update(bytes, 0, bytes.length);
 //                    byte[] key = digest.digest();
 
-                    //TODO joyce no need SHA-256 this part
+                    //TODO using password as key, message as data, iv String as iv , AES256/CBC/CS7Padding is correct!
                     SecretKeySpec secretKeySpec = new SecretKeySpec(bytes, "AES");
 
                     encryptedMsg = Base64.encodeToString(AESCrypt.encrypt(secretKeySpec, iv, message.getBytes()), Base64.NO_WRAP);
 
                     Log.e("AES256", "encryptedMsg=" + encryptedMsg);
 
-                    encryptedMsg= "WN3IiUh66AuBZRBq6HWPc0b/KO8jz5yd39/hpGbcnbq3aQiWHJI9Kit1OOAtID1BPQ/vAqjUpmA7Hd2hvnLYA1MYFgvZDDSeFKdSsE5pLZw=";
+                    encryptedMsg = "WN3IiUh66AuBZRBq6HWPc0b/KO8jz5yd39/hpGbcnbq3aQiWHJI9Kit1OOAtID1BPQ/vAqjUpmA7Hd2hvnLYA1MYFgvZDDSeFKdSsE5pLZw=";
 
                     byte[] decodedCipherText = Base64.decode(encryptedMsg, Base64.NO_WRAP);
 
@@ -230,13 +210,9 @@ public class WebViewClientPage extends AppCompatActivity
 
                     Log.e("AES256", "DecryptedMsg=" + DecryptedMsg);
 
-                    //TODO using password as key, message as data, iv String as iv , AES256/CBC/CS7Padding is correct!
-//                    Test = Base64.encodeToString(AESCrypt.encrypt(secretKeySpec, iv, message.getBytes("UTF-8")), Base64.NO_WRAP);
-//                    encryptedMsg = AESCrypt.encrypt(password, message);
-
-
                 } catch (Exception e) {
                     //handle error
+                    Utility.PrintLog(getClass().getName(), "AES256 error=" + e.toString());
                 }
 
                 webview.postUrl(url, EncodingUtils.getBytes(encryptedMsg, "BASE64"));

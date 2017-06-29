@@ -5,15 +5,16 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.support.design.widget.NavigationView;
-import android.support.v4.content.IntentCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.TextUtils;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Gravity;
@@ -31,6 +32,7 @@ import android.widget.RadioGroup;
 import android.widget.ScrollView;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.andexert.expandablelayout.library.ExpandableLayout;
 import com.android.volley.AuthFailureError;
@@ -50,13 +52,11 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 
-import javax.crypto.Cipher;
-import javax.crypto.spec.SecretKeySpec;
-
 import se.simbio.encryption.Encryption;
 import template.cheng.hollis.template.Button.SweetSansRegButton;
 import template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.CardVPActivity;
 import template.cheng.hollis.template.ObjectInfo.KeyWordsInfo;
+import template.cheng.hollis.template.Panorama.MD360PlayerActivity;
 import template.cheng.hollis.template.SQLiteDB.Language;
 import template.cheng.hollis.template.SQLiteDB.LanguageDAO;
 import template.cheng.hollis.template.TestBundlePage.TestBundleActivity;
@@ -169,10 +169,29 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //setting
+        Button BTN_Panorama = (Button) findViewById(R.id.BTN_Panorama);
         etProperty_Name = (AutoCompleteTextView) findViewById(R.id.etProperty_Name);
         SSRBTestBundle = (SweetSansRegButton) findViewById(R.id.SSRBTestBundle);
         btnFbTestPage = (Button) findViewById(R.id.btnFbTestPage);
         btnFbOtherClickPage = (Button) findViewById(R.id.btnFbOtherClickPage);
+
+        BTN_Panorama.setOnClickListener(new OnSingleClickListener() {
+            @Override
+            public void onSingleClick(View v) {
+                // for panorama testing
+                try {
+                    String url = "https://upload.wikimedia.org/wikipedia/commons/8/86/360-degree_Panorama_of_the_Southern_Sky_edit.jpg";
+//                    String url = "http://4.bp.blogspot.com/_BZhaBQfPrpw/TNhsAZC0oII/AAAAAAAAATg/CwTEH968hPs/s1600/_D0M7193Dom+Bower+Photography+Panorama.jpg";
+                    if (!TextUtils.isEmpty(url)) {
+                        MD360PlayerActivity.startBitmap(MainActivity.this, Uri.parse(url));
+                    } else {
+                        Toast.makeText(MainActivity.this, "empty url!", Toast.LENGTH_SHORT).show();
+                    }
+                } catch (Exception e) {
+                    Utility.PrintLog(getClass().getName(), "panorama error=" + e.toString());
+                }
+            }
+        });
 
         btnFbTestPage.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -680,55 +699,55 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    private void TestPOST(){
-            try {
-                JSONObject jsonObj = new JSONObject();
-                jsonObj.put("CurrentUser", "nwd-edp-nt\\eliwong");
-                jsonObj.put("Token", "1acXt70Fry92YgWcSxmt0HrGLrh2Wqn7ZE1UgEofQKU=");
-                jsonObj.put("WorkflowType", "");
-                jsonObj.put("Keyword", "");
-                jsonObj.put("DateFrom", "");
-                jsonObj.put("DateTo", "");
-                jsonObj.put("SortBy", "");
-                jsonObj.put("IndexFrom", 1);
-                jsonObj.put("IndexTo", 10);
+    private void TestPOST() {
+        try {
+            JSONObject jsonObj = new JSONObject();
+            jsonObj.put("CurrentUser", "nwd-edp-nt\\eliwong");
+            jsonObj.put("Token", "1acXt70Fry92YgWcSxmt0HrGLrh2Wqn7ZE1UgEofQKU=");
+            jsonObj.put("WorkflowType", "");
+            jsonObj.put("Keyword", "");
+            jsonObj.put("DateFrom", "");
+            jsonObj.put("DateTo", "");
+            jsonObj.put("SortBy", "");
+            jsonObj.put("IndexFrom", 1);
+            jsonObj.put("IndexTo", 10);
 
-                JSONObject member = new JSONObject();
-                member.put("fields", jsonObj);
+            JSONObject member = new JSONObject();
+            member.put("fields", jsonObj);
 
-                Utility.PrintLog(getClass().getName(), "HTTP REQ JSON=" + "https://eapproval.nwd.com.hk/NWD_Eapproval/Services/MobileServices.svc/GetWorkList" + ",JSON=" + member.toString());
-                JsonObjectRequest jsonRequest = new JsonObjectRequest(Request.Method.POST, "https://eapproval.nwd.com.hk/NWD_Eapproval/Services/MobileServices.svc/GetWorkList", member, new Response.Listener<JSONObject>() {
-                    @Override
-                    public void onResponse(JSONObject response) {
-                        try {
-                            Utility.PrintLog(getClass().getName(), "UpdateStaffResignEmail:onResponse=" + response.toString());
-                            JSONObject Output = response.getJSONObject("Output");
+            Utility.PrintLog(getClass().getName(), "HTTP REQ JSON=" + "https://eapproval.nwd.com.hk/NWD_Eapproval/Services/MobileServices.svc/GetWorkList" + ",JSON=" + member.toString());
+            JsonObjectRequest jsonRequest = new JsonObjectRequest(Request.Method.POST, "https://eapproval.nwd.com.hk/NWD_Eapproval/Services/MobileServices.svc/GetWorkList", member, new Response.Listener<JSONObject>() {
+                @Override
+                public void onResponse(JSONObject response) {
+                    try {
+                        Utility.PrintLog(getClass().getName(), "UpdateStaffResignEmail:onResponse=" + response.toString());
+                        JSONObject Output = response.getJSONObject("Output");
 
-                        } catch (Exception e) {
-                            Utility.dismissLoadingDialog();
-                            Utility.PrintLog(getClass().getName(), "UpdateStaffResignEmail:Volley decode JSON:" + e.toString());
-                        }
-                    }
-                }, new Response.ErrorListener() {
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        Utility.PrintLog(getClass().getName(), "onErrorResponse:" + error.toString());
+                    } catch (Exception e) {
                         Utility.dismissLoadingDialog();
+                        Utility.PrintLog(getClass().getName(), "UpdateStaffResignEmail:Volley decode JSON:" + e.toString());
                     }
-                }) {
-                    @Override
-                    public Map<String, String> getHeaders() throws AuthFailureError {
-                        Map<String, String> params = new HashMap<>();
-                        params.put("Content-Type", "application/json; charset=utf-8");
-                        params.put("Accept-Type", "application/json; charset=utf-8");
-                        return params;
-                    }
-                };
-                Utility.mQueue.add(Utility.SetVolleyTimeoutAndNoCache(jsonRequest));
-            } catch (Exception e) {
-                Utility.dismissLoadingDialog();
-                Utility.PrintLog(getClass().getName(), "catch:" + e.toString());
-            }
+                }
+            }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
+                    Utility.PrintLog(getClass().getName(), "onErrorResponse:" + error.toString());
+                    Utility.dismissLoadingDialog();
+                }
+            }) {
+                @Override
+                public Map<String, String> getHeaders() throws AuthFailureError {
+                    Map<String, String> params = new HashMap<>();
+                    params.put("Content-Type", "application/json; charset=utf-8");
+                    params.put("Accept-Type", "application/json; charset=utf-8");
+                    return params;
+                }
+            };
+            Utility.mQueue.add(Utility.SetVolleyTimeoutAndNoCache(jsonRequest));
+        } catch (Exception e) {
+            Utility.dismissLoadingDialog();
+            Utility.PrintLog(getClass().getName(), "catch:" + e.toString());
+        }
 
     }
 }

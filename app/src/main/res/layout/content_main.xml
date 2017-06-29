@@ -34,6 +34,12 @@
             <!--android:lines="1"-->
             <!--android:singleLine="true" />-->
 
+            <Button
+                android:id="@+id/BTN_Panorama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Panorama test" />
+
             <template.cheng.hollis.template.TextView.RobotoBoldTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

@@ -1,10 +1,13 @@
 Hollis Template
 
 OnSingleClickListener -prevent double click quickly
+-Gradle
+build release apk with version name, date and time
 -Android Manifest
 google campaign 8/3/2017
 
 -MainActivity
+Panorama Test 29/6/2017
 TextView
 TextView with specified Font
 AutoSizeTextView
