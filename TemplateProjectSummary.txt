@@ -39,6 +39,7 @@ Tab Bar with different fragment
 Switch language with reopen app
 PinEntryView
 Camera take photo/gallery select photo
+FingerPrint listen 21/7/2017
 --CoordinatorLayout Activity
 Call intent with popup dialog
 Google map scroll inside scroll view
