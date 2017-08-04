@@ -3,7 +3,6 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.1"
-//    useLibrary 'org.apache.http.legacy'
     defaultConfig {
         applicationId "template.cheng.hollis.template"
         minSdkVersion 16
@@ -11,6 +10,23 @@ android {
         versionCode 1
         versionName "1.0"
     }
+
+    productFlavors {
+        dev {
+            applicationId "template.cheng.hollis.template.dev"
+//            buildConfigField "String", "HOST", "\"ClSyvC4Ss6zWmhYNIa36ya7E5XSPQH2Odoje7NiSQQgc6UI5BASHVQCcBJ0S5aDv\""
+            buildConfigField "String", "HOST", "\"DEV\""
+        }
+        uat {
+            applicationId "template.cheng.hollis.template.uat"
+            buildConfigField "String", "HOST", "\"UAT\""
+        }
+        pro {
+//            applicationId "template.cheng.hollis.template"
+            buildConfigField "String", "HOST", "\"PRO\""
+        }
+    }
+
     buildTypes {
         debug {
             applicationIdSuffix '.debug'

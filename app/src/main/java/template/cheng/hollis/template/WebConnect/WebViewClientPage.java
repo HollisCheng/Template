@@ -1,6 +1,10 @@
 package template.cheng.hollis.template.WebConnect;
 
+import android.annotation.TargetApi;
+import android.content.ActivityNotFoundException;
+import android.content.Intent;
 import android.graphics.PorterDuff;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
@@ -10,6 +14,7 @@ import android.util.Base64;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -28,6 +33,8 @@ import javax.crypto.spec.SecretKeySpec;
 import template.cheng.hollis.template.R;
 import template.cheng.hollis.template.Utility;
 
+import static template.cheng.hollis.template.R.id.webView;
+
 
 public class WebViewClientPage extends AppCompatActivity
 //        implements SwipeRefreshLayout.OnRefreshListener
@@ -45,6 +52,9 @@ public class WebViewClientPage extends AppCompatActivity
     private boolean IsShowWebButton = false;
 //    private SwipeRefreshLayout swipeLayout;
 
+    public static final int REQUEST_SELECT_FILE = 100;
+    public ValueCallback<Uri[]> uploadMessage;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,6 +71,12 @@ public class WebViewClientPage extends AppCompatActivity
             url = "";
             Title = "";
         }
+
+        Utility.PrintLog(getClass().getName(), "url=" + url
+                + ",Title" + Title
+                + ",K11SSO=" + K11SSO
+                + ",IsShowWebButton=" + IsShowWebButton
+        );
 
         //region SetCustom Toolbar!
         Toolbar tb = (Toolbar) findViewById(R.id.TBToolbar);
@@ -84,7 +100,7 @@ public class WebViewClientPage extends AppCompatActivity
         //endregion
 
         //region Initial setting
-        webview = (WebView) findViewById(R.id.webView);
+        webview = (WebView) findViewById(webView);
         webViewPB = (ProgressBar) findViewById(R.id.webViewPB);
         IVBackButton = (ImageView) findViewById(R.id.IVBackButton);
         IVNextButton = (ImageView) findViewById(R.id.IVNextButton);
@@ -103,6 +119,24 @@ public class WebViewClientPage extends AppCompatActivity
 //        ActionBar actionBar = getSupportActionBar();
 //        actionBar.setDisplayHomeAsUpEnabled(true);
 
+        webview.getSettings().setJavaScriptEnabled(true);
+        webview.getSettings().setJavaScriptCanOpenWindowsAutomatically(true);
+        webview.getSettings().setDomStorageEnabled(true);
+
+        // 设置可以支持缩放t
+        webview.getSettings().setSupportZoom(true);
+// 设置出现缩放工具
+        webview.getSettings().setBuiltInZoomControls(true);
+//设置可在大视野范围内上下左右拖动，并且可以任意比例缩放
+        webview.getSettings().setUseWideViewPort(true);
+//设置默认加载的可视范围是大视野范围
+        webview.getSettings().setLoadWithOverviewMode(true);
+//自适应屏幕
+//        webview.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
+
+        webview.getSettings().setAllowFileAccess(true);
+        webview.clearCache(true);
+
         webViewPB.getProgressDrawable().setColorFilter(getResources().getColor(R.color.SelectedColor), PorterDuff.Mode.SRC_IN);
 
         webViewPB.setMax(100);
@@ -117,6 +151,32 @@ public class WebViewClientPage extends AppCompatActivity
                         toolbar_title.setText(view.getTitle());
                     }
                 }
+            }
+
+            @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+            @Override
+            public boolean onShowFileChooser(WebView webView, ValueCallback<Uri[]> filePathCallback, FileChooserParams fileChooserParams) {
+//                return super.onShowFileChooser(webView, filePathCallback, fileChooserParams);
+                Utility.PrintLog(getClass().getName(), "onShowFileChooser");
+
+                // make sure there is no existing message
+                if (uploadMessage != null) {
+                    uploadMessage.onReceiveValue(null);
+                    uploadMessage = null;
+                }
+
+                uploadMessage = filePathCallback;
+
+                Intent intent = fileChooserParams.createIntent();
+                try {
+                    startActivityForResult(intent, REQUEST_SELECT_FILE);
+                } catch (ActivityNotFoundException e) {
+                    uploadMessage = null;
+                    Utility.PrintLog(getClass().getName(), "Cannot open file chooser");
+                    return false;
+                }
+
+                return true;
             }
 
             @Override
@@ -135,33 +195,22 @@ public class WebViewClientPage extends AppCompatActivity
         webview.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String urlS) {
-                if (Utility.checkExtension(urlS).toLowerCase().equals("pdf")) {
-                    webview.loadUrl("https://drive.google.com/viewerng/viewer?embedded=true&url=" + urlS);
+                Utility.PrintLog(getClass().getName(), "shouldOverrideUrlLoading");
 
+                if (Utility.checkExtension(urlS).toLowerCase().equals("pdf")) {
+                    Utility.PrintLog(getClass().getName(), "shouldOverrideUrlLoading,pdf==true");
+                    webview.loadUrl("https://drive.google.com/viewerng/viewer?embedded=true&url=" + urlS);
                 }
-                return true;
+
+                //return true==not allow redirect, return false == allow redirect
+                return false;
 //                    return super.shouldOverrideUrlLoading(view, url);
             }
         });
 
-        webview.getSettings().setJavaScriptEnabled(true);
-        webview.getSettings().setDomStorageEnabled(true);
-        // 设置可以支持缩放t
-        webview.getSettings().setSupportZoom(true);
-// 设置出现缩放工具
-        webview.getSettings().setBuiltInZoomControls(true);
-//设置可在大视野范围内上下左右拖动，并且可以任意比例缩放
-        webview.getSettings().setUseWideViewPort(true);
-//设置默认加载的可视范围是大视野范围
-        webview.getSettings().setLoadWithOverviewMode(true);
-//自适应屏幕
-//        webview.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);
-
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             webview.getSettings().setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);
         }
-
-        webview.clearCache(true);
 
         if (url.contains("http")) {
             if (K11SSO) {
@@ -271,6 +320,16 @@ public class WebViewClientPage extends AppCompatActivity
         return super.onOptionsItemSelected(item);
     }
 
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == REQUEST_SELECT_FILE) {
+            if (uploadMessage == null) return;
+            uploadMessage.onReceiveValue(WebChromeClient.FileChooserParams.parseResult(resultCode, data));
+            uploadMessage = null;
+        }
+    }
+
     private void buttonSetting() {
         IVBackButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -296,5 +355,6 @@ public class WebViewClientPage extends AppCompatActivity
                 webview.reload();
             }
         });
+        Utility.PrintLog(getClass().getName(), "button setting DONE");
     }
 }

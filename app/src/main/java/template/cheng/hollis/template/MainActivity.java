@@ -332,10 +332,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, WebViewClientPage.class);
-                intent.putExtra("LINK", "http://???");
+//                intent.putExtra("LINK", "http://???");
+//                intent.putExtra("LINK", "https://www.google.com.hk");
+                intent.putExtra("LINK", "https://im.nwd.com.hk/NWD_SmartOfficeApp/Account/Login.aspx?msg=f%2fxsZW1IMq1H1HEVqPgXI8vN2JLFZwCG%2bS%2bwZDSGDABISvAN6MzwHQ%3d%3d&ReturnUrl=Admin%2fHappen.aspx%3fId%3d0");
                 intent.putExtra("Title", "SSO");
                 //test AES256 add below
-                intent.putExtra("K11SSO", true);
+//                intent.putExtra("K11SSO", true);
                 intent.putExtra("IsShowWebButton", true);
                 startActivity(intent);
                 overridePendingTransition(R.anim.slide_right_in, R.anim.slide_left_out);
@@ -552,6 +554,9 @@ public class MainActivity extends AppCompatActivity {
 
         //test POST
 //        TestPOST();
+
+        Utility.PrintLog(getClass().getName(), "BuildConfig.HOST=" + BuildConfig.HOST);
+        Utility.PrintLog(getClass().getName(), "BuildConfig.APPLICATION_ID=" + BuildConfig.APPLICATION_ID);
     }
 
     @Override

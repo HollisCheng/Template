@@ -40,6 +40,7 @@ Switch language with reopen app
 PinEntryView
 Camera take photo/gallery select photo
 FingerPrint listen 21/7/2017
+textView allow select text 4/8/2017
 --CoordinatorLayout Activity
 Call intent with popup dialog
 Google map scroll inside scroll view
@@ -64,6 +65,7 @@ CircleIndicator with custom icon or no animator 7/3/2017
 -WebView
 webView setting and AES256 encrypt/decry
 add setting for loading image (ForAPI21UP) 8/5/2017
+hander webview select file upload image(5.0above) 4/8/2017
 
 ---TODO ADD ITEMS LIST---
 
