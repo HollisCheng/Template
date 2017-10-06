@@ -7,15 +7,31 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/BluetoothActivity.java" line="79" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5cb4fedf-91e4-413b-817a-f8377d9f885a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/facebook_android_sdk_4_24_0.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/constraint_layout_1_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/constraint_layout_solver_1_0_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/core_3_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/facebook_android_sdk_4_27_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/facebook_applinks_4_27_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/facebook_common_4_27_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/facebook_core_4_27_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/facebook_login_4_27_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/facebook_messenger_4_27_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/facebook_places_4_27_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/facebook_share_4_27_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/BluetoothActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_bluetooth.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/facebook_android_sdk_4_25_0.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TemplateProjectSummary.txt" afterPath="$PROJECT_DIR$/TemplateProjectSummary.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/LanguageActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/LanguageActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/WebConnect/WebViewClientPage.java" afterPath="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/WebConnect/WebViewClientPage.java" />
@@ -53,93 +69,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <file leaf-file-name="BluetoothActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/BluetoothActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="133">
+              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+              <folding>
+                <element signature="e#12657#12720#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="252" column="38" selection-start-line="252" selection-start-column="38" selection-end-line="252" selection-end-column="38" />
+            <state relative-caret-position="57">
+              <caret line="84" column="55" selection-start-line="84" selection-start-column="55" selection-end-line="84" selection-end-column="55" />
               <folding>
                 <element signature="e#3425#3469#0" expanded="false" />
                 <element signature="e#3637#3722#0" expanded="false" />
                 <element signature="e#3870#3895#0" expanded="false" />
                 <element signature="e#5667#5756#0" expanded="false" />
+                <element signature="e#6047#6114#0" expanded="false" />
                 <element signature="e#6619#6685#0" expanded="false" />
+                <element signature="e#9965#9983#0" expanded="false" />
+                <element signature="e#10416#10442#0" expanded="false" />
                 <element signature="e#10962#10988#0" expanded="false" />
                 <element signature="e#11497#11523#0" expanded="false" />
                 <element signature="e#12030#12049#0" expanded="false" />
                 <element signature="e#12611#12636#0" expanded="false" />
                 <element signature="e#13074#13161#0" expanded="false" />
                 <element signature="e#13494#13521#0" expanded="false" />
-                <element signature="e#15071#15088#0" expanded="false" />
-                <element signature="e#15301#15327#0" expanded="false" />
-                <element signature="e#18308#18378#0" expanded="false" />
-                <element signature="e#18490#18563#0" expanded="false" />
-                <element signature="e#18669#18684#0" expanded="false" />
-                <element signature="e#18873#18978#0" expanded="false" />
-                <element signature="e#22000#22085#0" expanded="false" />
-                <element signature="e#24758#24769#0" expanded="false" />
+                <element signature="e#14021#14039#0" expanded="false" />
+                <element signature="e#15065#15082#0" expanded="false" />
+                <element signature="e#15295#15321#0" expanded="false" />
+                <element signature="e#18302#18372#0" expanded="false" />
+                <element signature="e#18484#18557#0" expanded="false" />
+                <element signature="e#18663#18678#0" expanded="false" />
+                <element signature="e#18867#18972#0" expanded="false" />
+                <element signature="e#21994#22079#0" expanded="false" />
+                <element signature="e#24752#24763#0" expanded="false" />
                 <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#confirmLeaveDialog#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#SWLang#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#26593#26687#0" expanded="false" />
-                <element signature="e#27156#27250#0" expanded="false" />
-                <element signature="e#27364#27409#0" expanded="false" />
+                <element signature="e#26587#26681#0" expanded="false" />
+                <element signature="e#27150#27244#0" expanded="false" />
+                <element signature="e#27358#27403#0" expanded="false" />
                 <element signature="method#InsertDB#0;class#MainActivity#0" expanded="false" />
-                <element signature="e#28043#28094#0" expanded="false" />
-                <element signature="e#28957#29025#0" expanded="false" />
+                <element signature="e#28037#28088#0" expanded="false" />
+                <element signature="e#28951#29019#0" expanded="false" />
                 <element signature="method#updateText#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#EncryptOrDecrypt#0;class#MainActivity#0" expanded="false" />
                 <element signature="method#TestPOST#0;class#MainActivity#0" expanded="false" />
-                <element signature="class#32127:33608" expanded="false" />
-                <element signature="method#getHeaders#0;class#32127:33608" expanded="false" />
+                <element signature="class#32121:33602" expanded="false" />
+                <element signature="method#getHeaders#0;class#32121:33602" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebViewClientPage.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/WebConnect/WebViewClientPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="167" column="49" selection-start-line="167" selection-start-column="49" selection-end-line="167" selection-end-column="49" />
-              <folding>
-                <element signature="e#2593#2620#0" expanded="false" />
-                <element signature="e#3990#4070#0" expanded="false" />
-                <element signature="e#4972#4979#0" expanded="false" />
-                <element signature="method#onProgressChanged#0;class#5367:7390" expanded="false" />
-                <element signature="e#7426#8147#0" expanded="true" />
-                <element signature="e#8146#8147#0" expanded="true" />
-                <element signature="e#8502#8531#0" expanded="false" />
-                <element signature="e#9163#9218#0" expanded="false" />
-                <element signature="e#9329#9372#0" expanded="false" />
-                <element signature="e#9695#9755#0" expanded="false" />
-                <element signature="method#onBackPressed#0;class#WebViewClientPage#0" expanded="false" />
-                <element signature="method#onOptionsItemSelected#0;class#WebViewClientPage#0" expanded="false" />
-                <element signature="method#buttonSetting#0;class#WebViewClientPage#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_web_view_client_page.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_web_view_client_page.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -240,6 +225,11 @@
                 <option name="name" value="compileUatDebugAndroidTestNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-places:4.27.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookAndroidFacebookPlaces4270Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="mergeDevDebugResources" />
               </ExternalTaskPojo>
@@ -332,6 +322,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processDevReleaseManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-messenger:4.27.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookAndroidFacebookMessenger4270Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.joooonho:selectableroundedimageview:1.0.1" />
@@ -449,6 +444,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="preUatDebugBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-core:4.27.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookAndroidFacebookCore4270Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -697,6 +697,11 @@
                 <option name="name" value="compileProReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support.constraint:constraint-layout:1.0.2" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComAndroidSupportConstraintConstraintLayout102Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="incrementalUatDebugUnitTestJavaCompilationSafeguard" />
               </ExternalTaskPojo>
@@ -826,6 +831,11 @@
                 <option name="name" value="mergeProDebugAndroidTestAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-applinks:4.27.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookAndroidFacebookApplinks4270Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileDevReleaseRenderscript" />
               </ExternalTaskPojo>
@@ -837,6 +847,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processProDebugManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-login:4.27.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookAndroidFacebookLogin4270Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the insight into a specific dependency in root project 'HollisChengGitHubTemplate'." />
@@ -1445,11 +1460,6 @@
                 <option name="name" value="incrementalDevDebugJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.android:facebook-android-sdk:4.25.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="prepareComFacebookAndroidFacebookAndroidSdk4250Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="processDevReleaseResources" />
               </ExternalTaskPojo>
@@ -1705,6 +1715,11 @@
                 <option name="name" value="processUatReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-android-sdk:4.27.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookAndroidFacebookAndroidSdk4270Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformResourcesWithMergeJavaResForUatDebugUnitTest" />
               </ExternalTaskPojo>
@@ -1729,12 +1744,22 @@
                 <option name="name" value="compileProReleaseJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-share:4.27.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookAndroidFacebookShare4270Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="transformNativeLibsWithMergeJniLibsForProRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateUatDebugAndroidTestBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-common:4.27.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareComFacebookAndroidFacebookCommon4270Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -2061,6 +2086,11 @@
                 <option name="name" value="compileUatDebugAndroidTestNdk" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-places:4.27.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComFacebookAndroidFacebookPlaces4270Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="mergeDevDebugResources" />
               </ExternalTaskPojo>
@@ -2153,6 +2183,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="processDevReleaseManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-messenger:4.27.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComFacebookAndroidFacebookMessenger4270Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Prepare com.joooonho:selectableroundedimageview:1.0.1" />
@@ -2270,6 +2305,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="preUatDebugBuild" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-core:4.27.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComFacebookAndroidFacebookCore4270Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -2518,6 +2558,11 @@
                 <option name="name" value="compileProReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.android.support.constraint:constraint-layout:1.0.2" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComAndroidSupportConstraintConstraintLayout102Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="incrementalUatDebugUnitTestJavaCompilationSafeguard" />
               </ExternalTaskPojo>
@@ -2642,6 +2687,11 @@
                 <option name="name" value="mergeProDebugAndroidTestAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-applinks:4.27.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComFacebookAndroidFacebookApplinks4270Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="compileDevReleaseRenderscript" />
               </ExternalTaskPojo>
@@ -2653,6 +2703,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="processProDebugManifest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-login:4.27.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComFacebookAndroidFacebookLogin4270Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -3261,11 +3316,6 @@
                 <option name="name" value="incrementalDevDebugJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Prepare com.facebook.android:facebook-android-sdk:4.25.0" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
-                <option name="name" value="prepareComFacebookAndroidFacebookAndroidSdk4250Library" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="processDevReleaseResources" />
               </ExternalTaskPojo>
@@ -3521,6 +3571,11 @@
                 <option name="name" value="processUatReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-android-sdk:4.27.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComFacebookAndroidFacebookAndroidSdk4270Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="transformResourcesWithMergeJavaResForUatDebugUnitTest" />
               </ExternalTaskPojo>
@@ -3545,12 +3600,22 @@
                 <option name="name" value="compileProReleaseJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-share:4.27.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComFacebookAndroidFacebookShare4270Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="transformNativeLibsWithMergeJniLibsForProRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="generateUatDebugAndroidTestBuildConfig" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare com.facebook.android:facebook-common:4.27.0" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="prepareComFacebookAndroidFacebookCommon4270Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -3835,7 +3900,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Users\hollischeng\Documents\HollisChengGitHubTemplate" value="4467811071547" />
+        <entry key="C:\Users\hollischeng\Documents\HollisChengGitHubTemplate" value="4471604559288" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -4050,9 +4115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_almain_page.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_web_view_client_page.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/view_header.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/view_content.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/OnSingleClickListener.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/YoutubeAPI/PropertiesNamePageCallBack.java" />
@@ -4093,14 +4155,17 @@
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/Panorama/SpinnerHelper.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/Panorama/MD360PlayerActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/FingerPrintBus.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/FingerprintHandler.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/WebConnect/frmCMS.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/WebConnect/WebViewClientPage.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_bluetooth.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/BluetoothActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_language.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/LanguageActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/WebConnect/WebViewClientPage.java" />
       </list>
     </option>
   </component>
@@ -4136,7 +4201,9 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -4144,9 +4211,15 @@
               <option name="myItemId" value="HollisChengGitHubTemplate" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+              <option name="myItemId" value="HollisChengGitHubTemplate" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -4154,22 +4227,46 @@
               <option name="myItemId" value="HollisChengGitHubTemplate" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HollisChengGitHubTemplate" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/MD360Player4Android-master/MD360Player4Android-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ArtisanalLiving_Android" />
     <property name="device.picker.selection" value="LGH990739ab0d6" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/WebConnect/WebViewClientPage.java&#10;langu&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/LanguageActivity.java&#10;fin&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/FingerprintHandler.java&#10;Main&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/MainActivity.java&#10;string&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/res/values-zh/strings.xml&#10;bus&#9;PSI&#9;JAVA://template.cheng.hollis.template.FingerPrintBus&#10;auto&#9;PSI&#9;JAVA://template.cheng.hollis.template.TextView.AutoResizeTextView&#10;spinn&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/res/layout/spinner_show_text_grey.xml&#10;spin&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/Panorama/SpinnerHelper.java&#10;textView&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/TextView/SweetSansBoldTextView.java&#10;happen&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/HappensLatestPAdapter.java&#10;cardwalle&#9;PSI&#9;JAVA://template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.CardWalletOffersFragment&#10;card&#9;PSI&#9;JAVA://template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.CardsFragment&#10;Uti&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/Utility.java&#10;Ut&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/YoutubeAPIActivity.java&#10;yout&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/res/layout/activity_youtube_api.xml&#10;gcm&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_51/jre/lib/ext/jfxrt.jar!/com/sun/pisces/GradientColorMap.class" />
+    <property name="SearchEverywhereHistoryKey" value="main&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/MainActivity.java&#10;lang&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/LanguageActivity.java&#10;web&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/WebConnect/WebViewClientPage.java&#10;langu&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/LanguageActivity.java&#10;fin&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/FingerprintHandler.java&#10;Main&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/MainActivity.java&#10;string&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/res/values-zh/strings.xml&#10;bus&#9;PSI&#9;JAVA://template.cheng.hollis.template.FingerPrintBus&#10;auto&#9;PSI&#9;JAVA://template.cheng.hollis.template.TextView.AutoResizeTextView&#10;spinn&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/res/layout/spinner_show_text_grey.xml&#10;spin&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/Panorama/SpinnerHelper.java&#10;textView&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/TextView/SweetSansBoldTextView.java&#10;happen&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/HappensLatestPAdapter.java&#10;cardwalle&#9;PSI&#9;JAVA://template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.CardWalletOffersFragment&#10;card&#9;PSI&#9;JAVA://template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.CardsFragment&#10;Uti&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/Utility.java&#10;Ut&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/java/template/cheng/hollis/template/YoutubeAPIActivity.java&#10;yout&#9;FILE&#9;file://C:/Users/hollischeng/Documents/HollisChengGitHubTemplate/app/src/main/res/layout/activity_youtube_api.xml&#10;gcm&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_51/jre/lib/ext/jfxrt.jar!/com/sun/pisces/GradientColorMap.class" />
     <property name="ExportApk.ApkPath" value="C:\Users\hollischeng\Documents\HollisChengGitHubTemplate\app" />
     <property name="ExportApk.Flavors" value="" />
     <property name="ExportApk.BuildType" value="debug" />
@@ -4179,6 +4276,9 @@
   <component name="RecentsManager">
     <key name="android.template.packageName">
       <recent name="template.cheng.hollis.template" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="template.cheng.hollis.template" />
@@ -4482,8 +4582,58 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="URL http://www.hollischeng.com" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="launch_deep_link" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="http://www.hollischeng.com" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Android App.app" />
+      <item index="1" class="java.lang.String" itemvalue="Android App.URL http://www.hollischeng.com" />
     </list>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -4573,19 +4723,18 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32142857" sideWeight="0.49266502" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18851133" sideWeight="0.563364" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18851133" sideWeight="0.23369566" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35829493" sideWeight="0.50323623" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3640553" sideWeight="0.49676377" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686085" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3640553" sideWeight="0.49676377" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819384" sideWeight="0.49755502" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18851133" sideWeight="0.43663594" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18851133" sideWeight="0.7663044" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -4599,9 +4748,11 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Assistant" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686085" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -4621,136 +4772,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_cards.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CoordinatorLayout_Card_Tab_Filter/CardsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/HappensLatestPAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_card_vp.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="85" column="31" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/TestFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="134" column="27" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_test.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cardwallet_fragment.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CoordinatorLayout_Card_Tab_Filter/CardVPActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="146" column="71" selection-start-line="146" selection-start-column="71" selection-end-line="146" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_almain_page.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="280" column="39" selection-start-line="280" selection-start-column="39" selection-end-line="280" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/TextView/SweetSansBoldTextView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_md_using_surface_view.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/Panorama/VideoPlayerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/Panorama/HoverView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/Panorama/MediaPlayerWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/Panorama/BitmapPlayerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/Panorama/CustomProjectionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -4867,32 +4888,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="62" column="40" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
-          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/777f0a941d3dd0f9988d4f22b42b36ce2fe64ea4/eventbus-3.0.0-sources.jar!/org/greenrobot/eventbus/EventBus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="78" column="38" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/hardware/fingerprint/FingerprintManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="435" column="16" selection-start-line="435" selection-start-column="16" selection-end-line="435" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -4914,7 +4916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9949">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4922,7 +4923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="596">
           <caret line="573" column="47" selection-start-line="573" selection-start-column="47" selection-end-line="573" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4947,29 +4947,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/FingerprintHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4980,18 +4961,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_language.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/os/Build.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="61" column="28" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="175">
+          <caret line="632" column="40" selection-start-line="632" selection-start-column="32" selection-end-line="632" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/WebConnect/frmCMS.java" />
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -5000,146 +4984,237 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_almain_page.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="282" column="37" selection-start-line="282" selection-start-column="37" selection-end-line="282" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/WebConnect/WebViewClientPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1159">
+          <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_animation.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/AnimationActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="196" column="43" selection-start-line="196" selection-start-column="43" selection-end-line="196" selection-end-column="43" />
+        <state relative-caret-position="380">
+          <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/bluetooth/BluetoothAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="503" column="48" selection-start-line="503" selection-start-column="48" selection-end-line="503" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/content/ContextWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="583" column="18" selection-start-line="583" selection-start-column="18" selection-end-line="583" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_bluetooth.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding>
+            <element signature="e#272#305#0" expanded="false" />
+            <element signature="e#330#365#0" expanded="false" />
+            <element signature="e#450#483#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/toolbar.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="127" column="45" selection-start-line="127" selection-start-column="45" selection-end-line="127" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/os/Build.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/hardware/fingerprint/FingerprintManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="632" column="40" selection-start-line="632" selection-start-column="32" selection-end-line="632" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="266">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/Camera/CameraIntentHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/app/Instrumentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="1077" column="0" selection-start-line="1077" selection-start-column="0" selection-end-line="1077" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/Camera/CameraIntentHelperCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_language.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="132" column="40" selection-start-line="132" selection-start-column="40" selection-end-line="132" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/app/KeyguardManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2147">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/android/security/keystore/KeyPermanentlyInvalidatedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-25/javax/crypto/KeyGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233">
+          <caret line="165" column="13" selection-start-line="165" selection-start-column="13" selection-end-line="165" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/LanguageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="209" column="38" selection-start-line="209" selection-start-column="38" selection-end-line="209" selection-end-column="38" />
+        <state relative-caret-position="366">
+          <caret line="399" column="0" selection-start-line="399" selection-start-column="0" selection-end-line="399" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/CalendarActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/ShoppingAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3534">
+          <caret line="206" column="6" selection-start-line="206" selection-start-column="6" selection-end-line="206" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/BluetoothActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
           <folding>
-            <element signature="e#4006#4033#0" expanded="false" />
-            <element signature="e#4901#4918#0" expanded="false" />
-            <element signature="e#5111#5137#0" expanded="false" />
-            <element signature="e#10003#10052#0" expanded="false" />
-            <element signature="e#11442#11475#0" expanded="false" />
-            <element signature="e#12048#12124#0" expanded="false" />
-            <element signature="e#12607#12645#0" expanded="false" />
-            <element signature="e#12831#12876#0" expanded="false" />
-            <element signature="e#13717#13743#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#LanguageActivity#0" expanded="false" />
-            <element signature="e#16286#16379#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#LanguageActivity#0" expanded="false" />
-            <element signature="method#onSaveInstanceState#0;class#LanguageActivity#0" expanded="false" />
-            <element signature="method#onRestoreInstanceState#0;class#LanguageActivity#0" expanded="false" />
-            <element signature="method#onActivityResult#0;class#LanguageActivity#0" expanded="false" />
-            <element signature="e#18916#18967#0" expanded="false" />
-            <element signature="e#19186#19267#0" expanded="false" />
-            <element signature="e#19727#19744#0" expanded="false" />
-            <element signature="method#onRequestPermissionsResult#0;class#LanguageActivity#0" expanded="false" />
-            <element signature="e#20293#20331#0" expanded="false" />
-            <element signature="e#20636#20674#0" expanded="false" />
-            <element signature="e#21482#21520#0" expanded="false" />
-            <element signature="e#22332#22370#0" expanded="false" />
-            <element signature="e#22540#22580#0" expanded="false" />
-            <element signature="method#generateKey#0;class#LanguageActivity#0" expanded="false" />
-            <element signature="method#cipherInit#0;class#LanguageActivity#0" expanded="false" />
-            <element signature="method#onMessageEvent#0;class#LanguageActivity#0" expanded="false" />
-            <element signature="method#SWLang#0;class#LanguageActivity#0" expanded="false" />
-            <element signature="e#25800#25894#0" expanded="false" />
-            <element signature="e#26363#26457#0" expanded="false" />
-            <element signature="e#26571#26616#0" expanded="false" />
-            <element signature="method#InsertDB#0;class#LanguageActivity#0" expanded="false" />
-            <element signature="e#27250#27301#0" expanded="false" />
-            <element signature="e#28138#28206#0" expanded="false" />
-            <element signature="method#SelectedCamera#0;class#LanguageActivity#0" expanded="false" />
-            <element signature="e#28623#28699#0" expanded="false" />
-            <element signature="e#29150#29183#0" expanded="false" />
-            <element signature="e#30136#30181#0" expanded="false" />
-            <element signature="e#31548#31570#0" expanded="false" />
-            <element signature="method#setupCameraIntentHelper#0;class#LanguageActivity#0" expanded="false" />
-            <element signature="class#31815:34700" expanded="false" />
-            <element signature="method#onPhotoUriFound#0;class#31815:34700" expanded="false" />
-            <element signature="e#32775#32792#0" expanded="false" />
-            <element signature="method#deletePhotoWithUri#0;class#31815:34700" expanded="false" />
-            <element signature="method#onSdCardNotMounted#0;class#31815:34700" expanded="false" />
-            <element signature="method#onCanceled#0;class#31815:34700" expanded="false" />
-            <element signature="method#onCouldNotTakePhoto#0;class#31815:34700" expanded="false" />
-            <element signature="method#onPhotoUriNotFound#0;class#31815:34700" expanded="false" />
-            <element signature="method#logException#0;class#31815:34700" expanded="false" />
+            <element signature="e#12657#12720#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="252" column="38" selection-start-line="252" selection-start-column="38" selection-end-line="252" selection-end-column="38" />
+        <state relative-caret-position="57">
+          <caret line="84" column="55" selection-start-line="84" selection-start-column="55" selection-end-line="84" selection-end-column="55" />
           <folding>
             <element signature="e#3425#3469#0" expanded="false" />
             <element signature="e#3637#3722#0" expanded="false" />
             <element signature="e#3870#3895#0" expanded="false" />
             <element signature="e#5667#5756#0" expanded="false" />
+            <element signature="e#6047#6114#0" expanded="false" />
             <element signature="e#6619#6685#0" expanded="false" />
+            <element signature="e#9965#9983#0" expanded="false" />
+            <element signature="e#10416#10442#0" expanded="false" />
             <element signature="e#10962#10988#0" expanded="false" />
             <element signature="e#11497#11523#0" expanded="false" />
             <element signature="e#12030#12049#0" expanded="false" />
             <element signature="e#12611#12636#0" expanded="false" />
             <element signature="e#13074#13161#0" expanded="false" />
             <element signature="e#13494#13521#0" expanded="false" />
-            <element signature="e#15071#15088#0" expanded="false" />
-            <element signature="e#15301#15327#0" expanded="false" />
-            <element signature="e#18308#18378#0" expanded="false" />
-            <element signature="e#18490#18563#0" expanded="false" />
-            <element signature="e#18669#18684#0" expanded="false" />
-            <element signature="e#18873#18978#0" expanded="false" />
-            <element signature="e#22000#22085#0" expanded="false" />
-            <element signature="e#24758#24769#0" expanded="false" />
+            <element signature="e#14021#14039#0" expanded="false" />
+            <element signature="e#15065#15082#0" expanded="false" />
+            <element signature="e#15295#15321#0" expanded="false" />
+            <element signature="e#18302#18372#0" expanded="false" />
+            <element signature="e#18484#18557#0" expanded="false" />
+            <element signature="e#18663#18678#0" expanded="false" />
+            <element signature="e#18867#18972#0" expanded="false" />
+            <element signature="e#21994#22079#0" expanded="false" />
+            <element signature="e#24752#24763#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
             <element signature="method#confirmLeaveDialog#0;class#MainActivity#0" expanded="false" />
             <element signature="method#SWLang#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#26593#26687#0" expanded="false" />
-            <element signature="e#27156#27250#0" expanded="false" />
-            <element signature="e#27364#27409#0" expanded="false" />
+            <element signature="e#26587#26681#0" expanded="false" />
+            <element signature="e#27150#27244#0" expanded="false" />
+            <element signature="e#27358#27403#0" expanded="false" />
             <element signature="method#InsertDB#0;class#MainActivity#0" expanded="false" />
-            <element signature="e#28043#28094#0" expanded="false" />
-            <element signature="e#28957#29025#0" expanded="false" />
+            <element signature="e#28037#28088#0" expanded="false" />
+            <element signature="e#28951#29019#0" expanded="false" />
             <element signature="method#updateText#0;class#MainActivity#0" expanded="false" />
             <element signature="method#EncryptOrDecrypt#0;class#MainActivity#0" expanded="false" />
             <element signature="method#TestPOST#0;class#MainActivity#0" expanded="false" />
-            <element signature="class#32127:33608" expanded="false" />
-            <element signature="method#getHeaders#0;class#32127:33608" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/template/cheng/hollis/template/WebConnect/WebViewClientPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="167" column="49" selection-start-line="167" selection-start-column="49" selection-end-line="167" selection-end-column="49" />
-          <folding>
-            <element signature="e#2593#2620#0" expanded="false" />
-            <element signature="e#3990#4070#0" expanded="false" />
-            <element signature="e#4972#4979#0" expanded="false" />
-            <element signature="method#onProgressChanged#0;class#5367:7390" expanded="false" />
-            <element signature="e#7426#8147#0" expanded="true" />
-            <element signature="e#8146#8147#0" expanded="true" />
-            <element signature="e#8502#8531#0" expanded="false" />
-            <element signature="e#9163#9218#0" expanded="false" />
-            <element signature="e#9329#9372#0" expanded="false" />
-            <element signature="e#9695#9755#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#WebViewClientPage#0" expanded="false" />
-            <element signature="method#onOptionsItemSelected#0;class#WebViewClientPage#0" expanded="false" />
-            <element signature="method#buttonSetting#0;class#WebViewClientPage#0" expanded="false" />
+            <element signature="class#32121:33602" expanded="false" />
+            <element signature="method#getHeaders#0;class#32121:33602" expanded="false" />
           </folding>
         </state>
       </provider>

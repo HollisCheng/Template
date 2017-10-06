@@ -33,8 +33,6 @@ import javax.crypto.spec.SecretKeySpec;
 import template.cheng.hollis.template.R;
 import template.cheng.hollis.template.Utility;
 
-import static template.cheng.hollis.template.R.id.webView;
-
 
 public class WebViewClientPage extends AppCompatActivity
 //        implements SwipeRefreshLayout.OnRefreshListener
@@ -100,7 +98,7 @@ public class WebViewClientPage extends AppCompatActivity
         //endregion
 
         //region Initial setting
-        webview = (WebView) findViewById(webView);
+        webview = (WebView) findViewById(R.id.webView);
         webViewPB = (ProgressBar) findViewById(R.id.webViewPB);
         IVBackButton = (ImageView) findViewById(R.id.IVBackButton);
         IVNextButton = (ImageView) findViewById(R.id.IVNextButton);
@@ -231,7 +229,7 @@ public class WebViewClientPage extends AppCompatActivity
                 String Test = "";
 //                String ivString = "abcdefghijklmnop";
 //                String ivString = "5625482646533243";
-                String ivString = "BTYQXTNTVVAFEKDQ";
+                String ivString = "SGBYEJQSISZHPSMX";
 //                byte[] iv = new byte[16];
 //                SecureRandom random = new SecureRandom();
 //                random.nextBytes(iv);
@@ -251,7 +249,7 @@ public class WebViewClientPage extends AppCompatActivity
 
                     Log.e("AES256", "encryptedMsg=" + encryptedMsg);
 
-                    encryptedMsg = "WN3IiUh66AuBZRBq6HWPc0b/KO8jz5yd39/hpGbcnbq3aQiWHJI9Kit1OOAtID1BPQ/vAqjUpmA7Hd2hvnLYA1MYFgvZDDSeFKdSsE5pLZw=";
+                    encryptedMsg = "0GQFOToptxHUyh6lBGiC+3X/kvsHkT7PermAIwxP4uMOQzP2eZm8IPLKG9qspaj1ruZOfykr1SgVrcoUaCHf5k2lkgPbn485dbFtT8zUg2P7lldrxhdie4+Eoq3A0rYNruMVZSRN6qY1UDh/9H3WzYJNKBPeVO/t36sc/m/mcyI=";
 
                     byte[] decodedCipherText = Base64.decode(encryptedMsg, Base64.NO_WRAP);
 

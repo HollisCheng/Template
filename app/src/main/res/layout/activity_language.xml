@@ -8,113 +8,131 @@
 
     <include layout="@layout/toolbar" />
 
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:gravity="center"
-        android:text="this is the second way to change application language,\nthe way is after you select the language you want,\nthe application will be clear all activity and\nback to main page with using that language\n(add loading for api, if your data loading by API) " />
+        android:layout_height="match_parent"
+        android:fillViewport="true">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:orientation="horizontal"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
-        android:weightSum="2">
-
-        <Button
-            android:id="@+id/btnLangENG"
-            android:layout_width="0dp"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/list_selector"
-            android:text="@string/LangBtnEng"
-            android:textColor="@color/Gray" />
-        <!--android:layout_width="40dp"-->
-        <Button
-            android:id="@+id/btnLangTC"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_margin="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/list_selector"
-            android:text="@string/LangBtnTC"
-            android:textColor="@color/Gray" />
-        <!--android:layout_width="40dp"-->
+            android:orientation="vertical">
 
-        <!--<Button-->
-        <!--android:id="@+id/btnLangSC"-->
-        <!--android:layout_width="0dp"-->
-        <!--android:layout_height="match_parent"-->
-        <!--android:layout_marginLeft="5dp"-->
-        <!--android:layout_marginRight="5dp"-->
-        <!--android:layout_weight="1"-->
-        <!--android:background="@drawable/list_selector"-->
-        <!--android:text="简"-->
-        <!--android:textColor="@color/Gray"-->
-        <!--android:textStyle="bold" />-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="HIHI" />
 
-    </LinearLayout>
+            <ImageView
+                android:id="@+id/IV_Bluetooth"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/draw_selected_circle" />
 
-    <TextView
-        android:id="@+id/tv2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:gravity="center"
-        android:text="icon_active_bookmark = CoordinatorLayout Activity\n" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:weightSum="2">
 
-    <ImageView
-        android:id="@+id/IVonTouch"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:src="@drawable/icon_active_bookmark" />
+                <Button
+                    android:id="@+id/btnLangENG"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/list_selector"
+                    android:text="@string/LangBtnEng"
+                    android:textColor="@color/Gray" />
+                <!--android:layout_width="40dp"-->
+                <Button
+                    android:id="@+id/btnLangTC"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/list_selector"
+                    android:text="@string/LangBtnTC"
+                    android:textColor="@color/Gray" />
+                <!--android:layout_width="40dp"-->
 
-    <me.philio.pinentry.PinEntryView
-        android:id="@+id/pin_entry_simple"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="5dp"
-        android:layout_marginTop="5dp"
-        app:accentType="character"
-        app:digitBackground="@color/lightSelectedColor"
-        app:digitTextSize="10sp"
-        app:mask="*" />
+                <!--<Button-->
+                <!--android:id="@+id/btnLangSC"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/list_selector"-->
+                <!--android:text="简"-->
+                <!--android:textColor="@color/Gray"-->
+                <!--android:textStyle="bold" />-->
 
-    <!--no mask-->
-    <!--<me.philio.pinentry.PinEntryView-->
-    <!--android:id="@+id/pin_entry_simple"-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_gravity="center_horizontal"-->
-    <!--android:layout_marginBottom="20dp"-->
-    <!--android:layout_marginTop="20dp"-->
-    <!--app:accentType="character"-->
-    <!--app:digitBackground="@color/lightSelectedColor"-->
-    <!--app:digitTextSize="10sp"-->
-    <!--app:mask="" />-->
+            </LinearLayout>
 
-    <template.cheng.hollis.template.Button.SweetSansRegButton
-        android:id="@+id/SSRBShow"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Pin Code Show Here" />
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="icon_active_bookmark = CoordinatorLayout Activity\n" />
 
-    <ImageView
-        android:id="@+id/IVCamera"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:src="@drawable/ic_menu_camera" />
+            <ImageView
+                android:id="@+id/IVonTouch"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/icon_active_bookmark" />
 
-    <ImageView
-        android:id="@+id/IVFPA"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:src="@drawable/fingerprint_icon" />
+            <me.philio.pinentry.PinEntryView
+                android:id="@+id/pin_entry_simple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                app:accentType="character"
+                app:digitBackground="@color/lightSelectedColor"
+                app:digitTextSize="10sp"
+                app:mask="*" />
 
+            <!--no mask-->
+            <!--<me.philio.pinentry.PinEntryView-->
+            <!--android:id="@+id/pin_entry_simple"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--app:accentType="character"-->
+            <!--app:digitBackground="@color/lightSelectedColor"-->
+            <!--app:digitTextSize="10sp"-->
+            <!--app:mask="" />-->
+
+            <template.cheng.hollis.template.Button.SweetSansRegButton
+                android:id="@+id/SSRBShow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pin Code Show Here" />
+
+            <ImageView
+                android:id="@+id/IVCamera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_menu_camera" />
+
+            <ImageView
+                android:id="@+id/IVFPA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/fingerprint_icon" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

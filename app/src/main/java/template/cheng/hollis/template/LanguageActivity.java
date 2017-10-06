@@ -1,7 +1,5 @@
 package template.cheng.hollis.template;
 
-import android.Manifest;
-import android.annotation.TargetApi;
 import android.app.Dialog;
 import android.app.KeyguardManager;
 import android.content.Context;
@@ -18,8 +16,8 @@ import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.security.keystore.KeyGenParameterSpec;
-import android.security.keystore.KeyPermanentlyInvalidatedException;
 import android.security.keystore.KeyProperties;
+import android.support.annotation.RequiresApi;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.content.IntentCompat;
@@ -123,6 +121,15 @@ public class LanguageActivity extends AppCompatActivity {
             ab.setDisplayShowTitleEnabled(false); // disable the default title element here (for centered title)
         }
         //endregion
+
+        ImageView IV_Bluetooth = (ImageView) findViewById(R.id.IV_Bluetooth);
+        IV_Bluetooth.setOnClickListener(new OnSingleClickListener() {
+            @Override
+            public void onSingleClick(View v) {
+                Intent intent = new Intent(LanguageActivity.this, BluetoothActivity.class);
+                startActivity(intent);
+            }
+        });
 
         //region Language
 
@@ -324,58 +331,60 @@ public class LanguageActivity extends AppCompatActivity {
 
         //region Finger print auth
         IVFPA = (ImageView) findViewById(R.id.IVFPA);
-        keyguardManager = (KeyguardManager) getSystemService(KEYGUARD_SERVICE);
-        fingerprintManager = (FingerprintManager) getSystemService(FINGERPRINT_SERVICE);
 
-        IVFPA.setOnClickListener(new OnSingleClickListener() {
-            @TargetApi(Build.VERSION_CODES.M)
-            @Override
-            public void onSingleClick(View v) {
-                //put below action to OnCreate can always listen
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            keyguardManager = (KeyguardManager) getSystemService(KEYGUARD_SERVICE);
+            fingerprintManager = (FingerprintManager) getSystemService(FINGERPRINT_SERVICE);
 
-                if (!keyguardManager.isKeyguardSecure()) {
+            IVFPA.setOnClickListener(new OnSingleClickListener() {
+                @RequiresApi(api = Build.VERSION_CODES.M)
+                @Override
+                public void onSingleClick(View v) {
+                    //put below action to OnCreate can always listen
 
-                    Toast.makeText(LanguageActivity.this,
-                            "Lock screen security not enabled in Settings",
-                            Toast.LENGTH_LONG).show();
-                    return;
+                    if (!keyguardManager.isKeyguardSecure()) {
+
+                        Toast.makeText(LanguageActivity.this,
+                                "Lock screen security not enabled in Settings",
+                                Toast.LENGTH_LONG).show();
+                        return;
+                    }
+
+                    if (ActivityCompat.checkSelfPermission(LanguageActivity.this,
+                            android.Manifest.permission.USE_FINGERPRINT) != PackageManager.PERMISSION_GRANTED) {
+                        Toast.makeText(LanguageActivity.this,
+                                "Fingerprint authentication permission not enabled",
+                                Toast.LENGTH_LONG).show();
+
+                        return;
+                    }
+
+                    if (!fingerprintManager.hasEnrolledFingerprints()) {
+                        // This happens when no fingerprints are registered.
+                        Toast.makeText(LanguageActivity.this,
+                                "Register at least one fingerprint in Settings",
+                                Toast.LENGTH_LONG).show();
+                        return;
+                    }
+
+                    generateKey();
+
+                    if (cipherInit()) {
+                        cryptoObject = new FingerprintManager.CryptoObject(cipher);
+                        FingerprintHandler helper = new FingerprintHandler(LanguageActivity.this);
+                        helper.startAuth(fingerprintManager, cryptoObject);
+                    }
+
+                    //animation to let you know fingerprint auth is listening now
+                    ScaleAnimation a = new ScaleAnimation(1.0f, 1.1f, 1.0f, 1.1f, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
+                    a.setDuration(500);
+                    a.setRepeatCount(Animation.INFINITE);
+                    a.setRepeatMode(Animation.REVERSE);
+                    IVFPA.startAnimation(a);
+                    //after get success fingerprint auth, should go other page
                 }
-
-                if (ActivityCompat.checkSelfPermission(LanguageActivity.this,
-                        Manifest.permission.USE_FINGERPRINT) != PackageManager.PERMISSION_GRANTED) {
-                    Toast.makeText(LanguageActivity.this,
-                            "Fingerprint authentication permission not enabled",
-                            Toast.LENGTH_LONG).show();
-
-                    return;
-                }
-
-                if (!fingerprintManager.hasEnrolledFingerprints()) {
-                    // This happens when no fingerprints are registered.
-                    Toast.makeText(LanguageActivity.this,
-                            "Register at least one fingerprint in Settings",
-                            Toast.LENGTH_LONG).show();
-                    return;
-                }
-
-                generateKey();
-
-                if (cipherInit()) {
-                    cryptoObject = new FingerprintManager.CryptoObject(cipher);
-                    FingerprintHandler helper = new FingerprintHandler(LanguageActivity.this);
-                    helper.startAuth(fingerprintManager, cryptoObject);
-
-                }
-
-                //animation to let you know fingerprint auth is listening now
-                ScaleAnimation a = new ScaleAnimation(1.0f, 1.1f, 1.0f, 1.1f, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
-                a.setDuration(500);
-                a.setRepeatCount(Animation.INFINITE);
-                a.setRepeatMode(Animation.REVERSE);
-                IVFPA.startAnimation(a);
-                //after get success fingerprint auth, should go other page
-            }
-        });
+            });
+        }
         //endregion
 
     }
@@ -484,8 +493,8 @@ public class LanguageActivity extends AppCompatActivity {
                 } else {
                     // permission denied, boo! Disable the
                     // functionality that depends on this permission.
-                    boolean should = ActivityCompat.shouldShowRequestPermissionRationale(LanguageActivity.this, Manifest.permission.CAMERA);
-                    boolean should2 = ActivityCompat.shouldShowRequestPermissionRationale(LanguageActivity.this, Manifest.permission.READ_EXTERNAL_STORAGE);
+                    boolean should = ActivityCompat.shouldShowRequestPermissionRationale(LanguageActivity.this, android.Manifest.permission.CAMERA);
+                    boolean should2 = ActivityCompat.shouldShowRequestPermissionRationale(LanguageActivity.this, android.Manifest.permission.READ_EXTERNAL_STORAGE);
                     if (!should || !should2) {
                         Utility.promptSettings(LanguageActivity.this);
                     }
@@ -506,7 +515,7 @@ public class LanguageActivity extends AppCompatActivity {
                     startActivityForResult(Intent.createChooser(intent, "Select File"), 1);
                     dialog.dismiss();
                 } else {
-                    boolean should = ActivityCompat.shouldShowRequestPermissionRationale(LanguageActivity.this, Manifest.permission.READ_EXTERNAL_STORAGE);
+                    boolean should = ActivityCompat.shouldShowRequestPermissionRationale(LanguageActivity.this, android.Manifest.permission.READ_EXTERNAL_STORAGE);
                     if (!should) {
                         Utility.promptSettings(LanguageActivity.this);
                     }
@@ -522,7 +531,7 @@ public class LanguageActivity extends AppCompatActivity {
         }
     }
 
-    @TargetApi(Build.VERSION_CODES.M)
+    @RequiresApi(api = Build.VERSION_CODES.M)
     protected void generateKey() {
         try {
             keyStore = KeyStore.getInstance("AndroidKeyStore");
@@ -559,7 +568,6 @@ public class LanguageActivity extends AppCompatActivity {
         }
     }
 
-    @TargetApi(Build.VERSION_CODES.M)
     public boolean cipherInit() {
         try {
             cipher = Cipher.getInstance(
@@ -577,8 +585,8 @@ public class LanguageActivity extends AppCompatActivity {
                     null);
             cipher.init(Cipher.ENCRYPT_MODE, key);
             return true;
-        } catch (KeyPermanentlyInvalidatedException e) {
-            return false;
+//            } catch (KeyPermanentlyInvalidatedException e) {
+//                return false;
         } catch (KeyStoreException | CertificateException
                 | UnrecoverableKeyException | IOException
                 | NoSuchAlgorithmException | InvalidKeyException e) {
@@ -682,11 +690,11 @@ public class LanguageActivity extends AppCompatActivity {
             // No explanation needed, we can request the permission.
             Log.w("SSA", "checkSelfPermission else");
             ActivityCompat.requestPermissions(this,
-                    new String[]{Manifest.permission.CAMERA
+                    new String[]{android.Manifest.permission.CAMERA
 //                            , Manifest.permission.FLASHLIGHT
-                            , Manifest.permission.WRITE_EXTERNAL_STORAGE
-                            , Manifest.permission.READ_EXTERNAL_STORAGE
-                            , Manifest.permission.WAKE_LOCK
+                            , android.Manifest.permission.WRITE_EXTERNAL_STORAGE
+                            , android.Manifest.permission.READ_EXTERNAL_STORAGE
+                            , android.Manifest.permission.WAKE_LOCK
                     },
                     MY_PERMISSIONS_REQUEST_CAMERA);
 

@@ -16,6 +16,8 @@
     <uses-permission android:name="android.permission.WRITE_CALENDAR" />
     <uses-permission android:name="android.permission.READ_CALENDAR" />
     <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
     <permission
         android:name="${applicationId}.permission.C2D_MESSAGE"
@@ -64,7 +66,7 @@
             android:name="com.facebook.FacebookContentProvider"
             android:authorities="com.facebook.app.FacebookContentProvider${applicationId}"
             android:exported="true" />
-        <!--android:authorities="com.facebook.app.FacebookContentProvider100537423729266"-->
+        <!-- android:authorities="com.facebook.app.FacebookContentProvider100537423729266" -->
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
@@ -73,13 +75,13 @@
         <!--
             Optionally, register CampaignTrackingReceiver and CampaignTrackingService to enable
             installation campaign reporting
-       -->
-        <!--<receiver android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"-->
-        <!--android:exported="true">-->
-        <!--<intent-filter>-->
-        <!--<action android:name="com.android.vending.INSTALL_REFERRER" />-->
-        <!--</intent-filter>-->
-        <!--</receiver>-->
+        -->
+        <!-- <receiver android:name="com.google.android.gms.analytics.CampaignTrackingReceiver" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.android.vending.INSTALL_REFERRER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
         <receiver
             android:name=".CampaignBroadcastReceiver"
             android:exported="true">
@@ -87,6 +89,7 @@
                 <action android:name="com.android.vending.INSTALL_REFERRER" />
             </intent-filter>
         </receiver>
+
         <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
 
         <!-- Activity -->
@@ -107,21 +110,26 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-            <intent-filter android:autoVerify="true">
+            <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:host="www.hollischeng.com"
-                    android:scheme="http" />
-                <data
-                    android:host="www.hollischeng.com"
-                    android:scheme="https" />
+                    android:scheme="http"
+                    android:host="www.hollischeng.com" />
             </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:scheme="https"
+                    android:host="www.hollischeng.com" />
+            </intent-filter>
         </activity>
         <activity android:name=".TestBundlePage.TestBundleActivity" />
         <activity android:name=".LanguageActivity" />
@@ -138,14 +146,13 @@
             android:name="me.nereo.multi_image_selector.MultiImageSelectorActivity"
             android:configChanges="orientation|screenSize"
             android:screenOrientation="portrait" />
-        <activity android:name=".YoutubeAPIActivity"></activity>
-
+        <activity android:name=".YoutubeAPIActivity" />
         <activity
             android:name=".YoutubeAPI.PropertiesNamePageActivity"
             android:screenOrientation="portrait" />
-
         <activity android:name=".Panorama.BitmapPlayerActivity" />
         <activity android:name=".Panorama.VideoPlayerActivity" />
+        <activity android:name=".BluetoothActivity"></activity>
     </application>
 
 </manifest>
