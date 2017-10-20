@@ -117,8 +117,8 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:scheme="http"
-                    android:host="www.hollischeng.com" />
+                    android:host="www.hollischeng.com"
+                    android:scheme="http" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -127,8 +127,8 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
-                    android:scheme="https"
-                    android:host="www.hollischeng.com" />
+                    android:host="www.hollischeng.com"
+                    android:scheme="https" />
             </intent-filter>
         </activity>
         <activity android:name=".TestBundlePage.TestBundleActivity" />
@@ -152,7 +152,8 @@
             android:screenOrientation="portrait" />
         <activity android:name=".Panorama.BitmapPlayerActivity" />
         <activity android:name=".Panorama.VideoPlayerActivity" />
-        <activity android:name=".BluetoothActivity"></activity>
+        <activity android:name=".BluetoothActivity" />
+        <activity android:name=".TestActivity"></activity>
     </application>
 
 </manifest>

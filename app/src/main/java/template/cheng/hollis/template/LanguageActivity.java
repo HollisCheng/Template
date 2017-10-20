@@ -131,6 +131,15 @@ public class LanguageActivity extends AppCompatActivity {
             }
         });
 
+        TextView CalendarTest = (TextView)findViewById(R.id.CalendarTest);
+        CalendarTest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LanguageActivity.this, TestActivity.class);
+                startActivity(intent);
+            }
+        });
+
         //region Language
 
         LangENG = (Button) findViewById(R.id.btnLangENG);

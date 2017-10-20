@@ -21,6 +21,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -72,6 +73,32 @@ public class BluetoothActivity extends AppCompatActivity {
         mDiscoverBtn = (Button) findViewById(R.id.discover);
         mListPairedDevicesBtn = (Button) findViewById(R.id.PairedBtn);
         mLED1 = (CheckBox) findViewById(R.id.checkboxLED1);
+        RelativeLayout RL_Root = (RelativeLayout) findViewById(R.id.RL_Root);
+        RL_Root.setOnTouchListener(new OnSwipeTouchListener(this) {
+            @Override
+            public void onSwipeTop() {
+                super.onSwipeTop();
+                Toast.makeText(BluetoothActivity.this, "top", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onSwipeBottom() {
+                super.onSwipeBottom();
+                Toast.makeText(BluetoothActivity.this, "bottom", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onSwipeLeft() {
+                super.onSwipeLeft();
+                Toast.makeText(BluetoothActivity.this, "left", Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onSwipeRight() {
+                super.onSwipeRight();
+                Toast.makeText(BluetoothActivity.this, "right", Toast.LENGTH_SHORT).show();
+            }
+        });
 
         mBTArrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1);
         mBTAdapter = BluetoothAdapter.getDefaultAdapter(); // get a handle on the bluetooth radio
