@@ -573,5 +573,6 @@
     <string name="All_privileges">All Privileges</string>
     <string name="animation">Animation</string>
     <string name="YoutubeAPI">YoutubeAPI</string>
+    <string name="btn_ok">OK</string>
 
 </resources>

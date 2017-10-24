@@ -21,4 +21,10 @@
         <attr name="currentDayOfMonthColor" format="color" />
         <attr name="calendarEndOfWeekColor" format="color" />
     </declare-styleable>
+
+    <declare-styleable name="LL_NormalRow">
+        <attr name="ImageTextTitle" format="string" />
+        <attr name="ImageTextIcon" format="reference"/>
+        <attr name="ImageTextShowDivider" format="boolean"/>
+    </declare-styleable>
 </resources>

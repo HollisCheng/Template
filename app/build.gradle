@@ -9,6 +9,7 @@ android {
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
     }
 
     productFlavors {
@@ -16,14 +17,17 @@ android {
             applicationId "template.cheng.hollis.template.dev"
 //            buildConfigField "String", "HOST", "\"ClSyvC4Ss6zWmhYNIa36ya7E5XSPQH2Odoje7NiSQQgc6UI5BASHVQCcBJ0S5aDv\""
             buildConfigField "String", "HOST", "\"DEV\""
+            buildConfigField "boolean", "ENABLE_LOG", "true"
         }
         uat {
             applicationId "template.cheng.hollis.template.uat"
             buildConfigField "String", "HOST", "\"UAT\""
+            buildConfigField "boolean", "ENABLE_LOG", "true"
         }
         pro {
 //            applicationId "template.cheng.hollis.template"
             buildConfigField "String", "HOST", "\"PRO\""
+            buildConfigField "boolean", "ENABLE_LOG", "false"
         }
     }
 
@@ -66,6 +70,7 @@ dependencies {
     compile 'com.android.support:design:25.1.0'
     compile 'com.android.support:support-v4:25.1.0'
     compile 'com.android.volley:volley:1.0.0'
+    compile "com.android.support:multidex:1.0.1"
     compile 'me.relex:circleindicator:1.2.1@aar'
     compile 'com.joooonho:selectableroundedimageview:1.0.1'
     compile 'org.greenrobot:eventbus:3.0.0'
@@ -89,5 +94,10 @@ dependencies {
     compile 'com.squareup.picasso:picasso:2.5.2'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.prolificinteractive:material-calendarview:1.4.3'
+    compile 'jp.wasabeef:blurry:2.1.1'
+    compile 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    compile 'com.google.code.gson:gson:2.8.2'
+    compile 'com.orhanobut:logger:2.1.1'
     testCompile 'junit:junit:4.12'
 }

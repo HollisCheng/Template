@@ -36,6 +36,18 @@
         <!--<item name="android:textStyle">bold</item>-->
     </style>
 
+    <style name="CV_Text_App" parent="TextAppearance.MaterialCalendarWidget.Date">
+        <!--<item name="android:textSize">15sp</item>-->
+        <item name="android:textColor">@drawable/my_date_text_color</item>
+        <!--<item name="android:textStyle">bold</item>-->
+    </style>
+
+    <style name="CV_WeekDay_Text_App" parent="TextAppearance.MaterialCalendarWidget.Date">
+        <!--<item name="android:textSize">15sp</item>-->
+        <item name="android:textColor">@color/Gray</item>
+        <!--<item name="android:textStyle">bold</item>-->
+    </style>
+
     <style name="MyCustomTabLowerCaseText" parent="TextAppearance.AppCompat.Button">
         <!--<item name="android:textSize">15sp</item>-->
         <item name="android:textColor">@color/Black</item>
