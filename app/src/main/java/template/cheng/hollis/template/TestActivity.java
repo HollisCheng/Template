@@ -3,7 +3,6 @@ package template.cheng.hollis.template;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -15,33 +14,29 @@ import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
 import java.util.Calendar;
 import java.util.HashSet;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 import template.cheng.hollis.template.base.BaseActivity;
 
+
 public class TestActivity extends BaseActivity {
+    @BindView(R.id.tv_show_hide_CV)
+    TextView tvShowHideCV;
+    @BindView(R.id.MCV_test)
+    MaterialCalendarView MCVTest;
+    @BindView(R.id.llnr_test)
+    LL_NormalRow llnrTest;
+
     HashSet<CalendarDay> dates = new HashSet<>();
     boolean IsShowCV = true;
-    TextView tv_show_hide_CV;
-    MaterialCalendarView MCV_test;
+    boolean IsShowD = true;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
-
-        MCV_test = (MaterialCalendarView) findViewById(R.id.MCV_test);
-        tv_show_hide_CV = (TextView) findViewById(R.id.tv_show_hide_CV);
-        LL_NormalRow llnr_test = (LL_NormalRow) findViewById(R.id.llnr_test);
-
-        llnr_test.tv_row_text.setText("ABCCBA");
-        llnr_test.view_divider.setVisibility(View.GONE);
-
-        //default is show when 1st time in
-        tv_show_hide_CV.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                setTVText();
-            }
-        });
+        ButterKnife.bind(this);
 
         Calendar cal1 = Calendar.getInstance();
         cal1.set(2017, 10 - 1, 1);
@@ -52,8 +47,8 @@ public class TestActivity extends BaseActivity {
         cal2.set(2017, 10 - 1, 2);
         CalendarDay calDay2 = CalendarDay.from(cal2);
         dates.add(calDay2);
-        MCV_test.setTopbarVisible(false);
-        MCV_test.addDecorator(new DayViewDecorator() {
+        MCVTest.setTopbarVisible(false);
+        MCVTest.addDecorator(new DayViewDecorator() {
             @Override
             public boolean shouldDecorate(CalendarDay day) {
                 return dates.contains(day);
@@ -69,39 +64,63 @@ public class TestActivity extends BaseActivity {
         });
     }
 
+    @OnClick({R.id.tv_show_hide_CV, R.id.llnr_test})
+    public void onViewClicked(View view) {
+        switch (view.getId()) {
+            case R.id.tv_show_hide_CV:
+                setTVText();
+                break;
+            case R.id.llnr_test:
+                llnr_change();
+                break;
+        }
+    }
+
     private void setTVText() {
         if (IsShowCV) {
-            tv_show_hide_CV.setText("Show");
+            tvShowHideCV.setText("Show");
             IsShowCV = false;
-            System.out.println("11MCV_test.getHeight()=" + MCV_test.getHeight());
-            MCV_test.animate()
-                    .translationY(-MCV_test.getHeight())
+            System.out.println("11MCVTest.getHeight()=" + MCVTest.getHeight());
+            MCVTest.animate()
+                    .translationY(-MCVTest.getHeight())
                     .alpha(0.0f)
                     .setListener(new AnimatorListenerAdapter() {
                         @Override
                         public void onAnimationEnd(Animator animation) {
                             super.onAnimationEnd(animation);
-                            MCV_test.setVisibility(View.GONE);
-                            System.out.println("22MCV_test.getHeight()=" + MCV_test.getHeight());
+                            MCVTest.setVisibility(View.GONE);
+                            System.out.println("22MCVTest.getHeight()=" + MCVTest.getHeight());
                         }
                     });
 
 
         } else {
-            tv_show_hide_CV.setText("Hide");
+            tvShowHideCV.setText("Hide");
             IsShowCV = true;
 
-            System.out.println("33MCV_test.getHeight()=" + MCV_test.getHeight());
+            System.out.println("33MCVTest.getHeight()=" + MCVTest.getHeight());
             // Prepare the View for the animation
-            MCV_test.setVisibility(View.VISIBLE);
-            System.out.println("44MCV_test.getHeight()=" + MCV_test.getHeight());
-            MCV_test.setAlpha(0.0f);
+            MCVTest.setVisibility(View.VISIBLE);
+            System.out.println("44MCVTest.getHeight()=" + MCVTest.getHeight());
+            MCVTest.setAlpha(0.0f);
             // Start the animation
-            MCV_test.animate()
+            MCVTest.animate()
                     .translationY(0)
                     .alpha(1.0f)
                     .setListener(null);
 
+        }
+    }
+
+    private void llnr_change() {
+        if (IsShowD) {
+            llnrTest.tv_row_text.setText("ABCCBA !IsShowD");
+            llnrTest.view_divider.setVisibility(View.GONE);
+            IsShowD = false;
+        } else {
+            llnrTest.tv_row_text.setText("ABCCBA IsShowD");
+            llnrTest.view_divider.setVisibility(View.VISIBLE);
+            IsShowD = true;
         }
     }
 }

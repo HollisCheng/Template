@@ -34,7 +34,7 @@
             android:id="@+id/llnr_test"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:ImageTextShowDivider="false"
+            app:ImageTextShowDivider="true"
             app:ImageTextTitle="abcabc" />
 
         <TextView
