@@ -5,48 +5,112 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="match_parent"
+        android:fillViewport="true">
 
-        <TextView
-            android:id="@+id/tv_show_hide_CV"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/accent"
-            android:padding="20dp"
-            android:text="Hide" />
-
-        <com.prolificinteractive.materialcalendarview.MaterialCalendarView
-            android:id="@+id/MCV_test"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/Blue"
-            android:visibility="visible"
-            app:mcv_dateTextAppearance="@style/CV_Text_App"
-            app:mcv_selectionColor="#FFFF"
-            app:mcv_showOtherDates="all"
-            app:mcv_weekDayTextAppearance="@style/CV_WeekDay_Text_App" />
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_show_hide_CV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/accent"
+                android:padding="20dp"
+                android:text="Hide" />
+
+            <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+                android:id="@+id/MCV_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/Blue"
+                android:visibility="visible"
+                app:mcv_dateTextAppearance="@style/CV_Text_App"
+                app:mcv_selectionColor="#FFFF"
+                app:mcv_showOtherDates="all"
+                app:mcv_weekDayTextAppearance="@style/CV_WeekDay_Text_App" />
 
 
-        <template.cheng.hollis.template.LL_NormalRow
-            android:id="@+id/llnr_test"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:ImageTextShowDivider="true"
-            app:ImageTextTitle="abcabc" />
+            <template.cheng.hollis.template.LL_NormalRow
+                android:id="@+id/llnr_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ImageTextShowDivider="true"
+                app:ImageTextTitle="abcabc" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="HIHI" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HIHI" />
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/icon_active_bookmark" />
-    </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_active_bookmark" />
 
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.aigestudio.wheelpicker.WheelPicker
+                    android:id="@+id/wp_hours"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/wp_mins"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    app:wheel_atmospheric="true"
+                    app:wheel_item_align="center"
+                    app:wheel_item_text_color="@color/Black"
+                    app:wheel_item_text_size="20sp"
+                    app:wheel_selected_item_text_color="@color/Black" />
+
+                <com.aigestudio.wheelpicker.WheelPicker
+                    android:id="@+id/wp_mins"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    app:wheel_atmospheric="true"
+                    app:wheel_item_align="center"
+                    app:wheel_item_text_color="@color/Black"
+                    app:wheel_item_text_size="20sp"
+                    app:wheel_selected_item_text_color="@color/Black" />
+
+                <com.aigestudio.wheelpicker.WheelPicker
+                    android:id="@+id/wp_am_pm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/wp_mins"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    app:wheel_atmospheric="true"
+                    app:wheel_item_align="center"
+                    app:wheel_item_text_color="@color/Black"
+                    app:wheel_item_text_size="20sp"
+                    app:wheel_selected_item_text_color="@color/Black" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/TransparentBlackLight" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HIHIHIHIHI" />
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

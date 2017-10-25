@@ -3,20 +3,25 @@ package template.cheng.hollis.template;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.view.View;
 import android.widget.TextView;
 
+import com.aigestudio.wheelpicker.WheelPicker;
 import com.prolificinteractive.materialcalendarview.CalendarDay;
 import com.prolificinteractive.materialcalendarview.DayViewDecorator;
 import com.prolificinteractive.materialcalendarview.DayViewFacade;
 import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
+import com.prolificinteractive.materialcalendarview.OnDateSelectedListener;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashSet;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import template.cheng.hollis.template.DateTimeStringConvert.TimeRender;
 import template.cheng.hollis.template.base.BaseActivity;
 
 
@@ -27,10 +32,19 @@ public class TestActivity extends BaseActivity {
     MaterialCalendarView MCVTest;
     @BindView(R.id.llnr_test)
     LL_NormalRow llnrTest;
+    @BindView(R.id.wp_hours)
+    WheelPicker wpHours;
+    @BindView(R.id.wp_mins)
+    WheelPicker wpMins;
+    @BindView(R.id.wp_am_pm)
+    WheelPicker wpAmPm;
 
     HashSet<CalendarDay> dates = new HashSet<>();
     boolean IsShowCV = true;
     boolean IsShowD = true;
+    private ArrayList<String> HRS = new ArrayList<>();
+    private ArrayList<String> MINS = new ArrayList<>();
+    private ArrayList<String> AMPM = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +61,7 @@ public class TestActivity extends BaseActivity {
         cal2.set(2017, 10 - 1, 2);
         CalendarDay calDay2 = CalendarDay.from(cal2);
         dates.add(calDay2);
-        MCVTest.setTopbarVisible(false);
+//        MCVTest.setTopbarVisible(false);
         MCVTest.addDecorator(new DayViewDecorator() {
             @Override
             public boolean shouldDecorate(CalendarDay day) {
@@ -60,6 +74,32 @@ public class TestActivity extends BaseActivity {
 //                view.setSelectionDrawable(getResources().getDrawable(R.drawable.draw_selected_circle));
                 view.addSpan(new TwoDotSpan(6, getResources().getColor(R.color.CadetBlue), getResources().getColor(R.color.LightBlue)));
 //                view.addSpan(new DotSpan(6, getResources().getColor(R.color.green)));
+            }
+        });
+
+        MCVTest.setOnDateChangedListener(new OnDateSelectedListener() {
+            @Override
+            public void onDateSelected(@NonNull MaterialCalendarView widget, @NonNull CalendarDay date, boolean selected) {
+                try {
+                    System.out.println("date=" + date);
+                    System.out.println("date string = " + TimeRender.getDate(date.getDate(), "dd MMM yyyy"));
+                } catch (Exception e) {
+                    System.out.println("error=" + e.toString());
+                }
+
+
+            }
+        });
+
+        setHrMinAMPMData();
+        wpHours.setData(HRS);
+        wpMins.setData(MINS);
+        wpAmPm.setData(AMPM);
+
+        wpHours.setOnItemSelectedListener(new WheelPicker.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(WheelPicker picker, Object data, int position) {
+
             }
         });
     }
@@ -123,4 +163,23 @@ public class TestActivity extends BaseActivity {
             IsShowD = true;
         }
     }
+
+    private void setHrMinAMPMData() {
+        for (int i = 0; i < 12; i++) {
+            HRS.add(i + "");
+        }
+
+        for (int i = 0; i < 60; i += 5) {
+            if (i < 10) {
+                MINS.add("0" + i);
+            } else {
+                MINS.add(i + "");
+            }
+        }
+
+        AMPM.add("AM");
+        AMPM.add("PM");
+
+    }
+
 }
