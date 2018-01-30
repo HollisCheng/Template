@@ -26,6 +26,7 @@ Encrypt function for hide string inside the application 24/3/2017
 Language switch with immediately
 -TestBundleActivity
 set top noticeBar and bottom navigationBar color 24/3/2017
+multiAutoCompleteTv 15/11/2017
 
 -AnimationActivity
 Image Swap by time
@@ -67,5 +68,6 @@ webView setting and AES256 encrypt/decry
 add setting for loading image (ForAPI21UP) 8/5/2017
 hander webview select file upload image(5.0above) 4/8/2017
 
+Updated project with Kotlin
 ---TODO ADD ITEMS LIST---
 

@@ -5,6 +5,8 @@ import android.animation.AnimatorListenerAdapter;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.MultiAutoCompleteTextView;
 import android.widget.TextView;
 
 import com.aigestudio.wheelpicker.WheelPicker;
@@ -45,6 +47,9 @@ public class TestActivity extends BaseActivity {
     private ArrayList<String> HRS = new ArrayList<>();
     private ArrayList<String> MINS = new ArrayList<>();
     private ArrayList<String> AMPM = new ArrayList<>();
+    String months[] = null;
+    ArrayAdapter<String> monthAdapter = null;
+    MultiAutoCompleteTextView multiAutoCompleteTvMonth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,6 +107,13 @@ public class TestActivity extends BaseActivity {
 
             }
         });
+
+        months = getResources().getStringArray(R.array.months);
+        monthAdapter = new ArrayAdapter<String>(this, R.layout.hint_completion_layout, R.id.tvHintCompletion, months);
+        // monthAdapter = new ArrayAdapter<String>(this,android.R.layout.select_dialog_item, months);
+        multiAutoCompleteTvMonth = (MultiAutoCompleteTextView) findViewById(R.id.multiAutoCompleteTvMonth);
+        multiAutoCompleteTvMonth.setTokenizer(new MultiAutoCompleteTextView.CommaTokenizer());
+        multiAutoCompleteTvMonth.setAdapter(monthAdapter);
     }
 
     @OnClick({R.id.tv_show_hide_CV, R.id.llnr_test})

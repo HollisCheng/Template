@@ -140,6 +140,15 @@ public class LanguageActivity extends AppCompatActivity {
             }
         });
 
+        TextView CalendarTest2 = (TextView)findViewById(R.id.CalendarTest2);
+        CalendarTest2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LanguageActivity.this, Test2Activity.class);
+                startActivity(intent);
+            }
+        });
+
         //region Language
 
         LangENG = (Button) findViewById(R.id.btnLangENG);
@@ -175,7 +184,7 @@ public class LanguageActivity extends AppCompatActivity {
                 getBaseContext().getResources().updateConfiguration(getBaseContext().getResources().getConfiguration(), getBaseContext().getResources().getDisplayMetrics());
                 InsertDB("en");
                 Intent intent1 = new Intent(LanguageActivity.this, MainActivity.class);
-                intent1.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | IntentCompat.FLAG_ACTIVITY_CLEAR_TASK);
+                intent1.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent1);
             }
         });
@@ -193,7 +202,7 @@ public class LanguageActivity extends AppCompatActivity {
                 getBaseContext().getResources().updateConfiguration(getBaseContext().getResources().getConfiguration(), getBaseContext().getResources().getDisplayMetrics());
                 InsertDB("zh");
                 Intent intent1 = new Intent(LanguageActivity.this, MainActivity.class);
-                intent1.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | IntentCompat.FLAG_ACTIVITY_CLEAR_TASK);
+                intent1.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent1);
             }
         });

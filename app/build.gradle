@@ -1,12 +1,18 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.1"
+    dexOptions{
+        javaMaxHeapSize "4g"
+    }
+    compileSdkVersion 27
+    flavorDimensions "dev"
+    buildToolsVersion '26.0.3'
     defaultConfig {
         applicationId "template.cheng.hollis.template"
         minSdkVersion 16
-        targetSdkVersion 25
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
@@ -14,8 +20,6 @@ android {
 
     productFlavors {
         dev {
-            applicationId "template.cheng.hollis.template.dev"
-//            buildConfigField "String", "HOST", "\"ClSyvC4Ss6zWmhYNIa36ya7E5XSPQH2Odoje7NiSQQgc6UI5BASHVQCcBJ0S5aDv\""
             buildConfigField "String", "HOST", "\"DEV\""
             buildConfigField "boolean", "ENABLE_LOG", "true"
         }
@@ -25,30 +29,28 @@ android {
             buildConfigField "boolean", "ENABLE_LOG", "true"
         }
         pro {
-//            applicationId "template.cheng.hollis.template"
+            applicationId "template.cheng.hollis.template.release"
             buildConfigField "String", "HOST", "\"PRO\""
             buildConfigField "boolean", "ENABLE_LOG", "false"
         }
     }
 
     buildTypes {
-        debug {
-            applicationIdSuffix '.debug'
-        }
         release {
-            minifyEnabled false
+            zipAlignEnabled true
+            shrinkResources true
+            minifyEnabled true
+            debuggable false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            applicationIdSuffix ".release"
-
-            applicationVariants.all { variant ->
-                variant.outputs.each { output ->
-                    def date = new Date();
-                    def formattedDate = date.format('yyyyMMddHHmm')
-                    output.outputFile = new File(output.outputFile.parent,
-                            output.outputFile.name.replace("-release", "-" + versionName + "-" + formattedDate)
-                    )
-                }
-            }
+//            applicationVariants.all { variant ->
+//                variant.outputs.each { output ->
+//                    def date = new Date();
+//                    def formattedDate = date.format('yyyyMMddHHmm')
+//                    output.outputFile = new File(output.outputFile.parent,
+//                            output.outputFile.name.replace("-release", "-" + versionName + "-" + formattedDate)
+//                    )
+//                }
+//            }
         }
     }
 }
@@ -58,6 +60,7 @@ repositories {
 }
 
 dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
     compile fileTree(dir: 'libs', include: ['*.jar'])
     //circleindicator need minSDKVersion 11 above
     //androidhintspinner need minSDKVersion 14 above
@@ -66,9 +69,9 @@ dependencies {
         exclude module: 'support-v4'
     }
     compile files('libs/YouTubeAndroidPlayerApi.jar')
-    compile 'com.android.support:appcompat-v7:25.1.0'
-    compile 'com.android.support:design:25.1.0'
-    compile 'com.android.support:support-v4:25.1.0'
+    compile 'com.android.support:appcompat-v7:27.0.2'
+    compile 'com.android.support:design:27.0.2'
+    compile 'com.android.support:support-v4:27.0.2'
     compile 'com.android.volley:volley:1.0.0'
     compile "com.android.support:multidex:1.0.1"
     compile 'me.relex:circleindicator:1.2.1@aar'
@@ -100,5 +103,6 @@ dependencies {
     compile 'com.google.code.gson:gson:2.8.2'
     compile 'com.orhanobut:logger:2.1.1'
     compile 'cn.aigestudio.wheelpicker:WheelPicker:1.1.2'
+    compile 'com.github.codbking:CalendarExaple:v1.0.0'
     testCompile 'junit:junit:4.12'
 }

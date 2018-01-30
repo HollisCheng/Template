@@ -110,6 +110,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="HIHIHIHIHI" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/multiAutoCompleteTvMonth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:completionHintView="@layout/hint_completion_layout"
+                android:completionThreshold="1"
+                android:hint="Enter few letters of month"
+                android:textColorHint="@color/colorPrimaryDark"
+                android:layout_below="@+id/tvTitle"
+                />
         </LinearLayout>
     </ScrollView>
 

@@ -217,7 +217,7 @@ public class CardsFragment extends Fragment {
                 //close all and go back to card wallet page
                 Intent intent = new Intent(getActivity(), MainActivity.class);
                 //clear all previous activities
-                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | IntentCompat.FLAG_ACTIVITY_CLEAR_TASK);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
             }
         });

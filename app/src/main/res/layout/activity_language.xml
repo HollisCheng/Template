@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:gravity="center"
-                android:text="CalendarTest" />
+                android:text="Test Activity" />
 
             <ImageView
                 android:id="@+id/IV_Bluetooth"
@@ -32,6 +32,14 @@
                 android:layout_height="40dp"
                 android:layout_gravity="center_vertical|center_horizontal"
                 android:src="@drawable/draw_selected_circle" />
+
+            <TextView
+                android:id="@+id/CalendarTest2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="Test2 Activity" />
 
             <LinearLayout
                 android:layout_width="match_parent"

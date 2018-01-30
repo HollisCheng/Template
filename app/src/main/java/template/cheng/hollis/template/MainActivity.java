@@ -95,6 +95,14 @@ public class MainActivity extends AppCompatActivity {
 //        Utility.mTracker = application.getDefaultTracker();
         LanguageDAO languageDAO = new LanguageDAO(getApplicationContext());
 
+        //Test if error show and crash! return to MainActivity.class
+//        if (BuildConfig.FLAVOR.toLowerCase().equals("pro"))
+//            Thread.setDefaultUncaughtExceptionHandler(new MyExceptionHandler(this, MainActivity.class));
+        Thread.setDefaultUncaughtExceptionHandler(new MyExceptionHandler(this));
+//        else
+//            Thread.setDefaultUncaughtExceptionHandler(new LogExceptionHandler(this, MainActivity.class));
+        //Set a exceptionHandler if error crush app, log the error in txt and return to MainActivity.class
+
         //region load language DB
         try {
             if (languageDAO.getCount() == 0) {
@@ -131,9 +139,9 @@ public class MainActivity extends AppCompatActivity {
                 getBaseContext().getResources().getDisplayMetrics());
         //endregion
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        etCount = (TextView) findViewById(R.id.counter);
-        ImageView IVCounter = (ImageView) findViewById(R.id.IVCounter);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        etCount = findViewById(R.id.counter);
+        ImageView IVCounter = findViewById(R.id.IVCounter);
 
         if (IVCounter != null) {
             IVCounter.setOnClickListener(new View.OnClickListener() {
@@ -148,13 +156,13 @@ public class MainActivity extends AppCompatActivity {
 
         setSupportActionBar(toolbar);
 
-        drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer = findViewById(R.id.drawer_layout);
 //        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
 //                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
 //        drawer.setDrawerListener(toggle);
 //        toggle.syncState();
 
-        ImageView IVTToggle = (ImageView) findViewById(R.id.IVTToggle);
+        ImageView IVTToggle = findViewById(R.id.IVTToggle);
         if (IVTToggle != null) {
             IVTToggle.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -169,11 +177,11 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //setting
-        Button BTN_Panorama = (Button) findViewById(R.id.BTN_Panorama);
-        etProperty_Name = (AutoCompleteTextView) findViewById(R.id.etProperty_Name);
-        SSRBTestBundle = (SweetSansRegButton) findViewById(R.id.SSRBTestBundle);
-        btnFbTestPage = (Button) findViewById(R.id.btnFbTestPage);
-        btnFbOtherClickPage = (Button) findViewById(R.id.btnFbOtherClickPage);
+        Button BTN_Panorama = findViewById(R.id.BTN_Panorama);
+        etProperty_Name = findViewById(R.id.etProperty_Name);
+        SSRBTestBundle = findViewById(R.id.SSRBTestBundle);
+        btnFbTestPage = findViewById(R.id.btnFbTestPage);
+        btnFbOtherClickPage = findViewById(R.id.btnFbOtherClickPage);
 
         BTN_Panorama.setOnClickListener(new OnSingleClickListener() {
             @Override
@@ -237,15 +245,15 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //region Slide Bar
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        NavigationView navigationView = findViewById(R.id.nav_view);
 //        navigationView.setNavigationItemSelectedListener(this);
 
         View slideMenu = navigationView.inflateHeaderView(R.layout.nav_header_almain_page);
-        ssrtvSlideRZ = (SweetSansRegTextView) slideMenu.findViewById(R.id.ssrtvSlideRZ);
-        ssrtvSlideFB = (SweetSansRegTextView) slideMenu.findViewById(R.id.ssrtvSlideFB);
+        ssrtvSlideRZ = slideMenu.findViewById(R.id.ssrtvSlideRZ);
+        ssrtvSlideFB = slideMenu.findViewById(R.id.ssrtvSlideFB);
 
         //region AnimationActivity
-        LinearLayout llSlideResidentZone = (LinearLayout) slideMenu.findViewById(R.id.llSlideResidentZone);
+        LinearLayout llSlideResidentZone = slideMenu.findViewById(R.id.llSlideResidentZone);
         llSlideResidentZone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -257,7 +265,7 @@ public class MainActivity extends AppCompatActivity {
         //endregion
 
         //region ViewPagerActivity
-        LinearLayout llSlideReferral = (LinearLayout) slideMenu.findViewById(R.id.llSlideReferral);
+        LinearLayout llSlideReferral = slideMenu.findViewById(R.id.llSlideReferral);
         llSlideReferral.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -270,7 +278,7 @@ public class MainActivity extends AppCompatActivity {
         //endregion
 
         //region Language Activity
-        LinearLayout llSlideFeedback = (LinearLayout) slideMenu.findViewById(R.id.llSlideFeedback);
+        LinearLayout llSlideFeedback = slideMenu.findViewById(R.id.llSlideFeedback);
         llSlideFeedback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -282,7 +290,7 @@ public class MainActivity extends AppCompatActivity {
         //endregion
 
         //region CardWallet
-        LinearLayout llSlideSetting = (LinearLayout) slideMenu.findViewById(R.id.llSlideSetting);
+        LinearLayout llSlideSetting = slideMenu.findViewById(R.id.llSlideSetting);
         llSlideSetting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -296,7 +304,7 @@ public class MainActivity extends AppCompatActivity {
         //endregion
 
         //region CalendarActivity
-        LinearLayout llSlideTnC = (LinearLayout) slideMenu.findViewById(R.id.llSlideTnC);
+        LinearLayout llSlideTnC = slideMenu.findViewById(R.id.llSlideTnC);
         llSlideTnC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -315,7 +323,7 @@ public class MainActivity extends AppCompatActivity {
         //endregion
 
         //region YoutubeAPIActivity
-        LinearLayout llYoutubeAPI = (LinearLayout) slideMenu.findViewById(R.id.llYoutubeAPI);
+        LinearLayout llYoutubeAPI = slideMenu.findViewById(R.id.llYoutubeAPI);
         llYoutubeAPI.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -327,7 +335,7 @@ public class MainActivity extends AppCompatActivity {
         //endregion
 
         //region LLWebView
-        LinearLayout LLWebView = (LinearLayout) slideMenu.findViewById(R.id.LLWebView);
+        LinearLayout LLWebView = slideMenu.findViewById(R.id.LLWebView);
         LLWebView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -348,8 +356,8 @@ public class MainActivity extends AppCompatActivity {
 
         //region Language
 
-        LangENG = (Button) slideMenu.findViewById(R.id.btnLangENG);
-        LangTC = (Button) slideMenu.findViewById(R.id.btnLangTC);
+        LangENG = slideMenu.findViewById(R.id.btnLangENG);
+        LangTC = slideMenu.findViewById(R.id.btnLangTC);
 //        LangSC = (Button) slideMenu.findViewById(R.id.btnLangSC);
 
         //region check DB language
@@ -423,7 +431,7 @@ public class MainActivity extends AppCompatActivity {
 
         //endregion
 
-        RadioGroup RGUserPropertyType = (RadioGroup) findViewById(R.id.RGUserPropertyType);
+        RadioGroup RGUserPropertyType = findViewById(R.id.RGUserPropertyType);
 
         RGUserPropertyType.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
@@ -444,8 +452,8 @@ public class MainActivity extends AppCompatActivity {
 
         //region ExpandableLayout / filter search page and call back function / scrollView not focus editTextView
 
-        final ScrollView SV_preventFocusET = (ScrollView) findViewById(R.id.SV_preventFocusET);
-        final EditText tvAboveName = (EditText) findViewById(R.id.tvAboveName);
+        final ScrollView SV_preventFocusET = findViewById(R.id.SV_preventFocusET);
+        final EditText tvAboveName = findViewById(R.id.tvAboveName);
         //scrollView not focus editTextView
         final InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
         SV_preventFocusET.setOnTouchListener(new View.OnTouchListener() {
@@ -466,9 +474,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        final AutoCompleteTextView No_etProperty_NameNotSame = (AutoCompleteTextView) findViewById(R.id.No_etProperty_NameNotSame);
-        final ExpandableLayout YesEL = (ExpandableLayout) findViewById(R.id.YesEL);
-        final ImageView YesELOpenOffIcon = (ImageView) findViewById(R.id.YesELOpenOffIcon);
+        final AutoCompleteTextView No_etProperty_NameNotSame = findViewById(R.id.No_etProperty_NameNotSame);
+        final ExpandableLayout YesEL = findViewById(R.id.YesEL);
+        final ImageView YesELOpenOffIcon = findViewById(R.id.YesELOpenOffIcon);
         YesEL.getHeaderRelativeLayout().setOnClickListener(new OnSingleClickListener() {
             @Override
             public void onSingleClick(View v) {
@@ -496,7 +504,7 @@ public class MainActivity extends AppCompatActivity {
         }
         KeyWordsInfoAL = WordsInfoAL;
 
-        Spinner No_SpinnerUnitNotSame = (Spinner) findViewById(R.id.No_SpinnerUnitNotSame);
+        Spinner No_SpinnerUnitNotSame = findViewById(R.id.No_SpinnerUnitNotSame);
         ArrayAdapter<String> adapterSpinnerBlock = new ArrayAdapter<>(MainActivity.this,
                 android.R.layout.simple_spinner_item, keyWordsA);
         adapterSpinnerBlock.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -693,9 +701,9 @@ public class MainActivity extends AppCompatActivity {
         byte[] decryptedData = null;
         try {
             Encryption encryption = Encryption.getDefault(combinedKey, combinedSalt, new byte[16]);
-            String encrypted = encryption.encryptOrNull("https://appsdev.nwd.com.hk/NWDService_uat/Service.svc/");
+            String encrypted = encryption.encryptOrNull("Hello$$EventFormSubmitInfo**GoodBye");
             Log.w("A", "encrypted:" + encrypted);
-            String decrypted = encryption.decryptOrNull("ClSyvC4Ss6zWmhYNIa36ya7E5XSPQH2Odoje7NiSQQgc6UI5BASHVQCcBJ0S5aDv");
+            String decrypted = encryption.decryptOrNull("kKt4gpbMK4uZHrZbLF00CjK1atUZ8lBmnMGExntxaDIR3FFNtRmCp/KQo2tiDFFQ");
             String text2 = null;
             Log.w("A", "decryptedData:" + decrypted);
             //https://apps.nwd.com.hk/NWDService/Service.svc/

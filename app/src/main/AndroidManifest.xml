@@ -155,6 +155,7 @@
         <activity android:name=".Panorama.VideoPlayerActivity" />
         <activity android:name=".BluetoothActivity" />
         <activity android:name=".TestActivity"></activity>
+        <activity android:name=".Test2Activity"></activity>
     </application>
 
 </manifest>

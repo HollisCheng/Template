@@ -1,6 +1,6 @@
 HollisChengGitHubTemplate
 
-Hollis Template
+Update project with Kotlin 30/01/2018
 
 -MainActivity
 TextView
