@@ -97,7 +97,7 @@
         <!--android:src="@drawable/delete"-->
         <!--android:visibility="gone" />-->
 
-      <template.cheng.hollis.template.TextView.RobotoBoldTextView
+      <template.cheng.hollis.template.textView.RobotoBoldTextView
             android:id="@+id/CardsNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -24,7 +24,7 @@
     <!--android:src="@drawable/ic_arrow_back_white_24dp"-->
 
     <!--<TextView -->
-<template.cheng.hollis.template.TextView.RobotoBoldTextView
+<template.cheng.hollis.template.textView.RobotoBoldTextView
         android:id="@+id/dateTitle"
         style="@style/CalendarView.MonthTitle"
         android:layout_width="match_parent"

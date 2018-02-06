@@ -132,13 +132,13 @@
                     android:scheme="https" />
             </intent-filter>
         </activity>
-        <activity android:name=".TestBundlePage.TestBundleActivity" />
+        <activity android:name=".testBundlePage.TestBundleActivity" />
         <activity android:name=".LanguageActivity" />
         <activity android:name=".AnimationActivity" />
         <activity android:name=".ViewPagerActivity" />
-        <activity android:name=".CoordinatorLayout_Card_Tab_Filter.CardVPActivity" />
-        <activity android:name=".CoordinatorLayout_Card_Tab_Filter.CoordinatorActivity" />
-        <activity android:name=".WebConnect.WebViewClientPage" />
+        <activity android:name=".coordinatorLayout_Card_Tab_Filter.CardVPActivity" />
+        <activity android:name=".coordinatorLayout_Card_Tab_Filter.CoordinatorActivity" />
+        <activity android:name=".webConnect.WebViewClientPage" />
         <activity android:name=".CalendarActivity" />
         <activity android:name=".FBActivity" />
         <activity android:name=".FBotherClickActivity" />
@@ -149,13 +149,16 @@
             android:screenOrientation="portrait" />
         <activity android:name=".YoutubeAPIActivity" />
         <activity
-            android:name=".YoutubeAPI.PropertiesNamePageActivity"
+            android:name=".youtubeAPI.PropertiesNamePageActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".Panorama.BitmapPlayerActivity" />
-        <activity android:name=".Panorama.VideoPlayerActivity" />
+        <activity android:name=".panorama.BitmapPlayerActivity" />
+        <activity android:name=".panorama.VideoPlayerActivity" />
         <activity android:name=".BluetoothActivity" />
         <activity android:name=".TestActivity"></activity>
         <activity android:name=".Test2Activity"></activity>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="f6648a1ced438e0821a2b1bae2c8900d1af08a4f" />
     </application>
 
 </manifest>

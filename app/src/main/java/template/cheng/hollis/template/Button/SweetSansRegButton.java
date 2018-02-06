@@ -1,4 +1,4 @@
-package template.cheng.hollis.template.Button;
+package template.cheng.hollis.template.button;
 
 import android.content.Context;
 import android.graphics.Typeface;

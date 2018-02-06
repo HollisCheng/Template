@@ -2,10 +2,7 @@ package template.cheng.hollis.template;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,16 +12,11 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.google.android.gms.analytics.HitBuilders;
-import com.google.android.gms.analytics.Tracker;
-
-import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-import template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.OffersInfo;
-import template.cheng.hollis.template.TextView.SweetSansBoldTextView;
-import template.cheng.hollis.template.WebConnect.WebViewClientPage;
+import template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.OffersInfo;
+import template.cheng.hollis.template.textView.SweetSansBoldTextView;
 
 public class HappensLatestPAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private ArrayList<OffersInfo> info;

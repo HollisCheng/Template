@@ -22,8 +22,8 @@ import java.util.Locale;
 
 import me.srodrigo.androidhintspinner.HintAdapter;
 import me.srodrigo.androidhintspinner.HintSpinner;
-import template.cheng.hollis.template.Calendar.FacilityCalendarView;
-import template.cheng.hollis.template.DateTimeStringConvert.TimeRender;
+import template.cheng.hollis.template.calendar.FacilityCalendarView;
+import template.cheng.hollis.template.dateTimeStringConvert.TimeRender;
 
 public class CalendarActivity extends AppCompatActivity {
     private FacilityCalendarView facilityCalendarView;

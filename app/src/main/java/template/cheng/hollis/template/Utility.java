@@ -53,7 +53,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import template.cheng.hollis.template.ObjectInfo.KeyWordsInfo;
+import template.cheng.hollis.template.objectInfo.KeyWordsInfo;
 
 public class Utility {
     public static Tracker mTracker;

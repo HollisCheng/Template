@@ -5,7 +5,7 @@
     android:background="@color/White"
     android:orientation="vertical">
 
-    <template.cheng.hollis.template.ImageView.CircleImageView
+    <template.cheng.hollis.template.imageView.CircleImageView
         android:id="@+id/SlideCIV"
         android:layout_width="60dp"
         android:layout_height="60dp"
@@ -44,7 +44,7 @@
                 android:layout_marginRight="15dp"
                 android:src="@drawable/icon_residentzone" />
 
-            <template.cheng.hollis.template.TextView.SweetSansRegTextView
+            <template.cheng.hollis.template.textView.SweetSansRegTextView
                 android:id="@+id/ssrtvSlideRZ"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -73,7 +73,7 @@
                 android:layout_marginRight="15dp"
                 android:src="@drawable/icon_feedback" />
 
-            <template.cheng.hollis.template.TextView.SweetSansRegTextView
+            <template.cheng.hollis.template.textView.SweetSansRegTextView
                 android:id="@+id/ssrtvSlideRF"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -129,7 +129,7 @@
                 android:layout_marginRight="15dp"
                 android:src="@drawable/icon_feedback" />
 
-            <template.cheng.hollis.template.TextView.SweetSansRegTextView
+            <template.cheng.hollis.template.textView.SweetSansRegTextView
                 android:id="@+id/ssrtvSlideFB"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -166,7 +166,7 @@
                 android:layout_marginRight="15dp"
                 android:src="@drawable/icon_residentzone" />
 
-       <template.cheng.hollis.template.TextView.SweetSansRegTextView
+       <template.cheng.hollis.template.textView.SweetSansRegTextView
                 android:id="@+id/ssrtvSlideSet"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -236,7 +236,7 @@
                 android:layout_marginRight="15dp"
                 android:src="@drawable/icon_active_bookmark" />
 
-           <template.cheng.hollis.template.TextView.SweetSansRegTextView
+           <template.cheng.hollis.template.textView.SweetSansRegTextView
                 android:id="@+id/ssrtvSlideTnC"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -264,7 +264,7 @@
                 android:layout_marginRight="15dp"
                 android:src="@drawable/icon_active_bookmark" />
 
-            <template.cheng.hollis.template.TextView.SweetSansRegTextView
+            <template.cheng.hollis.template.textView.SweetSansRegTextView
                 android:id="@+id/ssrtvYoutubeAPI"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -292,7 +292,7 @@
                 android:layout_marginRight="15dp"
                 android:src="@drawable/icon_active_bookmark" />
 
-            <template.cheng.hollis.template.TextView.SweetSansRegTextView
+            <template.cheng.hollis.template.textView.SweetSansRegTextView
                 android:id="@+id/ssrtvWebView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

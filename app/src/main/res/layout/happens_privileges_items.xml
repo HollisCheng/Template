@@ -118,7 +118,7 @@
         android:layout_alignParentBottom="true">
         <!--android:weightSum="3"-->
         <!--android:background="@color/TransparentBlackLight"-->
-        <template.cheng.hollis.template.TextView.SweetSansBoldTextView
+        <template.cheng.hollis.template.textView.SweetSansBoldTextView
             android:id="@+id/tvOfferTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -137,7 +137,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <template.cheng.hollis.template.TextView.SweetSansBoldTextView
+            <template.cheng.hollis.template.textView.SweetSansBoldTextView
                 android:id="@+id/tvShopNAME"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

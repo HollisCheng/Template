@@ -15,8 +15,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import template.cheng.hollis.template.TextView.SweetSansRegTextView;
-import template.cheng.hollis.template.ViewPager.NoSwipeViewPager;
+import template.cheng.hollis.template.textView.SweetSansRegTextView;
+import template.cheng.hollis.template.viewPager.NoSwipeViewPager;
 
 public class ViewPagerActivity extends AppCompatActivity {
     private ImageView tabMe, tabPrivileges, tabFacilities, tabEvents, tabProperties;

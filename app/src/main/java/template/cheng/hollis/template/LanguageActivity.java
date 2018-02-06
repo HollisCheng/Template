@@ -20,7 +20,6 @@ import android.security.keystore.KeyProperties;
 import android.support.annotation.RequiresApi;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
-import android.support.v4.content.IntentCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -64,11 +63,11 @@ import javax.crypto.NoSuchPaddingException;
 import javax.crypto.SecretKey;
 
 import me.philio.pinentry.PinEntryView;
-import template.cheng.hollis.template.Button.SweetSansRegButton;
-import template.cheng.hollis.template.Camera.BitmapHelper;
-import template.cheng.hollis.template.Camera.CameraIntentHelper;
-import template.cheng.hollis.template.Camera.CameraIntentHelperCallback;
-import template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.CoordinatorActivity;
+import template.cheng.hollis.template.button.SweetSansRegButton;
+import template.cheng.hollis.template.camera.BitmapHelper;
+import template.cheng.hollis.template.camera.CameraIntentHelper;
+import template.cheng.hollis.template.camera.CameraIntentHelperCallback;
+import template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.CoordinatorActivity;
 import template.cheng.hollis.template.SQLiteDB.Language;
 import template.cheng.hollis.template.SQLiteDB.LanguageDAO;
 

@@ -23,7 +23,7 @@ import java.util.HashSet;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import template.cheng.hollis.template.DateTimeStringConvert.TimeRender;
+import template.cheng.hollis.template.dateTimeStringConvert.TimeRender;
 import template.cheng.hollis.template.base.BaseActivity;
 
 

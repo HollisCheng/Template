@@ -29,7 +29,7 @@
     <!--android:layout_gravity="center"-->
     <!--android:text="Toolbar Title" />-->
 
-    <template.cheng.hollis.template.TextView.RobotoBoldTextView
+    <template.cheng.hollis.template.textView.RobotoBoldTextView
         android:id="@+id/toolbar_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

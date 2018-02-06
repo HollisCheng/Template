@@ -123,7 +123,7 @@
             <!--app:digitTextSize="10sp"-->
             <!--app:mask="" />-->
 
-            <template.cheng.hollis.template.Button.SweetSansRegButton
+            <template.cheng.hollis.template.button.SweetSansRegButton
                 android:id="@+id/SSRBShow"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

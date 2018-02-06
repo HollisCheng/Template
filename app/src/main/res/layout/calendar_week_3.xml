@@ -16,7 +16,7 @@
         android:layout_weight="1"
         android:tag="dayOfMonthContainer15">
 
-              <template.cheng.hollis.template.Calendar.widget.DayView
+              <template.cheng.hollis.template.calendar.widget.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
         android:layout_weight="1"
         android:tag="dayOfMonthContainer16">
 
-              <template.cheng.hollis.template.Calendar.widget.DayView
+              <template.cheng.hollis.template.calendar.widget.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,7 +52,7 @@
         android:layout_weight="1"
         android:tag="dayOfMonthContainer17">
 
-              <template.cheng.hollis.template.Calendar.widget.DayView
+              <template.cheng.hollis.template.calendar.widget.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
         android:layout_weight="1"
         android:tag="dayOfMonthContainer18">
 
-              <template.cheng.hollis.template.Calendar.widget.DayView
+              <template.cheng.hollis.template.calendar.widget.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -88,7 +88,7 @@
         android:layout_weight="1"
         android:tag="dayOfMonthContainer19">
 
-              <template.cheng.hollis.template.Calendar.widget.DayView
+              <template.cheng.hollis.template.calendar.widget.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -106,7 +106,7 @@
         android:layout_weight="1"
         android:tag="dayOfMonthContainer20">
 
-              <template.cheng.hollis.template.Calendar.widget.DayView
+              <template.cheng.hollis.template.calendar.widget.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -124,7 +124,7 @@
         android:layout_weight="1"
         android:tag="dayOfMonthContainer21">
 
-              <template.cheng.hollis.template.Calendar.widget.DayView
+              <template.cheng.hollis.template.calendar.widget.DayView
             style="@style/CalendarView.DayOfTheMonth"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

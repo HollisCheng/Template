@@ -11,7 +11,7 @@
         android:orientation="horizontal"
         android:padding="10dp">
 
-        <template.cheng.hollis.template.TextView.SweetSansRegTextView
+        <template.cheng.hollis.template.textView.SweetSansRegTextView
             android:id="@+id/tv_row_text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

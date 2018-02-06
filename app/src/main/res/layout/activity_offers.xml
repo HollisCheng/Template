@@ -143,7 +143,7 @@
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
-            <template.cheng.hollis.template.ImageView.CircleImageView
+            <template.cheng.hollis.template.imageView.CircleImageView
                     android:id="@+id/view"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
@@ -160,7 +160,7 @@
                     android:orientation="vertical">
 
 
-                 <template.cheng.hollis.template.TextView.RobotoBoldTextView
+                 <template.cheng.hollis.template.textView.RobotoBoldTextView
                         android:id="@+id/tvOfferName"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -433,7 +433,7 @@
             android:background="@color/White"
             android:visibility="gone">
 
-          <template.cheng.hollis.template.Button.SweetSansRegButton
+          <template.cheng.hollis.template.button.SweetSansRegButton
                 android:id="@+id/btnGetOfferNow"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"

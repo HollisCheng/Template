@@ -40,37 +40,37 @@
                 android:layout_height="wrap_content"
                 android:text="Panorama test" />
 
-            <template.cheng.hollis.template.TextView.RobotoBoldTextView
+            <template.cheng.hollis.template.textView.RobotoBoldTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="RobotoBoldTextView" />
 
-            <template.cheng.hollis.template.TextView.RobotoBoldTextView
+            <template.cheng.hollis.template.textView.RobotoBoldTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="RobotoBoldTextView"
                 android:textStyle="bold" />
 
-            <template.cheng.hollis.template.TextView.SweetSansRegTextView
+            <template.cheng.hollis.template.textView.SweetSansRegTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="SweetSansRegTextView" />
 
-            <template.cheng.hollis.template.TextView.AutoResizeTextView
+            <template.cheng.hollis.template.textView.AutoResizeTextView
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:ellipsize="none"
                 android:gravity="center"
-                android:maxLines="1"
+                android:singleLine="true"
                 android:text="AutoResizeTextyyy"
                 android:textSize="100sp" />
 
-            <template.cheng.hollis.template.TextView.AutoResizeTextView
+            <template.cheng.hollis.template.textView.AutoResizeTextView
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:ellipsize="none"
                 android:gravity="center"
-                android:maxLines="1"
+                android:singleLine="true"
                 android:text="AutoResizeTextyyy"
                 android:textSize="100sp" />
 
@@ -93,7 +93,7 @@
                 android:singleLine="true" />
 
 
-            <template.cheng.hollis.template.Button.SweetSansRegButton
+            <template.cheng.hollis.template.button.SweetSansRegButton
                 android:id="@+id/SSRBTestBundle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -345,13 +345,13 @@
                                 android:textColor="@color/SelectedColor"
                                 android:visibility="visible" />
 
-                            <com.andexert.expandablelayout.library.ExpandableLayout xmlns:expandable="http://schemas.android.com/apk/res-auto"
+                            <com.andexert.expandablelayout.library.ExpandableLayout
                                 android:id="@+id/YesEL"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="5dp"
-                                expandable:contentLayout="@layout/view_content"
-                                expandable:headerLayout="@layout/view_header" />
+                                app:el_contentLayout="@layout/view_content"
+                                app:el_headerLayout="@layout/view_header" />
 
                         </LinearLayout>
                         <!--Exist==No-->

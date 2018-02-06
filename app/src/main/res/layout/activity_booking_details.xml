@@ -20,7 +20,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <template.cheng.hollis.template.Calendar.FacilityCalendarView
+                <template.cheng.hollis.template.calendar.FacilityCalendarView
                     android:id="@+id/calendar_view"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

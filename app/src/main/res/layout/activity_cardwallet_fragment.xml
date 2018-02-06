@@ -53,7 +53,7 @@
                 android:background="@color/transparent"
                 android:orientation="horizontal">
 
-                <template.cheng.hollis.template.TabLayout.SweetSansRegTabLayout
+                <template.cheng.hollis.template.tabLayout.SweetSansRegTabLayout
                     android:id="@+id/OffersTabs"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"

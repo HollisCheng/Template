@@ -17,10 +17,10 @@ import space.sye.z.library.RefreshRecyclerView;
 import space.sye.z.library.listener.OnLoadMoreListener;
 import space.sye.z.library.manager.RecyclerMode;
 import space.sye.z.library.manager.RecyclerViewManager;
-import template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.IconList;
-import template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.OffersInfo;
-import template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.ShopList;
-import template.cheng.hollis.template.ObjectInfo.ShoppingItemInfo;
+import template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.IconList;
+import template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.OffersInfo;
+import template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.ShopList;
+import template.cheng.hollis.template.objectInfo.ShoppingItemInfo;
 
 public class TestFragment extends Fragment {
 

@@ -53,18 +53,18 @@ import java.util.Locale;
 import java.util.Map;
 
 import se.simbio.encryption.Encryption;
-import template.cheng.hollis.template.Button.SweetSansRegButton;
-import template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.CardVPActivity;
-import template.cheng.hollis.template.ObjectInfo.KeyWordsInfo;
-import template.cheng.hollis.template.Panorama.MD360PlayerActivity;
+import template.cheng.hollis.template.button.SweetSansRegButton;
+import template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.CardVPActivity;
+import template.cheng.hollis.template.objectInfo.KeyWordsInfo;
+import template.cheng.hollis.template.panorama.MD360PlayerActivity;
 import template.cheng.hollis.template.SQLiteDB.Language;
 import template.cheng.hollis.template.SQLiteDB.LanguageDAO;
-import template.cheng.hollis.template.TestBundlePage.TestBundleActivity;
-import template.cheng.hollis.template.TextView.SweetSansRegTextView;
-import template.cheng.hollis.template.WebConnect.WebViewClientPage;
-import template.cheng.hollis.template.YoutubeAPI.MyInterface;
-import template.cheng.hollis.template.YoutubeAPI.PropertiesNamePageActivity;
-import template.cheng.hollis.template.YoutubeAPI.PropertiesNamePageCallBack;
+import template.cheng.hollis.template.testBundlePage.TestBundleActivity;
+import template.cheng.hollis.template.textView.SweetSansRegTextView;
+import template.cheng.hollis.template.webConnect.WebViewClientPage;
+import template.cheng.hollis.template.youtubeAPI.MyInterface;
+import template.cheng.hollis.template.youtubeAPI.PropertiesNamePageActivity;
+import template.cheng.hollis.template.youtubeAPI.PropertiesNamePageCallBack;
 
 import static template.cheng.hollis.template.Utility.KeyWordsInfoAL;
 
@@ -477,7 +477,7 @@ public class MainActivity extends AppCompatActivity {
         final AutoCompleteTextView No_etProperty_NameNotSame = findViewById(R.id.No_etProperty_NameNotSame);
         final ExpandableLayout YesEL = findViewById(R.id.YesEL);
         final ImageView YesELOpenOffIcon = findViewById(R.id.YesELOpenOffIcon);
-        YesEL.getHeaderRelativeLayout().setOnClickListener(new OnSingleClickListener() {
+        YesEL.getHeaderLayout().setOnClickListener(new OnSingleClickListener() {
             @Override
             public void onSingleClick(View v) {
                 Utility.PrintLog(getClass().getName(), "isOpened=" + YesEL.isOpened());

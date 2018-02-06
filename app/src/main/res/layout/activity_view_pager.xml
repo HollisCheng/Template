@@ -12,7 +12,7 @@
         android:layout_height="0dp"
         android:layout_weight="1">
 
-        <template.cheng.hollis.template.ViewPager.NoSwipeViewPager
+        <template.cheng.hollis.template.viewPager.NoSwipeViewPager
             android:id="@+id/TabViewPager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -54,7 +54,7 @@
                     android:layout_weight="1"
                     android:src="@drawable/ic_menu_share" />
 
-                <template.cheng.hollis.template.TextView.SweetSansRegTextView
+                <template.cheng.hollis.template.textView.SweetSansRegTextView
                     android:id="@+id/ssrvTagMe"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -85,7 +85,7 @@
                     android:layout_weight="1"
                     android:src="@drawable/ic_menu_slideshow" />
 
-                <template.cheng.hollis.template.TextView.SweetSansRegTextView
+                <template.cheng.hollis.template.textView.SweetSansRegTextView
                     android:id="@+id/ssrvTagFacilities"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -113,7 +113,7 @@
                     android:layout_weight="1"
                     android:src="@drawable/ic_menu_gallery" />
 
-                <template.cheng.hollis.template.TextView.SweetSansRegTextView
+                <template.cheng.hollis.template.textView.SweetSansRegTextView
                     android:id="@+id/ssrvTagPrivileges"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -169,7 +169,7 @@
                     android:layout_weight="1"
                     android:src="@drawable/ic_menu_manage" />
 
-                <template.cheng.hollis.template.TextView.SweetSansRegTextView
+                <template.cheng.hollis.template.textView.SweetSansRegTextView
                     android:id="@+id/ssrvTagProperties"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

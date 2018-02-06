@@ -14,8 +14,8 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
-import template.cheng.hollis.template.ObjectInfo.ShoppingItemInfo;
-import template.cheng.hollis.template.TextView.SweetSansBoldTextView;
+import template.cheng.hollis.template.objectInfo.ShoppingItemInfo;
+import template.cheng.hollis.template.textView.SweetSansBoldTextView;
 
 public class ShoppingAdapter extends RecyclerView.Adapter<ViewHolder0> {
     private ArrayList<ShoppingItemInfo> info;
