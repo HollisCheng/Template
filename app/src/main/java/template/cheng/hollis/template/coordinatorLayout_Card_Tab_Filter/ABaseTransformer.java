@@ -1,4 +1,4 @@
-package template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter;
+package template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter;
 
 import android.support.v4.view.ViewPager;
 import android.view.View;

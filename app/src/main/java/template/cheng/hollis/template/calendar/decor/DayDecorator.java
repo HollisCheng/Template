@@ -1,8 +1,8 @@
-package template.cheng.hollis.template.Calendar.decor;
+package template.cheng.hollis.template.calendar.decor;
 
 import android.support.annotation.NonNull;
 
-import template.cheng.hollis.template.Calendar.widget.DayView;
+import template.cheng.hollis.template.calendar.widget.DayView;
 
 public interface DayDecorator {
 

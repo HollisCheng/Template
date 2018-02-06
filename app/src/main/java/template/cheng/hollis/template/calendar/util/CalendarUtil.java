@@ -1,4 +1,4 @@
-package template.cheng.hollis.template.Calendar.util;
+package template.cheng.hollis.template.calendar.util;
 
 import android.content.Context;
 

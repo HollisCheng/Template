@@ -1,4 +1,4 @@
-package template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter;
+package template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter;
 
 import java.util.ArrayList;
 
@@ -46,7 +46,7 @@ public class OffersInfo {
     public OffersInfo() {
     }
 
-    public OffersInfo(int type, String category, String categoryGA, String description, String distance, String endDate, ArrayList<template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.IconList> iconList, boolean isBookmarked, boolean isClub, boolean isHTML, boolean isOfferUsed, boolean isShowWebButton, int merchantID, String merchant_Name, String merchant_PhotoPath, String merchant_Status, String name, String offerPIN, String offerRefNo, String offerStatus, String photoPath, String photoPathIn, String postDate, int privilegeID, String referralCode, int remainingDay, int remainingQuota, ArrayList<template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.ShopList> shopList, String startDate, String status, String TCLink, int viewCount, String webSite, double XCoordinate, double YCoordinate, String nameGA, int displaySeq, String openTo, String openWith) {
+    public OffersInfo(int type, String category, String categoryGA, String description, String distance, String endDate, ArrayList<template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.IconList> iconList, boolean isBookmarked, boolean isClub, boolean isHTML, boolean isOfferUsed, boolean isShowWebButton, int merchantID, String merchant_Name, String merchant_PhotoPath, String merchant_Status, String name, String offerPIN, String offerRefNo, String offerStatus, String photoPath, String photoPathIn, String postDate, int privilegeID, String referralCode, int remainingDay, int remainingQuota, ArrayList<template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.ShopList> shopList, String startDate, String status, String TCLink, int viewCount, String webSite, double XCoordinate, double YCoordinate, String nameGA, int displaySeq, String openTo, String openWith) {
         Type = type;
         Category = category;
         CategoryGA = categoryGA;
@@ -181,11 +181,11 @@ public class OffersInfo {
         EndDate = endDate;
     }
 
-    public ArrayList<template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.IconList> getIconList() {
+    public ArrayList<template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.IconList> getIconList() {
         return IconList;
     }
 
-    public void setIconList(ArrayList<template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.IconList> iconList) {
+    public void setIconList(ArrayList<template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.IconList> iconList) {
         IconList = iconList;
     }
 
@@ -349,11 +349,11 @@ public class OffersInfo {
         RemainingQuota = remainingQuota;
     }
 
-    public ArrayList<template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.ShopList> getShopList() {
+    public ArrayList<template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.ShopList> getShopList() {
         return ShopList;
     }
 
-    public void setShopList(ArrayList<template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter.ShopList> shopList) {
+    public void setShopList(ArrayList<template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.ShopList> shopList) {
         ShopList = shopList;
     }
 

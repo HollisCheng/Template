@@ -1,4 +1,4 @@
-package template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter;
+package template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
@@ -7,13 +7,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
 import me.relex.circleindicator.CircleIndicator;
 import template.cheng.hollis.template.FragmentAdapter;
-import template.cheng.hollis.template.ObjectInfo.CardListInfo;
+import template.cheng.hollis.template.objectInfo.CardListInfo;
 import template.cheng.hollis.template.R;
 import template.cheng.hollis.template.Utility;
 

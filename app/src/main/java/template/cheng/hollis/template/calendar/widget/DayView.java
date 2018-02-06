@@ -1,4 +1,4 @@
-package template.cheng.hollis.template.Calendar.widget;
+package template.cheng.hollis.template.calendar.widget;
 
 import android.content.Context;
 import android.os.Build;
@@ -10,7 +10,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-import template.cheng.hollis.template.Calendar.decor.DayDecorator;
+import template.cheng.hollis.template.calendar.decor.DayDecorator;
 
 public class DayView extends TextView {
     private List<DayDecorator> mDayDecoratorList;

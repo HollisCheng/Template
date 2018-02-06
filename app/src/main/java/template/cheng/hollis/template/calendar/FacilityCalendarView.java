@@ -1,4 +1,4 @@
-package template.cheng.hollis.template.Calendar;
+package template.cheng.hollis.template.calendar;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -32,14 +32,14 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-import template.cheng.hollis.template.Calendar.constant.ScrollableConst;
-import template.cheng.hollis.template.Calendar.constant.TouchableConst;
-import template.cheng.hollis.template.Calendar.decor.DayDecorator;
-import template.cheng.hollis.template.Calendar.util.AttributeUtil;
-import template.cheng.hollis.template.Calendar.util.CalendarUtil;
-import template.cheng.hollis.template.Calendar.widget.DayView;
+import template.cheng.hollis.template.calendar.constant.ScrollableConst;
+import template.cheng.hollis.template.calendar.constant.TouchableConst;
+import template.cheng.hollis.template.calendar.decor.DayDecorator;
+import template.cheng.hollis.template.calendar.util.AttributeUtil;
+import template.cheng.hollis.template.calendar.util.CalendarUtil;
+import template.cheng.hollis.template.calendar.widget.DayView;
 import template.cheng.hollis.template.R;
-import template.cheng.hollis.template.TextView.RobotoBoldTextView;
+import template.cheng.hollis.template.textView.RobotoBoldTextView;
 
 public class FacilityCalendarView extends LinearLayout implements ScrollableConst, TouchableConst {
     private boolean mScrollingCacheEnabled;

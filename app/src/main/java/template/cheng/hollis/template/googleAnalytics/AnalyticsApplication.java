@@ -1,4 +1,4 @@
-package template.cheng.hollis.template.GoogleAnalytics;
+package template.cheng.hollis.template.googleAnalytics;
 
 /*
  * Copyright Google Inc. All Rights Reserved.

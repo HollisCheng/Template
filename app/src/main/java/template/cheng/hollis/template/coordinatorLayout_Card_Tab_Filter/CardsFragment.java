@@ -1,10 +1,9 @@
-package template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter;
+package template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter;
 
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.content.IntentCompat;
 import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,7 +16,7 @@ import com.joooonho.SelectableRoundedImageView;
 
 import template.cheng.hollis.template.MainActivity;
 import template.cheng.hollis.template.R;
-import template.cheng.hollis.template.TextView.RobotoBoldTextView;
+import template.cheng.hollis.template.textView.RobotoBoldTextView;
 
 public class CardsFragment extends Fragment {
     private String cardType;

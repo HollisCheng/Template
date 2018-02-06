@@ -1,4 +1,4 @@
-package template.cheng.hollis.template.Camera;
+package template.cheng.hollis.template.camera;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;

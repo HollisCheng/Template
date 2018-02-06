@@ -1,4 +1,4 @@
-package template.cheng.hollis.template.Calendar.util;
+package template.cheng.hollis.template.calendar.util;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -6,7 +6,7 @@ import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
 
-import template.cheng.hollis.template.Calendar.constant.StyleableConst;
+import template.cheng.hollis.template.calendar.constant.StyleableConst;
 import template.cheng.hollis.template.R;
 
 public class AttributeUtil implements StyleableConst {

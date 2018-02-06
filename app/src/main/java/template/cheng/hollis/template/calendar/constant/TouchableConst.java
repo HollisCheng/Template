@@ -1,4 +1,4 @@
-package template.cheng.hollis.template.Calendar.constant;
+package template.cheng.hollis.template.calendar.constant;
 
 public interface TouchableConst {
     boolean USE_CACHE = false;

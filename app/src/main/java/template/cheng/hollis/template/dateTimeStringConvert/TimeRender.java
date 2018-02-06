@@ -1,4 +1,4 @@
-package template.cheng.hollis.template.DateTimeStringConvert;
+package template.cheng.hollis.template.dateTimeStringConvert;
 
 import android.content.Context;
 

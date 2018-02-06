@@ -1,4 +1,4 @@
-package template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter;
+package template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -29,10 +29,10 @@ import org.greenrobot.eventbus.EventBus;
 
 import java.util.ArrayList;
 
-import template.cheng.hollis.template.Button.SweetSansRegButton;
 import template.cheng.hollis.template.R;
-import template.cheng.hollis.template.TabLayout.SweetSansRegTabLayout;
-import template.cheng.hollis.template.TabLayout.TabsAdapter;
+import template.cheng.hollis.template.button.SweetSansRegButton;
+import template.cheng.hollis.template.tabLayout.SweetSansRegTabLayout;
+import template.cheng.hollis.template.tabLayout.TabsAdapter;
 import template.cheng.hollis.template.TestFragment;
 import template.cheng.hollis.template.Utility;
 

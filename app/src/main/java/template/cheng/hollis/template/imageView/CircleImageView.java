@@ -1,4 +1,4 @@
-package template.cheng.hollis.template.ImageView;
+package template.cheng.hollis.template.imageView;
 
 import android.content.Context;
 import android.content.res.TypedArray;

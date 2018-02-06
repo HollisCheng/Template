@@ -1,4 +1,4 @@
-package template.cheng.hollis.template.CoordinatorLayout_Card_Tab_Filter;
+package template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -39,11 +39,11 @@ import org.greenrobot.eventbus.EventBus;
 
 import java.util.ArrayList;
 
-import template.cheng.hollis.template.ImageView.CircleImageView;
+import template.cheng.hollis.template.imageView.CircleImageView;
 import template.cheng.hollis.template.MapInsideScrollFragment;
 import template.cheng.hollis.template.R;
 import template.cheng.hollis.template.Utility;
-import template.cheng.hollis.template.WebConnect.WebViewClientPage;
+import template.cheng.hollis.template.webConnect.WebViewClientPage;
 
 public class CoordinatorActivity extends AppCompatActivity
         implements OnMapReadyCallback {
