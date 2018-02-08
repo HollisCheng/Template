@@ -7,7 +7,7 @@ import android.support.v4.app.Fragment;
 
 import com.google.gson.Gson;
 
-import template.cheng.hollis.template.MainActivity;
+import template.cheng.hollis.template.ui.activity.MainActivity;
 
 public abstract class BaseFragment extends Fragment implements FragmentBaseView {
 

@@ -119,4 +119,8 @@ dependencies {
     compile('com.crashlytics.sdk.android:crashlytics:2.8.0@aar') {
         transitive = true;
     }
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.okhttp3:okhttp-urlconnection:3.8.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.0'
 }

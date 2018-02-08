@@ -18,7 +18,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import template.cheng.hollis.template.MainActivity;
+import template.cheng.hollis.template.ui.activity.MainActivity;
 import template.cheng.hollis.template.objectInfo.KeyWordsInfo;
 import template.cheng.hollis.template.R;
 import template.cheng.hollis.template.textView.SweetSansRegTextView;

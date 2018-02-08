@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.ui.fragment;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -17,6 +17,9 @@ import space.sye.z.library.RefreshRecyclerView;
 import space.sye.z.library.listener.OnLoadMoreListener;
 import space.sye.z.library.manager.RecyclerMode;
 import space.sye.z.library.manager.RecyclerViewManager;
+import template.cheng.hollis.template.HappensLatestPAdapter;
+import template.cheng.hollis.template.R;
+import template.cheng.hollis.template.ShoppingAdapter;
 import template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.IconList;
 import template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.OffersInfo;
 import template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.ShopList;

@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.ui.activity;
 
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -15,6 +15,10 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import template.cheng.hollis.template.FragmentAdapter;
+import template.cheng.hollis.template.R;
+import template.cheng.hollis.template.ui.fragment.TestFragment;
+import template.cheng.hollis.template.Utility;
 import template.cheng.hollis.template.textView.SweetSansRegTextView;
 import template.cheng.hollis.template.viewPager.NoSwipeViewPager;
 

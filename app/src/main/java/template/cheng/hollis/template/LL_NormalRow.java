@@ -5,7 +5,6 @@ import android.content.res.TypedArray;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import butterknife.BindView;
@@ -50,5 +49,16 @@ public class LL_NormalRow extends BaseLinearLayout {
             view_divider.setVisibility(showDivider ? View.VISIBLE : View.GONE);
             mTypedArray.recycle();
         }
+    }
+
+    public void tv_row_text(String string) {
+        tv_row_text.setText(string);
+    }
+
+    public void view_divider(boolean isShow) {
+        if (isShow)
+            view_divider.setVisibility(VISIBLE);
+        else
+            view_divider.setVisibility(GONE);
     }
 }

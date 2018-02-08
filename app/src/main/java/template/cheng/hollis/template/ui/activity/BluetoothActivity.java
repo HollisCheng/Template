@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.ui.activity;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -32,6 +32,9 @@ import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Method;
 import java.util.Set;
 import java.util.UUID;
+
+import template.cheng.hollis.template.OnSwipeTouchListener;
+import template.cheng.hollis.template.R;
 
 public class BluetoothActivity extends AppCompatActivity {
 

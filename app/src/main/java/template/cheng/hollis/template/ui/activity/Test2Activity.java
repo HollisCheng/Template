@@ -1,9 +1,8 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.ui.activity;
 
 import android.app.Activity;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,7 +22,7 @@ import java.util.Date;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import template.cheng.hollis.template.base.BaseActivity;
+import template.cheng.hollis.template.R;
 
 
 public class Test2Activity extends Activity {

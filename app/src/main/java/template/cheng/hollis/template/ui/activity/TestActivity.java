@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.ui.activity;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -23,8 +23,11 @@ import java.util.HashSet;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import template.cheng.hollis.template.dateTimeStringConvert.TimeRender;
+import template.cheng.hollis.template.LL_NormalRow;
+import template.cheng.hollis.template.R;
+import template.cheng.hollis.template.TwoDotSpan;
 import template.cheng.hollis.template.base.BaseActivity;
+import template.cheng.hollis.template.dateTimeStringConvert.TimeRender;
 
 
 public class TestActivity extends BaseActivity {
@@ -166,12 +169,12 @@ public class TestActivity extends BaseActivity {
 
     private void llnr_change() {
         if (IsShowD) {
-            llnrTest.tv_row_text.setText("ABCCBA !IsShowD");
-            llnrTest.view_divider.setVisibility(View.GONE);
+            llnrTest.tv_row_text("ABCCBA !IsShowD");
+            llnrTest.view_divider(false);
             IsShowD = false;
         } else {
-            llnrTest.tv_row_text.setText("ABCCBA IsShowD");
-            llnrTest.view_divider.setVisibility(View.VISIBLE);
+            llnrTest.tv_row_text("ABCCBA IsShowD");
+            llnrTest.view_divider(true);
             IsShowD = true;
         }
     }

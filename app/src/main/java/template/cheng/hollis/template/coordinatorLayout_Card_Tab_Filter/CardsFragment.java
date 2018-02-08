@@ -14,7 +14,7 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.joooonho.SelectableRoundedImageView;
 
-import template.cheng.hollis.template.MainActivity;
+import template.cheng.hollis.template.ui.activity.MainActivity;
 import template.cheng.hollis.template.R;
 import template.cheng.hollis.template.textView.RobotoBoldTextView;
 

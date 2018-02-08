@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.ui.activity;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -53,6 +53,11 @@ import java.util.Locale;
 import java.util.Map;
 
 import se.simbio.encryption.Encryption;
+import template.cheng.hollis.template.BuildConfig;
+import template.cheng.hollis.template.MyExceptionHandler;
+import template.cheng.hollis.template.OnSingleClickListener;
+import template.cheng.hollis.template.R;
+import template.cheng.hollis.template.Utility;
 import template.cheng.hollis.template.button.SweetSansRegButton;
 import template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.CardVPActivity;
 import template.cheng.hollis.template.objectInfo.KeyWordsInfo;

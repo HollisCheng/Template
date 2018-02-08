@@ -1,10 +1,12 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.ui.fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import template.cheng.hollis.template.R;
 
 public class Test2Fragment extends Fragment {
 

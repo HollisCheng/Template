@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.ui.activity;
 
 import android.app.Dialog;
 import android.app.KeyguardManager;
@@ -63,6 +63,11 @@ import javax.crypto.NoSuchPaddingException;
 import javax.crypto.SecretKey;
 
 import me.philio.pinentry.PinEntryView;
+import template.cheng.hollis.template.FingerPrintBus;
+import template.cheng.hollis.template.FingerprintHandler;
+import template.cheng.hollis.template.OnSingleClickListener;
+import template.cheng.hollis.template.R;
+import template.cheng.hollis.template.Utility;
 import template.cheng.hollis.template.button.SweetSansRegButton;
 import template.cheng.hollis.template.camera.BitmapHelper;
 import template.cheng.hollis.template.camera.CameraIntentHelper;

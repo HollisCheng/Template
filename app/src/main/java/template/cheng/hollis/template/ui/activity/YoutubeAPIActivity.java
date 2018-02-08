@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.ui.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
@@ -14,6 +14,8 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import me.relex.circleindicator.CircleIndicator;
+import template.cheng.hollis.template.R;
+import template.cheng.hollis.template.Utility;
 import template.cheng.hollis.template.youtubeAPI.YouFragmentAdapter;
 
 public class YoutubeAPIActivity extends AppCompatActivity {

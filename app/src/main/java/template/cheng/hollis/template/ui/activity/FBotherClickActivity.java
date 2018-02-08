@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.ui.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -24,6 +24,8 @@ import com.facebook.login.LoginResult;
 import org.json.JSONObject;
 
 import java.util.Collections;
+
+import template.cheng.hollis.template.R;
 
 public class FBotherClickActivity extends AppCompatActivity {
     private SwitchCompat SwitchFBIsLogin;

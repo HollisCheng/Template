@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.ui.activity;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -22,6 +22,7 @@ import java.util.Locale;
 
 import me.srodrigo.androidhintspinner.HintAdapter;
 import me.srodrigo.androidhintspinner.HintSpinner;
+import template.cheng.hollis.template.R;
 import template.cheng.hollis.template.calendar.FacilityCalendarView;
 import template.cheng.hollis.template.dateTimeStringConvert.TimeRender;
 

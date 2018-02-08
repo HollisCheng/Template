@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.ui.activity;
 
 import android.content.Intent;
 import android.database.Cursor;
@@ -32,6 +32,8 @@ import com.facebook.login.widget.LoginButton;
 import org.json.JSONObject;
 
 import java.io.ByteArrayOutputStream;
+
+import template.cheng.hollis.template.R;
 
 public class FBActivity extends AppCompatActivity {
 

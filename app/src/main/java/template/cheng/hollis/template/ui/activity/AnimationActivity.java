@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.ui.activity;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -34,6 +34,10 @@ import java.util.List;
 
 import me.nereo.multi_image_selector.MultiImageSelector;
 import me.nereo.multi_image_selector.MultiImageSelectorActivity;
+import template.cheng.hollis.template.R;
+import template.cheng.hollis.template.ui.fragment.Test2Fragment;
+import template.cheng.hollis.template.ui.fragment.TestFragment;
+import template.cheng.hollis.template.Utility;
 
 public class AnimationActivity extends AppCompatActivity {
     private ImageView ivBG, ivShow;
