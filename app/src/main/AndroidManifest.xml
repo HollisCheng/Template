@@ -84,7 +84,7 @@
         <!-- </intent-filter> -->
         <!-- </receiver> -->
         <receiver
-            android:name=".CampaignBroadcastReceiver"
+            android:name=".util.CampaignBroadcastReceiver"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.android.vending.INSTALL_REFERRER" />

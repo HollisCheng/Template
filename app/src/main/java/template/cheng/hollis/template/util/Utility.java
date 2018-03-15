@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.util;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -53,6 +53,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import template.cheng.hollis.template.R;
 import template.cheng.hollis.template.objectInfo.KeyWordsInfo;
 
 public class Utility {

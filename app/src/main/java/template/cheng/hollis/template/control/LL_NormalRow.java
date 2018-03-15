@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.control;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import template.cheng.hollis.template.R;
 import template.cheng.hollis.template.base.BaseLinearLayout;
 
 /**

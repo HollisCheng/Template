@@ -35,7 +35,7 @@
                 app:mcv_weekDayTextAppearance="@style/CV_WeekDay_Text_App" />
 
 
-            <template.cheng.hollis.template.LL_NormalRow
+            <template.cheng.hollis.template.control.LL_NormalRow
                 android:id="@+id/llnr_test"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

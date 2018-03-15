@@ -11,7 +11,7 @@ import com.google.android.youtube.player.YouTubeIntents;
 import com.google.android.youtube.player.YouTubeThumbnailView;
 
 import template.cheng.hollis.template.R;
-import template.cheng.hollis.template.Utility;
+import template.cheng.hollis.template.util.Utility;
 
 
 public class VideoYoutubeFragment extends Fragment {

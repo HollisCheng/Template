@@ -14,11 +14,10 @@ import io.fabric.sdk.android.Fabric;
 import java.util.ArrayList;
 
 import template.cheng.hollis.template.BuildConfig;
-import template.cheng.hollis.template.Constant;
+import template.cheng.hollis.template.util.Constant;
 import template.cheng.hollis.template.R;
 
-import static template.cheng.hollis.template.LogUtil.log;
-import static template.cheng.hollis.template.LogUtil.logFragmentArray;
+import static template.cheng.hollis.template.util.LogUtil.logFragmentArray;
 
 public class BaseApplication extends MultiDexApplication {
 

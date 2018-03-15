@@ -11,10 +11,10 @@ import android.view.MenuItem;
 import java.util.ArrayList;
 
 import me.relex.circleindicator.CircleIndicator;
-import template.cheng.hollis.template.FragmentAdapter;
+import template.cheng.hollis.template.ui.adapter.FragmentAdapter;
 import template.cheng.hollis.template.objectInfo.CardListInfo;
 import template.cheng.hollis.template.R;
-import template.cheng.hollis.template.Utility;
+import template.cheng.hollis.template.util.Utility;
 
 public class CardVPActivity extends AppCompatActivity {
     private ViewPager CWPager, mPager;

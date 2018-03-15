@@ -15,10 +15,10 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import template.cheng.hollis.template.FragmentAdapter;
+import template.cheng.hollis.template.ui.adapter.FragmentAdapter;
 import template.cheng.hollis.template.R;
 import template.cheng.hollis.template.ui.fragment.TestFragment;
-import template.cheng.hollis.template.Utility;
+import template.cheng.hollis.template.util.Utility;
 import template.cheng.hollis.template.textView.SweetSansRegTextView;
 import template.cheng.hollis.template.viewPager.NoSwipeViewPager;
 

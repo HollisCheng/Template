@@ -71,7 +71,7 @@ repositories {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:1.2.30"
     compile fileTree(dir: 'libs', include: ['*.jar'])
     //circleindicator need minSDKVersion 11 above
     //androidhintspinner need minSDKVersion 14 above

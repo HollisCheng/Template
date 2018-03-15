@@ -22,7 +22,7 @@ import template.cheng.hollis.template.ui.activity.MainActivity;
 import template.cheng.hollis.template.objectInfo.KeyWordsInfo;
 import template.cheng.hollis.template.R;
 import template.cheng.hollis.template.textView.SweetSansRegTextView;
-import template.cheng.hollis.template.Utility;
+import template.cheng.hollis.template.util.Utility;
 
 public class PropertiesNamePageActivity extends AppCompatActivity {
 

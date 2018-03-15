@@ -17,7 +17,7 @@ import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
 
 import template.cheng.hollis.template.R;
-import template.cheng.hollis.template.Utility;
+import template.cheng.hollis.template.util.Utility;
 
 import static com.squareup.picasso.MemoryPolicy.NO_CACHE;
 import static com.squareup.picasso.MemoryPolicy.NO_STORE;

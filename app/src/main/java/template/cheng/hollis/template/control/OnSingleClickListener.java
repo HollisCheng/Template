@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.control;
 
 import android.os.SystemClock;
 import android.view.View;

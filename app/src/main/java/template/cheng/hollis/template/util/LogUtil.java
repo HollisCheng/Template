@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.util;
 
 
 import android.support.v4.app.Fragment;

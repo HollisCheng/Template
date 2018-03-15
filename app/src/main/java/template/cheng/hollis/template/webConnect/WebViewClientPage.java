@@ -31,7 +31,7 @@ import org.apache.http.util.EncodingUtils;
 import javax.crypto.spec.SecretKeySpec;
 
 import template.cheng.hollis.template.R;
-import template.cheng.hollis.template.Utility;
+import template.cheng.hollis.template.util.Utility;
 
 
 public class WebViewClientPage extends AppCompatActivity

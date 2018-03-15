@@ -33,7 +33,7 @@ import java.lang.reflect.Method;
 import java.util.Set;
 import java.util.UUID;
 
-import template.cheng.hollis.template.OnSwipeTouchListener;
+import template.cheng.hollis.template.control.OnSwipeTouchListener;
 import template.cheng.hollis.template.R;
 
 public class BluetoothActivity extends AppCompatActivity {

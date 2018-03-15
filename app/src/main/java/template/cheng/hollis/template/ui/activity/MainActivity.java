@@ -54,10 +54,10 @@ import java.util.Map;
 
 import se.simbio.encryption.Encryption;
 import template.cheng.hollis.template.BuildConfig;
-import template.cheng.hollis.template.MyExceptionHandler;
-import template.cheng.hollis.template.OnSingleClickListener;
+import template.cheng.hollis.template.util.MyExceptionHandler;
+import template.cheng.hollis.template.control.OnSingleClickListener;
 import template.cheng.hollis.template.R;
-import template.cheng.hollis.template.Utility;
+import template.cheng.hollis.template.util.Utility;
 import template.cheng.hollis.template.button.SweetSansRegButton;
 import template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.CardVPActivity;
 import template.cheng.hollis.template.objectInfo.KeyWordsInfo;
@@ -71,7 +71,7 @@ import template.cheng.hollis.template.youtubeAPI.MyInterface;
 import template.cheng.hollis.template.youtubeAPI.PropertiesNamePageActivity;
 import template.cheng.hollis.template.youtubeAPI.PropertiesNamePageCallBack;
 
-import static template.cheng.hollis.template.Utility.KeyWordsInfoAL;
+import static template.cheng.hollis.template.util.Utility.KeyWordsInfoAL;
 
 
 public class MainActivity extends AppCompatActivity {

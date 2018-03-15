@@ -23,9 +23,9 @@ import java.util.HashSet;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import template.cheng.hollis.template.LL_NormalRow;
+import template.cheng.hollis.template.control.LL_NormalRow;
 import template.cheng.hollis.template.R;
-import template.cheng.hollis.template.TwoDotSpan;
+import template.cheng.hollis.template.control.TwoDotSpan;
 import template.cheng.hollis.template.base.BaseActivity;
 import template.cheng.hollis.template.dateTimeStringConvert.TimeRender;
 

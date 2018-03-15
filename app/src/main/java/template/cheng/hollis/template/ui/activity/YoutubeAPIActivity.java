@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 import me.relex.circleindicator.CircleIndicator;
 import template.cheng.hollis.template.R;
-import template.cheng.hollis.template.Utility;
+import template.cheng.hollis.template.util.Utility;
 import template.cheng.hollis.template.youtubeAPI.YouFragmentAdapter;
 
 public class YoutubeAPIActivity extends AppCompatActivity {

@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager;
 import me.relex.circleindicator.CircleIndicator;
 import template.cheng.hollis.template.R;
-import template.cheng.hollis.template.Utility;
+import template.cheng.hollis.template.util.Utility;
 
 public class TestBundleActivity extends AppCompatActivity {
 

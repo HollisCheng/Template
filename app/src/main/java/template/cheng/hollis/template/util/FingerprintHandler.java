@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.util;
 
 import android.Manifest;
 import android.annotation.TargetApi;
@@ -12,6 +12,8 @@ import android.widget.Toast;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
+
+import template.cheng.hollis.template.control.FingerPrintBus;
 
 /**
  * Created by hollischeng on 21/7/2017.

@@ -475,7 +475,7 @@
                                     <!--android:padding="5dp"-->
                                     <!--android:spinnerMode="dropdown" />-->
 
-                                    <template.cheng.hollis.template.DefaultScrollTopSpinner
+                                    <template.cheng.hollis.template.control.DefaultScrollTopSpinner
                                         android:id="@+id/SpinnerMonthNWDCRO"
                                         android:layout_width="0dp"
                                         android:layout_height="50dp"
@@ -495,7 +495,7 @@
                                     <!--android:padding="5dp"-->
                                     <!--android:spinnerMode="dropdown" />-->
 
-                                    <template.cheng.hollis.template.DefaultScrollTopSpinner
+                                    <template.cheng.hollis.template.control.DefaultScrollTopSpinner
                                         android:id="@+id/SpinnerDayNWDCRO"
                                         android:layout_width="0dp"
                                         android:layout_height="50dp"

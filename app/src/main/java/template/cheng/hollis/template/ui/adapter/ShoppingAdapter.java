@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.ui.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -14,10 +14,11 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
+import template.cheng.hollis.template.R;
 import template.cheng.hollis.template.objectInfo.ShoppingItemInfo;
 import template.cheng.hollis.template.textView.SweetSansBoldTextView;
 
-public class ShoppingAdapter extends RecyclerView.Adapter<ViewHolder0> {
+public class ShoppingAdapter extends RecyclerView.Adapter<ShoppingAdapter.ViewHolder0> {
     private ArrayList<ShoppingItemInfo> info;
     private Context mContext;
     private Activity act;
@@ -199,23 +200,22 @@ public class ShoppingAdapter extends RecyclerView.Adapter<ViewHolder0> {
 //                }
             }
         });
+    }
 
+    class ViewHolder0 extends RecyclerView.ViewHolder {
 
+        RelativeLayout cardView;
+        ImageView srivImage;
+        SweetSansBoldTextView tvOfferTitle;
+        TextView tvShopNAME;
+
+        public ViewHolder0(View view) {
+            super(view);
+            cardView = (RelativeLayout) view.findViewById(R.id.cardView);
+            srivImage = (ImageView) view.findViewById(R.id.srivImage);
+            tvOfferTitle = (SweetSansBoldTextView) view.findViewById(R.id.tvOfferTitle);
+            tvShopNAME = (TextView) view.findViewById(R.id.tvShopNAME);
+        }
     }
 }
 
-class ViewHolder0 extends RecyclerView.ViewHolder {
-
-    RelativeLayout cardView;
-    ImageView srivImage;
-    SweetSansBoldTextView tvOfferTitle;
-    TextView tvShopNAME;
-
-    public ViewHolder0(View view) {
-        super(view);
-        cardView = (RelativeLayout) view.findViewById(R.id.cardView);
-        srivImage = (ImageView) view.findViewById(R.id.srivImage);
-        tvOfferTitle = (SweetSansBoldTextView) view.findViewById(R.id.tvOfferTitle);
-        tvShopNAME = (TextView) view.findViewById(R.id.tvShopNAME);
-    }
-}

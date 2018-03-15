@@ -34,7 +34,7 @@ import template.cheng.hollis.template.button.SweetSansRegButton;
 import template.cheng.hollis.template.tabLayout.SweetSansRegTabLayout;
 import template.cheng.hollis.template.tabLayout.TabsAdapter;
 import template.cheng.hollis.template.ui.fragment.TestFragment;
-import template.cheng.hollis.template.Utility;
+import template.cheng.hollis.template.util.Utility;
 
 
 public class CardWalletOffersFragment extends Fragment {

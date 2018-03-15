@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.ui.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,6 +15,7 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
+import template.cheng.hollis.template.R;
 import template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.OffersInfo;
 import template.cheng.hollis.template.textView.SweetSansBoldTextView;
 

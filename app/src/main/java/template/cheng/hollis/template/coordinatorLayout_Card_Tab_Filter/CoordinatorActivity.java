@@ -40,9 +40,9 @@ import org.greenrobot.eventbus.EventBus;
 import java.util.ArrayList;
 
 import template.cheng.hollis.template.imageView.CircleImageView;
-import template.cheng.hollis.template.MapInsideScrollFragment;
+import template.cheng.hollis.template.control.MapInsideScrollFragment;
 import template.cheng.hollis.template.R;
-import template.cheng.hollis.template.Utility;
+import template.cheng.hollis.template.util.Utility;
 import template.cheng.hollis.template.webConnect.WebViewClientPage;
 
 public class CoordinatorActivity extends AppCompatActivity

@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.control;
 
 import android.content.Context;
 import android.view.GestureDetector;

@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.control;
 
 /**
  * Created by hollischeng on 21/7/2017.

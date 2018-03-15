@@ -20,7 +20,6 @@ import com.google.gson.Gson;
 
 import template.cheng.hollis.template.R;
 
-
 public abstract class BaseActivity extends AppCompatActivity implements BaseView {
 
     private LinearLayout mProgressBarContainer;

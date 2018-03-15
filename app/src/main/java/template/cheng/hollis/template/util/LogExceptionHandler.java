@@ -1,4 +1,4 @@
-package template.cheng.hollis.template;
+package template.cheng.hollis.template.util;
 
 import android.content.Context;
 import android.content.Intent;
