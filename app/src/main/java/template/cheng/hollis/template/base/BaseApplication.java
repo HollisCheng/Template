@@ -3,14 +3,12 @@ package template.cheng.hollis.template.base;
 import android.support.multidex.MultiDexApplication;
 import android.support.v4.app.Fragment;
 
-import com.crashlytics.android.Crashlytics;
 import com.google.gson.Gson;
 import com.orhanobut.logger.AndroidLogAdapter;
 import com.orhanobut.logger.FormatStrategy;
 import com.orhanobut.logger.Logger;
 import com.orhanobut.logger.PrettyFormatStrategy;
 
-import io.fabric.sdk.android.Fabric;
 import java.util.ArrayList;
 
 import template.cheng.hollis.template.BuildConfig;
@@ -27,7 +25,6 @@ public class BaseApplication extends MultiDexApplication {
     @Override
     public void onCreate() {
         super.onCreate();
-        Fabric.with(this, new Crashlytics());
 //    Fabric.with(this, new Crashlytics());
 //        initLeakCanary();
         initLogger();
