@@ -48,6 +48,7 @@ import com.facebook.FacebookSdk;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Locale;
@@ -599,15 +600,19 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < getRandomNumber(1, 10); i++) {
             areaPointListNeedToGo.add(getRandomNumber(1, 10));
         }
+
         // distinct the area point
 
         // convert ArrayList to HastSet.
-        HashSet<Integer> hset = new HashSet<Integer>(areaPointListNeedToGo);
+        HashSet<Integer> hset = new HashSet<>(areaPointListNeedToGo);
 
-        //todo sort number from 1 to 10
+        ArrayList<Integer> distinctList = new ArrayList<>(hset);
+
+        // sort number from 1 to 10
+        Collections.sort(distinctList);
 
         //output as ArrayList
-        return new ArrayList<Integer>(hset);
+        return distinctList;
     }
 
     @Override
