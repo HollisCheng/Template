@@ -570,6 +570,15 @@ public class MainActivity extends AppCompatActivity {
 
         Utility.PrintLog(getClass().getName(), "BuildConfig.HOST=" + BuildConfig.HOST);
         Utility.PrintLog(getClass().getName(), "BuildConfig.APPLICATION_ID=" + BuildConfig.APPLICATION_ID);
+
+        /*
+        * 20210222 do the test from HKTV
+        * there are 10 different area point to collect goods
+        * there are 100 order each 10 orders belong to 1 picker
+        * how to make the picker pick goods route go minimum area point
+        * */
+
+        //todo loop 100 order with random point to go
     }
 
     @Override
