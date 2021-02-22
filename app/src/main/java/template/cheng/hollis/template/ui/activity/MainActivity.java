@@ -49,23 +49,25 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Locale;
 import java.util.Map;
 
 import se.simbio.encryption.Encryption;
 import template.cheng.hollis.template.BuildConfig;
-import template.cheng.hollis.template.util.MyExceptionHandler;
-import template.cheng.hollis.template.control.OnSingleClickListener;
 import template.cheng.hollis.template.R;
-import template.cheng.hollis.template.util.Utility;
-import template.cheng.hollis.template.button.SweetSansRegButton;
-import template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.CardVPActivity;
-import template.cheng.hollis.template.objectInfo.KeyWordsInfo;
-import template.cheng.hollis.template.panorama.MD360PlayerActivity;
 import template.cheng.hollis.template.SQLiteDB.Language;
 import template.cheng.hollis.template.SQLiteDB.LanguageDAO;
+import template.cheng.hollis.template.button.SweetSansRegButton;
+import template.cheng.hollis.template.control.OnSingleClickListener;
+import template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.CardVPActivity;
+import template.cheng.hollis.template.objectInfo.KeyWordsInfo;
+import template.cheng.hollis.template.objectInfo.OrderBean;
+import template.cheng.hollis.template.panorama.MD360PlayerActivity;
 import template.cheng.hollis.template.testBundlePage.TestBundleActivity;
 import template.cheng.hollis.template.textView.SweetSansRegTextView;
+import template.cheng.hollis.template.util.MyExceptionHandler;
+import template.cheng.hollis.template.util.Utility;
 import template.cheng.hollis.template.webConnect.WebViewClientPage;
 import template.cheng.hollis.template.youtubeAPI.MyInterface;
 import template.cheng.hollis.template.youtubeAPI.PropertiesNamePageActivity;
@@ -572,13 +574,40 @@ public class MainActivity extends AppCompatActivity {
         Utility.PrintLog(getClass().getName(), "BuildConfig.APPLICATION_ID=" + BuildConfig.APPLICATION_ID);
 
         /*
-        * 20210222 do the test from HKTV
-        * there are 10 different area point to collect goods
-        * there are 100 order each 10 orders belong to 1 picker
-        * how to make the picker pick goods route go minimum area point
-        * */
+         * 20210222 do the test from HKTV
+         * there are 10 different area point (1-10 point) to collect goods
+         * there are 100 order each 10 orders belong to 1 picker
+         * how to make the picker pick goods route go minimum area point
+         * */
+        Utility.PrintLog(getClass().getName(), "test start");
+        ArrayList<OrderBean> orderList = new ArrayList<>();
 
         //todo loop 100 order with random point to go
+        for (int i = 1; i < 101; i++) {
+            OrderBean orderBean = new OrderBean(i, genOrderAreaPointList());
+            orderList.add(orderBean);
+        }
+        Utility.PrintLog(getClass().getName(), "orderList" + orderList);
+    }
+
+    public int getRandomNumber(int min, int max) {
+        return (int) ((Math.random() * (max - min)) + min);
+    }
+
+    public ArrayList<Integer> genOrderAreaPointList() {
+        ArrayList<Integer> areaPointListNeedToGo = new ArrayList<>();
+        for (int i = 0; i < getRandomNumber(1, 10); i++) {
+            areaPointListNeedToGo.add(getRandomNumber(1, 10));
+        }
+        // distinct the area point
+
+        // convert ArrayList to HastSet.
+        HashSet<Integer> hset = new HashSet<Integer>(areaPointListNeedToGo);
+
+        //todo sort number from 1 to 10
+
+        //output as ArrayList
+        return new ArrayList<Integer>(hset);
     }
 
     @Override
