@@ -62,8 +62,10 @@ import template.cheng.hollis.template.SQLiteDB.LanguageDAO;
 import template.cheng.hollis.template.button.SweetSansRegButton;
 import template.cheng.hollis.template.control.OnSingleClickListener;
 import template.cheng.hollis.template.coordinatorLayout_Card_Tab_Filter.CardVPActivity;
+import template.cheng.hollis.template.objectInfo.CountAreaPointNumberBean;
 import template.cheng.hollis.template.objectInfo.KeyWordsInfo;
 import template.cheng.hollis.template.objectInfo.OrderBean;
+import template.cheng.hollis.template.objectInfo.PickerBean;
 import template.cheng.hollis.template.panorama.MD360PlayerActivity;
 import template.cheng.hollis.template.testBundlePage.TestBundleActivity;
 import template.cheng.hollis.template.textView.SweetSansRegTextView;
@@ -579,23 +581,51 @@ public class MainActivity extends AppCompatActivity {
          * there are 10 different area point (1-10 point) to collect goods
          * there are 100 order each 10 orders belong to 1 picker
          * how to make the picker pick goods route go minimum area point
+         * assume all point go to next point distance are equal
          * */
         Utility.PrintLog(getClass().getName(), "test start");
         ArrayList<OrderBean> orderList = new ArrayList<>();
+        CountAreaPointNumberBean capnBean;
+        ArrayList<PickerBean> pickerList = new ArrayList<>();
 
-        //todo loop 100 order with random point to go
+
+        //loop 100 order with random point to go
         for (int i = 1; i < 101; i++) {
-            OrderBean orderBean = new OrderBean(i, genOrderAreaPointList());
+            OrderBean orderBean = new OrderBean(i);
+            orderBean.setAreaPointListNeedToGoAndArraySize(genOrderAreaPointList());
             orderList.add(orderBean);
         }
-        Utility.PrintLog(getClass().getName(), "orderList" + orderList);
+        Utility.PrintLog(getClass().getName(), "orderList=" + orderList);
+
+        //count 100 order different area point have how many order
+        capnBean = countAreaPointSumNum(orderList);
+        capnBean.updateAvaPointList();
+        Utility.PrintLog(getClass().getName(), "capnBean=" + capnBean);
+
+        //show how many route list sum number
+        HashMap<ArrayList<Integer>, ArrayList<Integer>> allRouteListWithSumNum = showAllRouteListWithSunNum(orderList);
+        Utility.PrintLog(getClass().getName(), "all route list=" + allRouteListWithSumNum);
+
+        //gen 10 picker
+        for (int i = 1; i < 11; i++) {
+            PickerBean pickerBean = new PickerBean();
+            pickerBean.setPickerId(i);
+            //assign order list to picker
+//            pickerBean.setAreaPointListNeedToGo();
+//            pickerBean.setAssignedOrders();
+            pickerList.add(pickerBean);
+
+        }
+        Utility.PrintLog(getClass().getName(), "pickerList=" + pickerList);
+
+
     }
 
-    public int getRandomNumber(int min, int max) {
+    private int getRandomNumber(int min, int max) {
         return (int) ((Math.random() * (max - min)) + min);
     }
 
-    public ArrayList<Integer> genOrderAreaPointList() {
+    private ArrayList<Integer> genOrderAreaPointList() {
         ArrayList<Integer> areaPointListNeedToGo = new ArrayList<>();
         for (int i = 0; i < getRandomNumber(1, 10); i++) {
             areaPointListNeedToGo.add(getRandomNumber(1, 10));
@@ -613,6 +643,106 @@ public class MainActivity extends AppCompatActivity {
 
         //output as ArrayList
         return distinctList;
+    }
+
+    private CountAreaPointNumberBean countAreaPointSumNum(ArrayList<OrderBean> orderList) {
+        int total1 = 0;
+        int total2 = 0;
+        int total3 = 0;
+        int total4 = 0;
+        int total5 = 0;
+        int total6 = 0;
+        int total7 = 0;
+        int total8 = 0;
+        int total9 = 0;
+        int total10 = 0;
+        for (int i = 0; i < orderList.size(); i++) {
+            //count the unassigned orders only
+            if (!orderList.get(i).isAssigned()) {
+                if (orderList.get(i).getAreaPointListNeedToGo().contains(1)) {
+                    total1++;
+                }
+
+                if (orderList.get(i).getAreaPointListNeedToGo().contains(2)) {
+                    total2++;
+                }
+
+                if (orderList.get(i).getAreaPointListNeedToGo().contains(3)) {
+                    total3++;
+                }
+
+                if (orderList.get(i).getAreaPointListNeedToGo().contains(4)) {
+                    total4++;
+                }
+
+                if (orderList.get(i).getAreaPointListNeedToGo().contains(5)) {
+                    total5++;
+                }
+
+                if (orderList.get(i).getAreaPointListNeedToGo().contains(6)) {
+                    total6++;
+                }
+
+                if (orderList.get(i).getAreaPointListNeedToGo().contains(7)) {
+                    total7++;
+                }
+
+                if (orderList.get(i).getAreaPointListNeedToGo().contains(8)) {
+                    total8++;
+                }
+
+                if (orderList.get(i).getAreaPointListNeedToGo().contains(9)) {
+                    total9++;
+                }
+
+                if (orderList.get(i).getAreaPointListNeedToGo().contains(10)) {
+                    total10++;
+                }
+            }
+        }
+
+        return new CountAreaPointNumberBean(total1, total2, total3, total4, total5, total6, total7, total8, total9, total10);
+    }
+
+    private HashMap<ArrayList<Integer>, ArrayList<Integer>> showAllRouteListWithSunNum(ArrayList<OrderBean> orderList) {
+        HashMap<ArrayList<Integer>, ArrayList<Integer>> allRouteListWithSumNum = new HashMap<>();
+        //1st ArrayList<Integer> == area point list , 2nd ArrayList<Integer> == orderId list
+
+        for (int i = 0; i < orderList.size(); i++) {
+            int orderId = orderList.get(i).getOrderId();
+            if (allRouteListWithSumNum.containsKey(orderList.get(i).getAreaPointListNeedToGo())) {
+                //found saved area point list in HashMap
+                ArrayList<Integer> orderIdList = allRouteListWithSumNum.get(orderList.get(i).getAreaPointListNeedToGo());
+                orderIdList.add(orderId);
+                allRouteListWithSumNum.put(orderList.get(i).getAreaPointListNeedToGo(), orderIdList);
+            } else {
+                //1st time found, create a record in HashMap
+                ArrayList<Integer> lockIdList = new ArrayList<>();
+                lockIdList.add(orderId);
+                allRouteListWithSumNum.put(orderList.get(i).getAreaPointListNeedToGo(), lockIdList);
+            }
+        }
+
+        return allRouteListWithSumNum;
+    }
+
+    private ArrayList<OrderBean> assign10OrdersFromOrderList(ArrayList<OrderBean> orderList
+            , HashMap<ArrayList<Integer>, ArrayList<Integer>> allRouteList, CountAreaPointNumberBean capnBean) {
+        int totalHandledRecord = 10;
+        ArrayList<OrderBean> assigned10OrderList = new ArrayList<>();
+
+        if (capnBean.getTotal1() != 0) {
+            for (Map.Entry<ArrayList<Integer>, ArrayList<Integer>> set :
+                    allRouteList.entrySet()) {
+                // Printing all elements of a Map
+//                System.out.println(set.getKey() + " = " + set.getValue());
+                if (set.getKey().size() == 1 && set.getKey().contains(1)) {
+                    //get all only One point array list
+
+                }
+            }
+        }
+        return null;
     }
 
     @Override

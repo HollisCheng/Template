@@ -5,10 +5,11 @@ import java.util.ArrayList;
 public class OrderBean {
     private int orderId;
     private ArrayList<Integer> areaPointListNeedToGo;
+    private int arraySize;
+    private boolean isAssigned = false;
 
-    public OrderBean(int orderId, ArrayList<Integer> areaPointListNeedToGo) {
+    public OrderBean(int orderId) {
         this.orderId = orderId;
-        this.areaPointListNeedToGo = areaPointListNeedToGo;
     }
 
     @Override
@@ -16,7 +17,14 @@ public class OrderBean {
         return "OrderBean{" +
                 "orderId=" + orderId +
                 ", areaPointListNeedToGo=" + areaPointListNeedToGo +
+                ", arraySize=" + arraySize +
+                ", isAssigned=" + isAssigned +
                 '}';
+    }
+
+    public void setAreaPointListNeedToGoAndArraySize(ArrayList<Integer> areaPointListNeedToGo) {
+        this.areaPointListNeedToGo = areaPointListNeedToGo;
+        this.arraySize = areaPointListNeedToGo.size();
     }
 
     public int getOrderId() {
@@ -33,5 +41,21 @@ public class OrderBean {
 
     public void setAreaPointListNeedToGo(ArrayList<Integer> areaPointListNeedToGo) {
         this.areaPointListNeedToGo = areaPointListNeedToGo;
+    }
+
+    public boolean isAssigned() {
+        return isAssigned;
+    }
+
+    public void setAssigned(boolean assigned) {
+        isAssigned = assigned;
+    }
+
+    public int getArraySize() {
+        return arraySize;
+    }
+
+    public void setArraySize(int arraySize) {
+        this.arraySize = arraySize;
     }
 }
