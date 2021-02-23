@@ -1,6 +1,7 @@
 package template.cheng.hollis.template.objectInfo;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class CountAreaPointNumberBean {
     private int total1 = 0;
@@ -13,7 +14,17 @@ public class CountAreaPointNumberBean {
     private int total8 = 0;
     private int total9 = 0;
     private int total10 = 0;
-    ArrayList<Integer> avaPointList = new ArrayList<>();
+
+    private ArrayList<OrderBean> isContain1List = new ArrayList<>();
+    private ArrayList<OrderBean> isContain2List = new ArrayList<>();
+    private ArrayList<OrderBean> isContain3List = new ArrayList<>();
+    private ArrayList<OrderBean> isContain4List = new ArrayList<>();
+    private ArrayList<OrderBean> isContain5List = new ArrayList<>();
+    private ArrayList<OrderBean> isContain6List = new ArrayList<>();
+    private ArrayList<OrderBean> isContain7List = new ArrayList<>();
+    private ArrayList<OrderBean> isContain8List = new ArrayList<>();
+    private ArrayList<OrderBean> isContain9List = new ArrayList<>();
+    private ArrayList<OrderBean> isContain10List = new ArrayList<>();
 
     public CountAreaPointNumberBean() {
     }
@@ -31,6 +42,29 @@ public class CountAreaPointNumberBean {
         this.total10 = total10;
     }
 
+    public CountAreaPointNumberBean(int total1, int total2, int total3, int total4, int total5, int total6, int total7, int total8, int total9, int total10, ArrayList<OrderBean> isContain1List, ArrayList<OrderBean> isContain2List, ArrayList<OrderBean> isContain3List, ArrayList<OrderBean> isContain4List, ArrayList<OrderBean> isContain5List, ArrayList<OrderBean> isContain6List, ArrayList<OrderBean> isContain7List, ArrayList<OrderBean> isContain8List, ArrayList<OrderBean> isContain9List, ArrayList<OrderBean> isContain10List) {
+        this.total1 = total1;
+        this.total2 = total2;
+        this.total3 = total3;
+        this.total4 = total4;
+        this.total5 = total5;
+        this.total6 = total6;
+        this.total7 = total7;
+        this.total8 = total8;
+        this.total9 = total9;
+        this.total10 = total10;
+        this.isContain1List = isContain1List;
+        this.isContain2List = isContain2List;
+        this.isContain3List = isContain3List;
+        this.isContain4List = isContain4List;
+        this.isContain5List = isContain5List;
+        this.isContain6List = isContain6List;
+        this.isContain7List = isContain7List;
+        this.isContain8List = isContain8List;
+        this.isContain9List = isContain9List;
+        this.isContain10List = isContain10List;
+    }
+
     @Override
     public String toString() {
         return "CountAreaPointNumberBean{" +
@@ -44,7 +78,16 @@ public class CountAreaPointNumberBean {
                 ", total8=" + total8 +
                 ", total9=" + total9 +
                 ", total10=" + total10 +
-                ", avaPointList=" + avaPointList +
+                ", isContain1List=" + isContain1List +
+                ", isContain2List=" + isContain2List +
+                ", isContain3List=" + isContain3List +
+                ", isContain4List=" + isContain4List +
+                ", isContain5List=" + isContain5List +
+                ", isContain6List=" + isContain6List +
+                ", isContain7List=" + isContain7List +
+                ", isContain8List=" + isContain8List +
+                ", isContain9List=" + isContain9List +
+                ", isContain10List=" + isContain10List +
                 '}';
     }
 
@@ -126,14 +169,6 @@ public class CountAreaPointNumberBean {
 
     public void setTotal10(int total10) {
         this.total10 = total10;
-    }
-
-    public ArrayList<Integer> getAvaPointList() {
-        return avaPointList;
-    }
-
-    public void setAvaPointList(ArrayList<Integer> avaPointList) {
-        this.avaPointList = avaPointList;
     }
 
     public void deleteOrderListCount(ArrayList<Integer> orderAreaPointList) {

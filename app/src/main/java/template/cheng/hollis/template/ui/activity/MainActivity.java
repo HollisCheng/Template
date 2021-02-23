@@ -615,7 +615,7 @@ public class MainActivity extends AppCompatActivity {
         Utility.PrintLog(getClass().getName(), "pickerList=" + pickerList);
 
         //assign order to pick
-        assignOrdersToPicker(orderList, pickerList);
+        assignOrdersToPicker(orderList, pickerList, capnBean);
 
         //picker update
         Utility.PrintLog(getClass().getName(), "pickerList=" + pickerList);
@@ -675,52 +675,74 @@ public class MainActivity extends AppCompatActivity {
         int total8 = 0;
         int total9 = 0;
         int total10 = 0;
+        ArrayList<OrderBean> contains1List = new ArrayList<>();
+        ArrayList<OrderBean> contains2List = new ArrayList<>();
+        ArrayList<OrderBean> contains3List = new ArrayList<>();
+        ArrayList<OrderBean> contains4List = new ArrayList<>();
+        ArrayList<OrderBean> contains5List = new ArrayList<>();
+        ArrayList<OrderBean> contains6List = new ArrayList<>();
+        ArrayList<OrderBean> contains7List = new ArrayList<>();
+        ArrayList<OrderBean> contains8List = new ArrayList<>();
+        ArrayList<OrderBean> contains9List = new ArrayList<>();
+        ArrayList<OrderBean> contains10List = new ArrayList<>();
+
         for (int i = 0; i < orderList.size(); i++) {
             //count the unassigned orders only
             if (!orderList.get(i).isAssigned()) {
                 if (orderList.get(i).getAreaPointListNeedToGo().contains(1)) {
+                    contains1List.add(orderList.get(i));
                     total1++;
                 }
 
                 if (orderList.get(i).getAreaPointListNeedToGo().contains(2)) {
+                    contains2List.add(orderList.get(i));
                     total2++;
                 }
 
                 if (orderList.get(i).getAreaPointListNeedToGo().contains(3)) {
+                    contains3List.add(orderList.get(i));
                     total3++;
                 }
 
                 if (orderList.get(i).getAreaPointListNeedToGo().contains(4)) {
+                    contains4List.add(orderList.get(i));
                     total4++;
                 }
 
                 if (orderList.get(i).getAreaPointListNeedToGo().contains(5)) {
+                    contains5List.add(orderList.get(i));
                     total5++;
                 }
 
                 if (orderList.get(i).getAreaPointListNeedToGo().contains(6)) {
+                    contains6List.add(orderList.get(i));
                     total6++;
                 }
 
                 if (orderList.get(i).getAreaPointListNeedToGo().contains(7)) {
+                    contains7List.add(orderList.get(i));
                     total7++;
                 }
 
                 if (orderList.get(i).getAreaPointListNeedToGo().contains(8)) {
+                    contains8List.add(orderList.get(i));
                     total8++;
                 }
 
                 if (orderList.get(i).getAreaPointListNeedToGo().contains(9)) {
+                    contains9List.add(orderList.get(i));
                     total9++;
                 }
 
                 if (orderList.get(i).getAreaPointListNeedToGo().contains(10)) {
+                    contains10List.add(orderList.get(i));
                     total10++;
                 }
             }
         }
 
-        return new CountAreaPointNumberBean(total1, total2, total3, total4, total5, total6, total7, total8, total9, total10);
+        return new CountAreaPointNumberBean(total1, total2, total3, total4, total5, total6, total7, total8, total9, total10
+                , contains1List, contains2List, contains3List, contains4List, contains5List, contains6List, contains7List, contains8List, contains9List, contains10List);
     }
 
     private HashMap<ArrayList<Integer>, ArrayList<Integer>> showAllRouteListWithSunNum(ArrayList<OrderBean> orderList) {
@@ -745,16 +767,13 @@ public class MainActivity extends AppCompatActivity {
         return allRouteListWithSumNum;
     }
 
-    private void assignOrdersToPicker(ArrayList<OrderBean> orderList, ArrayList<PickerBean> pickList) {
+    private void assignOrdersToPicker(ArrayList<OrderBean> orderList, ArrayList<PickerBean> pickList, CountAreaPointNumberBean capnBean) {
         int eachPickerHandleOrdersNumber = orderList.size() / pickList.size();
         Utility.PrintLog(getClass().getName(), "each picker need to pick up eachPickerHandleOrdersNumber=" + eachPickerHandleOrdersNumber);
         ArrayList<OrderBean> assignedOrderList = new ArrayList<>();
 
         for (int i = 0; i < orderList.size(); i++) {
-            OrderBean orderBean = orderList.get(i);
-            if (orderBean.getAreaPointListNeedToGo().contains(1)) {
-                //contains 1 case in ArrayList
-            }
+           
         }
 
 
