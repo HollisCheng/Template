@@ -610,38 +610,57 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 1; i < 11; i++) {
             PickerBean pickerBean = new PickerBean();
             pickerBean.setPickerId(i);
-            //assign order list to picker
-//            pickerBean.setAreaPointListNeedToGo();
-//            pickerBean.setAssignedOrders();
             pickerList.add(pickerBean);
-
         }
         Utility.PrintLog(getClass().getName(), "pickerList=" + pickerList);
 
+        //assign order to pick
+        assignOrdersToPicker(orderList, pickerList);
+
+        //picker update
+        Utility.PrintLog(getClass().getName(), "pickerList=" + pickerList);
+
+        ArrayList<Integer> A = new ArrayList<>();
+        A.add(6);
+        A.add(5);
+        A.add(6);
+        ArrayList<Integer> B = new ArrayList<>();
+        B.add(6);
+        B.add(4);
+        B.add(3);
+
+        Utility.PrintLog(getClass().getName(), "A=" + A);
+        Utility.PrintLog(getClass().getName(), "B=" + B);
+
+        A.addAll(B);
+        Utility.PrintLog(getClass().getName(), "A=" + A);
+
+        Utility.PrintLog(getClass().getName(), "distinctIntegerArrayList(A)=" + distinctIntegerArrayList(A));
 
     }
 
     private int getRandomNumber(int min, int max) {
+        //1-11 = between 1:10
         return (int) ((Math.random() * (max - min)) + min);
     }
 
     private ArrayList<Integer> genOrderAreaPointList() {
         ArrayList<Integer> areaPointListNeedToGo = new ArrayList<>();
-        for (int i = 0; i < getRandomNumber(1, 10); i++) {
-            areaPointListNeedToGo.add(getRandomNumber(1, 10));
+        for (int i = 0; i < getRandomNumber(1, 11); i++) {
+            areaPointListNeedToGo.add(getRandomNumber(1, 11));
         }
 
+        return distinctIntegerArrayList(areaPointListNeedToGo);
+    }
+
+    private ArrayList<Integer> distinctIntegerArrayList(ArrayList<Integer> list) {
         // distinct the area point
 
         // convert ArrayList to HastSet.
-        HashSet<Integer> hset = new HashSet<>(areaPointListNeedToGo);
-
+        HashSet<Integer> hset = new HashSet<>(list);
         ArrayList<Integer> distinctList = new ArrayList<>(hset);
-
-        // sort number from 1 to 10
+        // sort number
         Collections.sort(distinctList);
-
-        //output as ArrayList
         return distinctList;
     }
 
@@ -726,24 +745,21 @@ public class MainActivity extends AppCompatActivity {
         return allRouteListWithSumNum;
     }
 
-    private ArrayList<OrderBean> assign10OrdersFromOrderList(ArrayList<OrderBean> orderList
-            , HashMap<ArrayList<Integer>, ArrayList<Integer>> allRouteList, CountAreaPointNumberBean capnBean) {
-        int totalHandledRecord = 10;
-        ArrayList<OrderBean> assigned10OrderList = new ArrayList<>();
+    private void assignOrdersToPicker(ArrayList<OrderBean> orderList, ArrayList<PickerBean> pickList) {
+        int eachPickerHandleOrdersNumber = orderList.size() / pickList.size();
+        Utility.PrintLog(getClass().getName(), "each picker need to pick up eachPickerHandleOrdersNumber=" + eachPickerHandleOrdersNumber);
+        ArrayList<OrderBean> assignedOrderList = new ArrayList<>();
 
-        if (capnBean.getTotal1() != 0) {
-            for (Map.Entry<ArrayList<Integer>, ArrayList<Integer>> set :
-                    allRouteList.entrySet()) {
-                // Printing all elements of a Map
-//                System.out.println(set.getKey() + " = " + set.getValue());
-                if (set.getKey().size() == 1 && set.getKey().contains(1)) {
-                    //get all only One point array list
-
-                }
+        for (int i = 0; i < orderList.size(); i++) {
+            OrderBean orderBean = orderList.get(i);
+            if (orderBean.getAreaPointListNeedToGo().contains(1)) {
+                //contains 1 case in ArrayList
             }
         }
-        return null;
+
+
     }
+
 
     @Override
     public void onBackPressed() {
